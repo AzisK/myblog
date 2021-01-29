@@ -9,7 +9,7 @@ author = "Ąžuolas Krušna"
 
 Čia dalinsiuosi procesu kaip susikurti blogą su Hugo. Perskaitę ir atlikę veiksmus turėsime blogą su internetiniu adresu nemokamai. Jeigu įdomu, skaityk toliau.
 
-Dalinuosi ne tik instrukcijomis, bet ir savo pasakojimu, nuomone bei mintimis. Jeigu domina tik instrukcijos, daug trumpesnį aglišką variantą galite rasti čia [[1]](https://flaviocopes.com/start-blog-with-hugo/).
+Dalinuosi ne tik instrukcijomis, bet ir savo pasakojimu, nuomone bei mintimis. Jeigu domina tik instrukcijos, daug trumpesnį anglišką variantą galite rasti čia [[1]](https://flaviocopes.com/start-blog-with-hugo/).
 
 Blogą norėjau turėti jau labai seniai. Kūriau jį tik pradėjęs programuoti, bet sutikau keletą kliūčių. Pasikūriau jį pagal vieną mokomąją medžiagą internete, taigi jis buvo labai paprastas ir man trūko žinių bei patirties pasidaryti jį mandresnį. Neturėjau žinių kur jį nemokamai patalpinti (host). Ir neparašiau nei vieno prasmingo posto, tik žaidžiau tikrai ne patį įdomiausią žaidimą - rašiau, tryniau, keičiau, rašiau, tryniau kodą, kuris aprašo tinklapio spalvas, elementų poziciją, dydį, išsidėstymą, interaktyvumą ir t.t. Patekau į tam tikrus programuotojo spąstus. Galbūt iš tikrųjų nenorėjau rašyti blogo, o tik pasikurti.
 
