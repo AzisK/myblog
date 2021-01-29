@@ -207,7 +207,7 @@ Spaudžiame "Deploy Site" ir Netlify pradeda talpinimo procesą. Po šio veiksmo
 
 Nieko! Man irgi nepavyko iš pirmo karto.
 
-![Deploy Ffail](../deploy_fail.png)
+![Deploy fail](../deploy_fail.png)
 
  Sėkmingai patalpinti Netlify pavyko tik iš trečio karto. Antrą kartą bandžiau talpinti tikėdamasis, kad susitvarkys. _Nope_. Tuomet ėjau skaityti logus, kad suprasčiau kas negerai. 
  
