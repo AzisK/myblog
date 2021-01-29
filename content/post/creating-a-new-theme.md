@@ -19,7 +19,7 @@ Nesu dabar tikras kaip tada galvojau, bet dabar žinau, kad turiu norą rašyti 
 
 Kodėl tai darau? Manau, kad Lietuvoje blogų kūrimas su Hugo yra dar labai nepopuliarus, ir manau, kad šios žinios yra naudingos. O juk galėjai tiesiog pasidalinti anglišku variantu. Kodėl lietuviškai? Manau, kad šia tema yra per mažai turinio lietuviškai, kad lietuviškas turinys gali pasiekti platesnę auditoriją ir būti dar labiau naudingas Lietuvos žmonėms. Kartu tai mane skatina pažiūrėti į visas internetines technologijas iš kitos pusės - surasti tinkamus lietuviškus vertimus internetiniams terminams tikrai reikia gerai palaužyti kaklą, o ne visuomet pavyksta (galbūt ir ne visuomet reikia), taigi rasite angliškų žargonų. Tikiuosi, kad jie nemaišys, o kaip tik padės suprasti esmę.
 
-Žiniomis dalinuosi įkvėptas "Lėtas pelnas" blogo https://letaspelnas.lt/ bei vėliau atrastų kitų lietuviškų bei angliškų investavimo blogų, kurie man suteikė labai daug naudingų žinių ir idėjų (https://balticmustache.lt/, https://www.honestfire.lt/, https://www.mrmoneymustache.com/).
+Žiniomis dalinuosi įkvėptas "Lėtas pelnas" blogo https://letaspelnas.lt bei vėliau atrastų kitų lietuviškų bei angliškų investavimo blogų, kurie man suteikė labai daug naudingų žinių ir idėjų (https://balticmustache.lt, https://www.honestfire.lt, [https://www.mrmoneymustache.com](https://www.mrmoneymustache.com)).
 
 ### Kodėl Hugo?
 
