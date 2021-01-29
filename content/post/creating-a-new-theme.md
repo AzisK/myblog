@@ -17,7 +17,7 @@ Nesu dabar tikras kaip tada galvojau, bet dabar žinau, kad turiu norą rašyti 
 
 Čia aš nieko naujo neišrandu. Apie Hugo išgirdau gerus atsiliepimus iš Chris Ferdinandi [[2]](https://gomakethings.com/static-websites/) ir neseniai pasitvirtinau iš Flavio Copes [[1]](https://flaviocopes.com/start-blog-with-hugo/). Tačiau pasidalinu visu šiuo procesu lietuviškai ir perkošiu per savo mintis.
 
-Kodėl tai darau? Manau, kad Lietuvoje blogų kūrimas su Hugo yra dar labai nepopuliarus, ir manau, kad šios žinios yra naudingos. O juk galėjai tiesiog pasidalinti anglišku variantu. Kodėl lietuviškai? Manau, kad šia tema yra per mažai turinio lietuviškai, kad lietuviškas turinys gali pasiekti platesnę auditoriją ir būti dar labiau naudingas Lietuvos žmonėms.
+Kodėl tai darau? Manau, kad Lietuvoje blogų kūrimas su Hugo yra dar labai nepopuliarus, ir manau, kad šios žinios yra naudingos. O juk galėjai tiesiog pasidalinti anglišku variantu. Kodėl lietuviškai? Manau, kad šia tema yra per mažai turinio lietuviškai, kad lietuviškas turinys gali pasiekti platesnę auditoriją ir būti dar labiau naudingas Lietuvos žmonėms. Kartu tai mane skatina pažiūrėti į visas internetines technologijas iš kitos pusės - surasti tinkamus lietuviškus vertimus internetiniams terminams tikrai reikia gerai palaužyti kaklą, o ne visuomet pavyksta (galbūt ir ne visuomet reikia), taigi rasite angliškų žargonų. Tikiuosi, kad jie nemaišys, o kaip tik padės suprasti esmę.
 
 Žiniomis dalinuosi įkvėptas "Lėtas pelnas" blogo https://letaspelnas.lt/ bei vėliau atrastų kitų lietuviškų bei angliškų investavimo blogų, kurie man suteikė labai daug naudingų žinių ir idėjų (https://balticmustache.lt/, https://www.honestfire.lt/, https://www.mrmoneymustache.com/).
 
@@ -238,4 +238,6 @@ Kai tik pakeičiam vieną iš įrašų ar pridedam naują Github, Netlify automa
 
 ---
 
-Kitu įrašu (tikrai trumpesniu) padarysim savo blogą pasiekiamą per mūsų turimą domeną. Jeigu įdomu, patikrink po savaitės. May the force be with you.
+Kitu įrašu (tikrai trumpesniu) padarysim savo blogą pasiekiamą per mūsų turimą domeną. Jeigu įdomu, patikrink po savaitės. 
+
+_May the force be with you_
