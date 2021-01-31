@@ -25,7 +25,7 @@ Kodėl tai darau? Manau, kad Lietuvoje blogų kūrimas su Hugo yra dar labai nep
 
 Iš kart pasakau, kad nesu dorai išbandęs kitų platformų, bet kaip programuotojas nenorėjau jokių platformų, kuriose galima susidėlioti blogą be kodo, ir nenorėjau turėti nieko bendro su duomenų baze.
 
-Platformos, kuriose galima susidėlioti blogą be kodo nėra blogai ir galbūt ne programuotojui tai yra daugeliu atvejų daug geresnis kelias. Šis atvejis neprogramuojančiam žmogui gali būti tik sudėtingas ir visai be reikalo. Tačiau manau, kad pamankštinti smegenis ne savoj sferoj yra labai sveika, todėl jei pritari - *let's go for this ride*. Galiu pasakyti, kad Go yra parašytas ant visai naujos ir perspektyvios programavimo kalbos Go, kurios aš pats nemoku, todėl jeigu reikės kažką ten keisti - pasimokysiu ir aš. O dėl kodo dar norėjau pasakyti, kad būtinai noriu turėti visas laisves su kodu daryti ką tik užsimanęs ir nebūti priklausomas nuo platformos suteikiamų galimybių. 
+Platformos, kuriose galima susidėlioti blogą be kodo nėra blogai ir galbūt ne programuotojui tai yra daugeliu atvejų daug geresnis kelias. Šis atvejis neprogramuojančiam žmogui gali būti tik sudėtingas ir visai be reikalo. Tačiau manau, kad pamankštinti smegenis ne savoj sferoj yra labai sveika, todėl jei pritari - *let's go for this ride*. Galiu pasakyti, kad Go yra parašytas ant visai naujos ir perspektyvios programavimo kalbos Go, kurios aš pats nemoku, todėl jeigu reikės kažką ten keisti - pasimokysiu ir aš. O dėl kodo dar norėjau pasakyti, kad būtinai noriu turėti visas laisves su kodu daryti ką tik užsimanęs ir nebūti priklausomas nuo platformos suteikiamų galimybių.
 
 Nenorėjau naudoti pačios populiariausios tinklapių kūrimo sistemos - Wordpress. Iškart pasakau, kad tikrai neturiu nieko asmeniško prieš šią sistemą, jos vartotojus bei atstovus. Priešingai - labai smagu, kad yra tokia sistema, kuria pastatyta beveik pusė (39.5 %) visų internetinių puslapių [[3]](https://kinsta.com/blog/wordpress-statistics/). Internetas yra globali biblioteka, todėl Wordpress pagalba turime daug didesnę biblioteką, o kokia technologija pastatyta biblioteka (medinė ar betono blokas, iškilęs sovietmečiu) yra visiškai nesvarbu lyginant su jos turiniu. Tai labiau iš praktinės pusės - nenoriu sukti galvos kur patalpinti papildomai duomenų bazę ir dar galimai už ją mokėti. Iš tiesų manau, kad duomenų bazė gali papildomai pasitarnauti kuriant “gudresnį” blogą, nes su ja patogu transformuoti bei agreguoti duomenis, bet kartu atsiranda dar vienas lygis sistemų bendravime, o šitai noriu išvengti, jeigu galima. Duomenų bazė šiam blogui man nėra reikalinga - bent jau tai nematau dabar ar tolimoj ateityje, todėl per daug ir nesuku galvos.
 
@@ -33,7 +33,7 @@ Platformų, veikiančių panašiai kaip Hugo yra ir daugiau [[4]](https://jamsta
 
 ### Hugo privalumai
 
-Remiantis [[1]](https://flaviocopes.com/start-blog-with-hugo/) Hugo yra nobodus. O tai yra labai gerai, nes susikoncentruosim į turinį, o ne pikselių stumdymą - nepakliūsim į programuotojų spąstus. Jis nenaudoja jokios _fancy_ technologijos, kurių šiais laikais apstu. Tačiau kartu Hugo yra ir labai lankstus - galima susikurti įvairius paprastam blogui neįprastus dalykus. Galiausiai, Hugo yra greitas. Jo branduolys yra parašytas su Go, kuri yra žinoma kaip labai greita kalba.
+Remiantis šaltiniu [[1]](https://flaviocopes.com/start-blog-with-hugo/), Hugo yra nuobodus. O tai yra labai gerai, nes susikoncentruosim į turinį, o ne pikselių stumdymą - nepakliūsim į programuotojų spąstus. Jis nenaudoja jokios _fancy_ technologijos, kurių šiais laikais apstu. Tačiau kartu Hugo yra ir labai lankstus - galima susikurti įvairius paprastam blogui neįprastus dalykus. Galiausiai, Hugo yra greitas. Jo branduolys yra parašytas su Go, kuri yra žinoma kaip labai greita kalba.
 
 Hugo viskas užsirašo *Markdown* [[5]](https://www.markdownguide.org/basic-syntax/). Man šis formatas labai patinka, nes yra labai paprastas ir funkcionalus, bet esu tikras, kad ne visiems jis gali patikti.
 
@@ -43,7 +43,7 @@ Rašyti blogą su Hugo reikia naudoti kodo versijavimą. Mes šiam reikalui naud
 
 Kadangi Hugo blogas yra visiškai statinis, mes galime pasinaudoti platformomis, kurios suteikia nemokamą tokių puslapių talpinimą: Github, Netlify, Vercel ir t.t. 
 
-Vienintelis mokamas dalykas yra domenas, tačiau neužimtas domenas kainuoja apie 10 eurų per metus, tai manau, kad tikrai nebrangiai. Jeigu jau turite domeną, galite panaudoti jį. Tačiau jį nėra būtina turėti, paminėtos platformos suteiks jums domeną, tačiau veikiausiai ne tokį, kokį norite. Maniškė gavo toki adresą https://practical-goldwasser-df318e.netlify.app/
+Vienintelis mokamas dalykas yra domenas, tačiau neužimtas domenas kainuoja apie 10 eurų per metus, tai manau, kad tikrai nebrangiai. Jeigu jau turite domeną, galite panaudoti jį. Tačiau jį nėra būtina turėti, paminėtos platformos suteiks jums domeną, tačiau veikiausiai ne tokį, kokio norite. Maniškė gavo toki adresą https://practical-goldwasser-df318e.netlify.app/
 
 Kaip supratote, talpinsime Netlify platformoje.
 
@@ -93,7 +93,7 @@ hugo new site myblog
 
 Prieš pradedant rašyti mums dar reikia pasirinkti Hugo temą. Yra daugybė pasirinkimų https://themes.gohugo.io. Aš pagal Flavio Copes pavyzdį pasirinkau [https://themes.gohugo.io/ghostwriter/]( https://themes.gohugo.io/ghostwriter/ ). Vėliau mes ją padailinsime. Galite rinktis bet kurią, tačiau tolimesni blogo įrašai bus susiję su šia tema, todėl rekomenduoju rinktis ją.
 
-Tuomet einam į https://github.com/jbub/ghostwriter/archive/master.zip ir parsisiunčiam dabartinę versiją. Išpakuojame ją į mūsų blogo directorijos direktoriją `themes/ghostwriter`.
+Tuomet einam į https://github.com/jbub/ghostwriter/archive/master.zip ir parsisiunčiam dabartinę versiją. Išpakuojame ją į mūsų blogo direktoriją `themes/ghostwriter`.
 
 ![Tema Hugo direktorijoje](../theme.png)
 
