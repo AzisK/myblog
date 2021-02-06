@@ -11,6 +11,8 @@ author = "Ąžuolas Krušna"
 
 Dalinuosi ne tik instrukcijomis, bet ir savo pasakojimu, nuomone bei mintimis. Jeigu domina tik instrukcijos, daug trumpesnį anglišką variantą galite rasti čia [[1]](https://flaviocopes.com/start-blog-with-hugo/).
 
+Instrukcijose yra du žingsniai, kurių neapžvelgiu, - vartotojų susikūrimas Netlify ir Github platformose, jeigu neturite. Tikiuosi, kad tai nesudarys kliūčių kuriantis savo blogą. Atlikti žingsnius taip pat pravers žinios apie versijavimo sistemas bei terminalą (komandinę eilutę). Minimalios - bloge šie žingsniai aprašyti, tačiau gali būti, kad per stambiai. Jei taip, tai parašykite - padėsiu ir parašysiu aiškiau.
+
 Blogą norėjau turėti jau labai seniai. Kūriau jį tik pradėjęs programuoti, bet sutikau keletą kliūčių. Pasikūriau jį pagal vieną mokomąją medžiagą internete, taigi jis buvo labai paprastas ir man trūko žinių bei patirties pasidaryti jį mandresnį. Neturėjau žinių kur jį nemokamai patalpinti (host). Ir neparašiau nei vieno prasmingo posto, tik žaidžiau tikrai ne patį įdomiausią žaidimą - rašiau, tryniau, keičiau, rašiau, tryniau kodą, kuris aprašo tinklapio spalvas, elementų poziciją, dydį, išsidėstymą, interaktyvumą ir t.t. Patekau į tam tikrus programuotojo spąstus. Galbūt iš tikrųjų nenorėjau rašyti blogo, o tik pasikurti.
 
 Nesu dabar tikras kaip tada galvojau, bet dabar žinau, kad turiu norą rašyti bei dalintis mintimis ir naudingomis žiniomis. Ir visgi man yra labai svarbu nepatekti į programuotojo spąstus kaip pirmu atveju - neužsižaisti iki begalybės poliruojant šį blogą. Jūs dabar jį matot - yra keletas adresų į Twitter, į el. paštą ir įvairiausių nereikalingų menkniekų, išdėstymas ir spalvų paletė nėra mano mėgstamiausia, bet žinau - bloge svarbiausia yra tekstas, nes jei jis neįdomus, tai visas blogas neįdomus ir visa kita niekam nerūpės. Ir žinot ką? Matau, kad pavyko. Iš tiesų buvo stiprus noras pasimodifikuoti tam tikrus dalykus pagal save, bet pagalvojau, kad nekeisiu specialiai, kartu tai padarysim - parodysiu ir jums.
@@ -37,7 +39,7 @@ Remiantis šaltiniu [[1]](https://flaviocopes.com/start-blog-with-hugo/), Hugo y
 
 Hugo viskas užsirašo *Markdown* [[5]](https://www.markdownguide.org/basic-syntax/). Man šis formatas labai patinka, nes yra labai paprastas ir funkcionalus, bet esu tikras, kad ne visiems jis gali patikti.
 
-Rašyti blogą su Hugo reikia naudoti kodo versijavimą. Mes šiam reikalui naudosime Github. Vėliau yra naudojama tam tikra technologija, kuri sukelia šį kodą į serverį, jame sugeneruoja puslapius iš to kodo ir suteikią prie jų prieigą (per internetinį adresą).
+Rašyti blogą su Hugo reikia naudoti kodo versijavimą. Mes šiam reikalui naudosime Github. Vėliau yra naudojama tam tikra technologija, kuri sukelia šį kodą į serverį, jame sugeneruoja puslapius iš to kodo ir suteikia prie jų prieigą (per internetinį adresą).
 
 ### Puslapio talpinimas
 
@@ -209,11 +211,11 @@ Nieko! Man irgi nepavyko iš pirmo karto.
 
 ![Deploy fail](../deploy_fail.png)
 
- Sėkmingai patalpinti Netlify pavyko tik iš trečio karto. Antrą kartą bandžiau talpinti tikėdamasis, kad susitvarkys. _Nope_. Tuomet ėjau skaityti logus, kad suprasčiau kas negerai. 
- 
+Sėkmingai patalpinti Netlify pavyko tik iš trečio karto. Antrą kartą bandžiau talpinti tikėdamasis, kad susitvarkys. _Nope_. Tuomet ėjau skaityti logus, kad suprasčiau kas negerai. 
+
 ![Deploy fail logai](../deploy_fail_logs.png)
 
- Pasirodo, Netlify naudoja netinkamą Hugo versiją mano kodui. Pažiūrėjau kokią versiją turiu lokaliai su komanda `hugo version`.
+Pasirodo, Netlify naudoja netinkamą Hugo versiją mano kodui. Pažiūrėjau kokią versiją turiu lokaliai su komanda `hugo version`.
 
 ![Hugo lokali versija](../hugo_version_local.png)
 
@@ -232,9 +234,11 @@ Turėtumėte iškart gauti internetinį adresą. Aš gavau https://practical-gol
 
 ### Kaip atsiranda bloge nauji įrašai?
 
-Kai tik pakeičiam vieną iš įrašų ar pridedam naują Github, Netlify automatiškai atnaujina blogą pergeneruodamas ir pertalpindamas jį. Keisti kodą galime lokaliai ir tada nusiųsti į Github arba galima tai daryti tiesiai Github - taip galima rašyti postus ne tik per kompiuterį, bet ir telefoną ar planšetę. Atkreipkite dėmesį į mano ekraną - internetinio adreso kelią - tai turėtume pagelbėti nueiti iki norimo failo ir jį pakeisti.
+Kai tik pakeičiam vieną iš įrašų ar pridedam naują Github, Netlify automatiškai atnaujina blogą pergeneruodamas ir pertalpindamas jį. Keisti kodą galime lokaliai ir tada nusiųsti į Github arba galima tai daryti tiesiai Github - taip galima rašyti postus ne tik per kompiuterį, bet ir telefoną ar planšetę. Atkreipkite dėmesį į mano ekraną - internetinio adreso kelią - tai turėtų pagelbėti nueiti iki norimo failo ir jį pakeisti.
 
 ![Github redagavimas](../github_edit.png)
+
+Pabaigoj norėčiau pasidžiaugti, kad Github bei Netlify suteikia galimybę nemokamai naudotis jų serveriais, nes be jų čia nieko nebūtų.
 
 ---
 
