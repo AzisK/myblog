@@ -97,7 +97,7 @@ Tuomet einam į https://github.com/jbub/ghostwriter/archive/master.zip ir parsis
 
 ![Tema Hugo direktorijoje](../theme.png)
 
-Tada keliaujam į `exampleSite`direktoriją. Ten dar atsidarom `content` subdirektoriją. Matom `page`, `post`ir `project` direktorijas.
+Tada keliaujam į `exampleSite`direktoriją. Ten dar atsidarom `content` subdirektoriją. Matom `page`, `post` ir `project` direktorijas.
 
 ![Pavyzdiniai įrašai](../example_posts.png)
 
