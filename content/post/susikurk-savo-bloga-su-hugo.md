@@ -87,7 +87,7 @@ Kai tik įsirašom Hugo, paslapius galime sugeneruoti šia komanda terminale
 hugo new site myblog
 ```
 
-Ši komanda sugeneruos naują `myblog` direktoriją ten, kur ją paleisit. Rekomenduoju jai susikurti dedikuotą direktoriją (pavyzdžiui `www`), tačiau tai nėra būtina. Kad žinotumėte kur esate, galite pasitikrinti su `pwd` komanda.
+Ši komanda sugeneruos naują `myblog` direktoriją ten, kur ją paleisit. Rekomenduoju jai susikurti dedikuotą direktoriją (pavyzdžiui `www`), tačiau tai nėra būtina. Kad žinotumėte kur esate, galite pasitikrinti su `pwd` komanda. Vaikščioti per direktorijas galime su komandomis: `cd ..` - atgal, `cd direktorijos_pavadinimas` - į direktorijos vidų.
 
 ### Renkamės blogo temą
 
@@ -101,7 +101,7 @@ Tada keliaujam į `exampleSite`direktoriją. Ten dar atsidarom `content` subdire
 
 ![Pavyzdiniai įrašai](../example_posts.png)
 
-Nusikopijuojam `page`ir `post` į blogo `content` direktoriją.
+Nusikopijuojam `page` ir `post` į blogo `content` direktoriją.
 
 ![Įrašai](../posts.png)
 
