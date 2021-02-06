@@ -87,7 +87,7 @@ Kai tik įsirašom Hugo, paslapius galime sugeneruoti šia komanda terminale
 hugo new site myblog
 ```
 
-Ši komanda sugeneruos naują `myblog` direktoriją ten, kur ją paleisit. Rekomenduoju jai susikurti dedikuotą direktoriją (pavyzdžiui `www`), tačiau tai nėra būtina. Kad žinotumėte kur esate, galite pasitikrinti su `pwd` komanda. Vaikščioti per direktorijas galime su komandomis: `cd ..` - atgal, `cd direktorijos_pavadinimas` - į direktorijos vidų.
+Ši komanda sugeneruos naują `myblog` direktoriją ten, kur ją paleisit. Rekomenduoju jai susikurti dedikuotą direktoriją (pavyzdžiui `www`), tačiau tai nėra būtina. Kad žinotumėte kur esate, galite pasitikrinti su `pwd` komanda. Vaikščioti per direktorijas galime su komandomis: `cd ..` - atgal, `cd direktorijos_pavadinimas` - į direktorijos vidų. Aš savo blogo direktoriją įsidedu darbalaukio `Code` direktorijoje - `/Users/Azis/Dekstop/Code`.
 
 ### Renkamės blogo temą
 
