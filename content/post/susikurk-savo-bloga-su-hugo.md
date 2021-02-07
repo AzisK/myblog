@@ -99,7 +99,7 @@ Tuomet einam į https://github.com/jbub/ghostwriter/archive/master.zip ir parsis
 
 ![Tema Hugo direktorijoje](../theme.png)
 
-Tada keliaujam į `exampleSite`direktoriją. Ten dar atsidarom `content` subdirektoriją. Matom `page`, `post` ir `project` direktorijas.
+Tada keliaujam į `exampleSite` direktoriją. Ten dar atsidarom `content` subdirektoriją. Matom `page`, `post` ir `project` direktorijas.
 
 ![Pavyzdiniai įrašai](../example_posts.png)
 
@@ -109,7 +109,7 @@ Nusikopijuojam `page` ir `post` į blogo `content` direktoriją.
 
 ### Konfigūracija
 
-Pavyzdiniai įrašai taip pat turi pavyzdinį konfigūracijos `config.yaml` failą `themes/ghostwriter/exampleSite/config.toml`. Šis failas suteikia Hugo papildomos informacijos. Visgi nerekomenduoju jo kopijuoti, nes ten yra visko per daug. Vietoj to, galime panaudoti šitokią konfiguraciją:
+Pavyzdiniai įrašai taip pat turi pavyzdinį konfigūracijos `config.yaml` failą `themes/ghostwriter/exampleSite/config.toml`. Šis failas suteikia Hugo papildomos informacijos. Visgi nerekomenduoju jo kopijuoti, nes ten yra visko per daug. Vietoj to, galime panaudoti šitokią konfigūraciją:
 
 ```
 baseurl = "/"
