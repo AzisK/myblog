@@ -11,6 +11,10 @@ Programuotojau, kviečiu Tave artėjant Vasario 16 - Lietuvos nepriklausomybės 
 
 Gidas kol kas pritaikytas tik MacOS vartotojams.
 
+Atlikę veiksmus galėsim grožėtis tokiu terminalu
+
+![Lietuva zsh](../lithuania-zsh.png)
+
 ### Naudoju bash shell
 
 Tuomet lendu į `~/.bash_profile` ir ten pasirašau eilutę:
