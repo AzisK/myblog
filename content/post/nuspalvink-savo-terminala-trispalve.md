@@ -113,7 +113,8 @@ PROMPT='$(username)$(directory)$(git_prompt) '
 RPROMPT='$(git_prompt_status) $(current_time)'
 ```
 4. Lendu į failą `~/.zshrc` ir nustatau `ZSH_THEME=lithuania`
-5. Grožiuosi
+5. Atsidarau terminalą iš naujo
+6. Grožiuosi
 
 ![Lietuva zsh](../lithuania-zsh.png)
 
