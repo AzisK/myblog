@@ -242,6 +242,6 @@ Pabaigoj norėčiau pasidžiaugti, kad Github bei Netlify suteikia galimybę nem
 
 ---
 
-Kitu įrašu (tikrai trumpesniu) padarysim savo blogą pasiekiamą per mūsų turimą domeną. Jeigu įdomu, patikrink po savaitės. 
+[Čia](https://www.aziogas.lt/uzsidek-domena-savo-blogui-ant-netlify/) patikrink kaip užsidėti domeną savo Hugo blogui!
 
 _May the force be with you_
