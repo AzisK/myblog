@@ -220,7 +220,7 @@ Pasirodo, Netlify naudoja netinkamą Hugo versiją mano kodui. Pažiūrėjau kok
 ![Hugo lokali versija](../hugo_version_local.png)
 
  
-Nurodau Netlify, kad ją naudotų. Spaudžiu "Site settings" -> "Build & Deploy" -> Environment" -> "Environment variables". Tuomet ten įvedu `HUGO_VERSION` kintamąjį ir suteikiu jam reikšmę `0.79.0`.
+Nurodau Netlify, kad ją naudotų. Spaudžiu "Site settings" -> "Build & Deploy" -> "Environment" -> "Environment variables". Tuomet ten įvedu `HUGO_VERSION` kintamąjį ir suteikiu jam reikšmę `0.79.0`.
 
 ![Hugo versija](../hugo_version.png)
 
