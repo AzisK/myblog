@@ -1,7 +1,7 @@
 +++
 title = "Užsidėk domeną savo blogui ant Netlify"
 description = "Užsidėk domeną savo blogui ant Netlify"
-date = 2021-01-16T02:13:50Z
+date = 2021-02-16T02:13:50Z
 author = "Ąžuolas Krušna"
 +++
 
