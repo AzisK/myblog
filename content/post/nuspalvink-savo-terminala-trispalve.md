@@ -1,7 +1,7 @@
 +++
 title = "Nuspalvink savo terminalą trispalve"
 description = "Nuspalvink savo terminalą trispalve artėjant Vasario 16"
-date = 2021-01-12T02:13:50Z
+date = 2021-02-12T02:13:50Z
 author = "Ąžuolas Krušna"
 +++
 
