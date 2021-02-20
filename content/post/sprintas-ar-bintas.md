@@ -19,7 +19,7 @@ Taigi kokios gali būti alternatyvos?
 
 Pasivaikščiojimas (Walk). Manau, kad tai puikus žodis. Beveik garantuoja, kad žmogus bus puikioj fizinėj bei psichinėj būsenoj - taigi reikiamu metu galės spurtuoti. Labai manevringas - visai nėra inercijos ir kryptys gali keistis akimirksniu. Išmintingas - yra laiko pamąstyti apie sprendimus ir pagalvoti ar tikrai pasirinkau patį geriausią.
 
-Pritūpimas (Squat). Šis žodis man visuomet asocijavosi su judrumu. Žavu, kai kas nors pritupia iki žemės ir dar žąsele palinguoja į priekį - pademonstruoja savo nepaprastai gerai funkcionuojančią kūno motoriką - puikiausiai sutepti sąnariai, patempti raumenys bei sausgyslės. Dar liaudyje yra sakoma "ant sulenktų" - reiškiasi žmogus nepaprastai gerai dirba. Šis veiksmas taip pat stiprina kūno raumenis, taigi veikiasiai judrumas tik padidėja.
+Pritūpimas (Squat). Šis žodis man visuomet asocijavosi su judrumu. Žavu, kai kas nors pritupia iki žemės ir dar žąsele palinguoja į priekį - pademonstruoja savo nepaprastai gerai funkcionuojančią kūno motoriką - puikiausiai sutepti sąnariai, patempti raumenys bei sausgyslės. Dar liaudyje yra sakoma "ant sulenktų" - reiškiasi žmogus nepaprastai gerai dirba. Šis veiksmas taip pat stiprina kūno raumenis, taigi veikiausiai judrumas tik padidėja.
 
 Galiausiai apžvelgiant atrodo visai nieko variantas pamaišyti pasivaikščiojimą su pritūpimu (kažkur tarp jų gali būti trumpas sprintukas). Tik negali būti ištisai sprintas - kitaip bus bintas.
 
