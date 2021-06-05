@@ -33,7 +33,7 @@ Atsidarau terminalą per naują ir matau trispalvę
 1. Tuomet, jeigu neturiu, įsirašau "Oh My Zsh" https://ohmyz.sh/
 2. Einu į `~/.oh-my-zsh/themes` ir ten susikuriu temos failą (pasikūriau `lithuania.zsh-theme`)
 3. Į jo turinį įrašau visa šitai
-```zsh
+```
 right_triangle() {
    echo $'\u276f'
 }
@@ -122,7 +122,7 @@ RPROMPT='$(git_prompt_status) $(current_time)'
 
 Gali būti, kad mūsų zsh nesupras tam tikrų simbolių, pavyzdžiui, rodyklyčių. Tuomet reikėtų nueiti į failą `~/.zshrc` ir ten atkomentuoti šią eilutę (82)
 
-```zsh
+```
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 ```
