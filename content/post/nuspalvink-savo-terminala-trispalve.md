@@ -112,7 +112,7 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[white]%} ✱%{$reset_color%}"
 PROMPT='$(username)$(directory)$(git_prompt) '
 RPROMPT='$(git_prompt_status) $(current_time)'
 ```
-4. Lendu į failą `~/.zshrc` ir nustatau `ZSH_THEME=lithuania`
+4. Lendu į failą `~/.zshrc` (arba `~/.zprofile`) ir nustatau `ZSH_THEME=lithuania`
 5. Atsidarau terminalą iš naujo
 6. Grožiuosi
 
@@ -120,7 +120,7 @@ RPROMPT='$(git_prompt_status) $(current_time)'
 
 ### Jei nepavyko
 
-Gali būti, kad mūsų zsh nesupras tam tikrų simbolių, pavyzdžiui, rodyklyčių. Tuomet reikėtų nueiti į failą `~/.zshrc` ir ten atkomentuoti šią eilutę (82)
+Gali būti, kad mūsų `zsh` nesupras tam tikrų simbolių, pavyzdžiui, rodyklyčių. Tuomet reikėtų nueiti į failą `~/.zshrc` (arba `~/.zprofile`) ir ten atkomentuoti šią eilutę (82)
 
 ```
 # You may need to manually set your language environment
