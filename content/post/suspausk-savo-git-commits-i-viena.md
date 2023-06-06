@@ -14,7 +14,7 @@ Github ir Bitbucket platformos, o tikriausiai ir daug daugiau, turi šias galimy
 Taigi pavadinkime savo kodo pakeitimų šaką "our-feature-branch". Taip jau nutiko, kad buvau pavargęs, pridariau klaidų, perskubėjau taisyti nepatikrinęs, todėl galiausiai prireikė 4 _git_ commits tam, kad turėčiau be priekaištų veikiančius pageidaujamus pakeitimus. Tos klaidų taisymo žinutės man tikrai nebus reikšmingos iš ateities perspektyvos, tik trukdys pamatyti kitas svarbias žinutes. Natūralu, kad jų matyti nenoriu. Čia ir suspausiu savo _git_ commits į vieną.
 
 Šiam veiksmui atlikti susikursime tarpinę "temp" šaką. Veiksmų seka aprašyta žemiau. 
-```bash
+```zsh
 git checkout -b temp main #1
 
 git merge --squash our-feature-branch #2

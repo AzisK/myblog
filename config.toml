@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "Ąžiogas"
-theme = "ghostwriter"
+theme = "PaperMod"
 
 [Params]
     mainSections = ["post"]

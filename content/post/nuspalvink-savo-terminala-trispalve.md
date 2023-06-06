@@ -18,7 +18,7 @@ Atlikę veiksmus galėsim grožėtis tokiu terminalu
 ### Naudoju bash shell
 
 Tuomet lendu į `~/.bash_profile` ir ten pasirašau eilutę:
-```
+```zsh
 export PS1="\e[0;33m\u\e[m\e[0;32m@\e[m\e[0;31m\W\e[m[\t]\$ "
 ```
 
@@ -33,7 +33,7 @@ Atsidarau terminalą per naują ir matau trispalvę
 1. Tuomet, jeigu neturiu, įsirašau "Oh My Zsh" https://ohmyz.sh/
 2. Einu į `~/.oh-my-zsh/themes` ir ten susikuriu temos failą (pasikūriau `lithuania.zsh-theme`)
 3. Į jo turinį įrašau visa šitai
-```
+```zsh
 right_triangle() {
    echo $'\u276f'
 }
@@ -122,7 +122,7 @@ RPROMPT='$(git_prompt_status) $(current_time)'
 
 Gali būti, kad mūsų `zsh` nesupras tam tikrų simbolių, pavyzdžiui, rodyklyčių. Tuomet reikėtų nueiti į failą `~/.zshrc` (arba `~/.zprofile`) ir ten atkomentuoti šią eilutę (82)
 
-```
+```zsh
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 ```

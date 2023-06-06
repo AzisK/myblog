@@ -57,13 +57,13 @@ Atsidarom terminalą (komandinę eilutę):
 
 *Terminal* programą ir tuomet rašom
 
-```
+```zsh
 brew install hugo
 ```
 
 Neturim brew? Įsirašom su šia komanda terminale
 
-```
+```zsh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
@@ -71,7 +71,7 @@ Neturim brew? Įsirašom su šia komanda terminale
 
 *Command Prompt* programą ir rašom
 
-```
+```zsh
 choco install hugo -confirm
 ```
 
@@ -85,7 +85,7 @@ Kaip įsirašyti galima rasti čia https://gohugo.io/getting-started/installing/
 
 Kai tik įsirašom Hugo, paslapius galime sugeneruoti šia komanda terminale
 
-```
+```zsh
 hugo new site myblog
 ```
 
@@ -111,7 +111,7 @@ Nusikopijuojam `page` ir `post` į blogo `content` direktoriją.
 
 Pavyzdiniai įrašai taip pat turi pavyzdinį konfigūracijos `config.yaml` failą `themes/ghostwriter/exampleSite/config.toml`. Šis failas suteikia Hugo papildomos informacijos. Visgi nerekomenduoju jo kopijuoti, nes ten yra visko per daug. Vietoj to, galime panaudoti šitokią konfigūraciją:
 
-```
+```toml
 baseurl = "/"
 title = "My blog"
 theme = "ghostwriter"
@@ -152,7 +152,7 @@ Atsidarom naršyklėjė [http://localhost:1313](http://localhost:1313) ir turėt
 
 Atsidarome bet kurį iš jų ir keičiame. Išsaugojus svetainė automatiškai atnaujins turinį. Pavyzdžiui, susikuriame naują failą `post.md` su štai tokiu turiniu:
 
-```
+```md
 +++
 title = "Pirmas įrašas"
 description = "Pirmas įrišimas"
