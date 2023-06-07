@@ -1,7 +1,7 @@
 +++
 title = "Susikurk savo blogą su Hugo"
-description = "Kaip susikurti savo blogą su Hugo"
-date = 2021-01-20T02:13:50Z
+description = "Susikurk savo blogą su Hugo ir patalpink Netlify nemokamai"
+date = 2021-01-20T03:00:00Z
 author = "Ąžuolas Krušna"
 +++
 
