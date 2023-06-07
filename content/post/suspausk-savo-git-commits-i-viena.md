@@ -5,8 +5,6 @@ date = 2023-06-03T03:00:00Z
 author = "Ąžuolas Krušna"
 +++
 
-# Suspausk savo git commits į vieną
-
 Angliškas terminas suspausti kelis _git_ commits į vieną vadinamas "squash merge" ir labai plačiai naudojamas.
 
 Github ir Bitbucket platformos, o tikriausiai ir daug daugiau, turi šias galimybes pagal nutylėjimą, tačiau šios žinios vis tiek gali mums praversti. "Squash merge" gali būti neįjungtas, platforma gali tokios galimybės neturėti, mes galim visa tai padaryti be platformos pagalbos ir tai yra proga susipažinti su įvairiom _git_ funkcijomis.

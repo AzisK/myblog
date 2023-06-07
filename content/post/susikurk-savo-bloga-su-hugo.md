@@ -5,8 +5,6 @@ date = 2021-01-20T02:13:50Z
 author = "Ąžuolas Krušna"
 +++
 
-# Susikurk savo blogą su Hugo
-
 Čia dalinsiuosi procesu kaip susikurti blogą su Hugo. Perskaitę ir atlikę veiksmus turėsime blogą su internetiniu adresu nemokamai. Jeigu įdomu, skaityk toliau.
 
 Dalinuosi ne tik instrukcijomis, bet ir savo pasakojimu, nuomone bei mintimis. Jeigu domina tik instrukcijos, daug trumpesnį anglišką variantą galite rasti čia [[1]](https://flaviocopes.com/start-blog-with-hugo/).

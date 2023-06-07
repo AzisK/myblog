@@ -5,8 +5,6 @@ date = 2021-02-12T02:13:50Z
 author = "Ąžuolas Krušna"
 +++
 
-# Nuspalvink savo terminalą trispalve
-
 Programuotojau, kviečiu Tave artėjant Vasario 16 - Lietuvos nepriklausomybės paskelbimo proga - nusispalvinti terminalą trispalve. Gražios spalvos, gražus terminalas - maloniau dirbti.
 
 Gidas kol kas pritaikytas tik MacOS vartotojams.

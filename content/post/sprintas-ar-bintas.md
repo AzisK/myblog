@@ -5,8 +5,6 @@ date = 2021-02-20T02:13:50Z
 author = "Ąžuolas Krušna"
 +++
 
-# Sprintas ar bintas?
-
 Programų kūrime labai įprastas reiškinys yra sprintas. _Agile_ metodologijos dalis. _Agile_ yra judru. _Agile_ neturi sunkvežimio inercijos, o veikiau straksi su savo per ilgomis galinėmis kojytėmis kaip kiškis. _Agile_ labai nesunku pakeisti kryptį kita linkme, jeigu tik pastebi, kad tai reikia padaryti. Puiku - _Agile_ metodas man patinka.
 
 Tačiau yra vienas žodis, kuris nepatinka - sprintas. Atrodo visai natūralu, kad sprintas buvo prikabintas prie judrumo - gi greitis! Visgi čia jau man ir pradeda prasilenkti judrumas su sprintu. Sprintas juk labai inertiškas - sprintas vyksta tiese arba ratu, arba kita jau iš anksto suplanuota trasa. Sprinte nėra keičiama trajektorija - nėra net apie tai galvojama.
