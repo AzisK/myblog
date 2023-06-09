@@ -1,6 +1,6 @@
 +++
 title = "Suspausk savo git commits į vieną"
-description = "Suspausk savo git commits į vieną imituojant squash merge panaudojant git CLI"
+description = "Suspausk savo git commits į vieną imituojant squash merge ir panaudojant git CLI"
 date = 2023-06-03T03:00:00Z
 author = "Ąžuolas Krušna"
 +++
