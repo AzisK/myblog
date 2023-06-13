@@ -5,7 +5,7 @@ date = 2023-06-03T03:00:00Z
 author = "Ąžuolas Krušna"
 +++
 
-Angliškai veiksmas, suspaudžiant kelis git commits į vieną, vadinamas "squash". Jis naudojamas palaikyti tvarką bei pokyčių aiškumą git istorijoje sutraukiant to paties koncepto commits į vieną. Tai kartu sumažina nereikšmingų commits žinučių kiekį, kuris maišytų perprasti: kodo raidą ir priimtų sprendimus priežastis.
+Angliškai veiksmas, suspaudžiant kelis git commits į vieną, vadinamas "squash". Jis naudojamas palaikyti tvarką bei pokyčių aiškumą git istorijoje sutraukiant to paties koncepto commits į vieną. Tai kartu sumažina nereikšmingų commits žinučių kiekį, kuris maišytų perprasti: kodo raidą ir priimtų sprendimų priežastis.
 
 Tai galima paprastai padaryti naudojantis įvairioms kodo versijavimo programomis. Pavyzdžiui, Github Desktop. Žemiau galime matyti kaip patogiai galima suspausti 2 git commits į vieną šioje populiarioje programoje. Jei mums tiek ir tereikia, tai galime paieškoti šios funkcijos mūsų programoje, ja pasinaudoti ir eiti pasidžiaugti likusia diena.
 
