@@ -29,7 +29,7 @@ Platformos, kuriose galima susidėlioti blogą be kodo nėra blogai ir galbūt n
 
 Nenorėjau naudoti pačios populiariausios tinklapių kūrimo sistemos - Wordpress. Iškart pasakau, kad tikrai neturiu nieko asmeniško prieš šią sistemą, jos vartotojus bei atstovus. Priešingai - labai smagu, kad yra tokia sistema, kuria pastatyta beveik pusė (39.5 %) visų internetinių puslapių [[3]](https://kinsta.com/blog/wordpress-statistics/). Internetas yra globali biblioteka, todėl Wordpress pagalba turime daug didesnę biblioteką, o kokia technologija pastatyta biblioteka (medinė ar betono blokas, iškilęs sovietmečiu) yra visiškai nesvarbu lyginant su jos turiniu. Tai labiau iš praktinės pusės - nenoriu sukti galvos kur patalpinti papildomai duomenų bazę ir dar galimai už ją mokėti. Iš tiesų manau, kad duomenų bazė gali papildomai pasitarnauti kuriant “gudresnį” blogą, nes su ja patogu transformuoti bei agreguoti duomenis, bet kartu atsiranda dar vienas lygis sistemų bendravime, o šitai noriu išvengti, jeigu galima. Duomenų bazė šiam blogui man nėra reikalinga - bent jau tai nematau dabar ar tolimoj ateityje, todėl per daug ir nesuku galvos.
 
-Platformų, veikiančių panašiai kaip Hugo yra ir daugiau [[4]](https://jamstack.org/generators/), tačiau jų čia nenagrinėsiu.
+Platformų, veikiančių panašiai kaip Hugo, yra ir daugiau [[4]](https://jamstack.org/generators/), tačiau jų čia nenagrinėsiu.
 
 ### Hugo privalumai
 
