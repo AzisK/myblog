@@ -23,13 +23,13 @@ Tuomet mes naudosime git CLI commits suspaudimui į vieną ir galėsim visa tai 
 
 #### A. Suspaudžiame ir prijungiame pasirinktos šakos pokyčius
 
-Esam ant pagrindinės `main` šakos. Tuomet visus skirtumus nuo mūsų pasirinktos šakos sujungiame į vieną commit ir prijungiame.
+Esam ant pagrindinės `main` šakos. Tuomet visus skirtumus nuo mūsų pasirinktos (`our-feature-branch`) šakos sujungiame į vieną commit ir prijungiame.
 
 ```zsh
 git merge --squash our-feature-branch
 ```
 
-Šiuo atveju turime tvarkingą pagrindinę šaką, tačiau mūsų pull-request beveik praranda save esmę. Dabar patikrinę šios šakos pull-request nematysime jokių pokyčių ir nebebus ką prijungti (merge). Tokiu atveju belieka uždaryti (close) šį pull-request.
+Šiuo atveju turime tvarkingą pagrindinę šaką, tačiau mūsų pull-request beveik praranda savo esmę. Dabar patikrinę šios šakos pull-request nematysime jokių pokyčių ir nebebus ką prijungti (merge). Tokiu atveju belieka uždaryti (close) šį pull-request.
 
 #### B. Suspaudžiame mūsų pull-request šakoj commits į vieną
 
