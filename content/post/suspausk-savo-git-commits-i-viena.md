@@ -7,11 +7,17 @@ author = "Ąžuolas Krušna"
 
 Angliškai veiksmas, suspaudžiant kelis git commits į vieną, vadinamas "squash". Jis naudojamas palaikyti tvarką bei pokyčių aiškumą git istorijoje sutraukiant to paties koncepto commits į vieną. Tai kartu sumažina nereikšmingų commits žinučių kiekį, kuris maišytų perprasti: kodo raidą ir priimtų sprendimų priežastis.
 
-Tai galima paprastai padaryti naudojantis įvairioms kodo versijavimo programomis. Pavyzdžiui, Github Desktop. Žemiau galime matyti kaip patogiai galima suspausti 2 git commits į vieną šioje populiarioje programoje. Jei mums tiek ir tereikia, tai galime paieškoti šios funkcijos mūsų programoje, ja pasinaudoti ir eiti pasidžiaugti likusia diena.
+Tai galima paprastai padaryti naudojantis įvairioms kodo versijavimo programomis: Github Desktop, Pycharm CE, IntelliJ CE (CE yra community edition trumpinys, t.y. sukurta bendruomenėms, nemokama versija) etc. 
+
+Žemiau galime matyti kaip patogiai galima suspausti 2 git commits į vieną Github Desktop bei 3 IntelliJ programose. Jei mums tiek ir tereikia, tai galime paieškoti šios funkcijos mūsų programoje, ja pasinaudoti ir eiti pasidžiaugti likusia diena.
+
+2 commits suspaudimas Github.
+![Squash commits Github](../squash_commits_github.png)
+
+3 commits suspaudimas IntelliJ. Šiuo atveju prieš tai reikės būtinai nuimti šakai apsaugą (protected branch).
+![Squash commits IntelliJ](../squash_commits_intellij.png)
 
 Jeigu tokios galimybės nėra ar esame labai smalsūs ir žingeidūs, tuomet toliau gilinamės kaip tai atlikti naudojantis terminalu.
-
-![Github squash 2 commits](../github_squash_2_commits.png)
 
 ### Kaip tai padaryti naudojantis terminalu?
 
@@ -122,7 +128,12 @@ Dabar galime eiti miegoti ramia galva.
 
 ***
 
-Ar nori paskaityti kaip atlikti "squash merge" terminale? Tuomet sugrįžk už savaitės!
+IntelliJ programa taip pat turi interaktyvaus rebase funkciją.
+![Interactive rebase IntelliJ](../interactive_rebase_intellij.png)
+
+***
+
+Ar nori paskaityti kaip atlikti "pull-request squash ir merge" terminale? Tuomet sugrįžk už savaitės!
 
 ***
 
