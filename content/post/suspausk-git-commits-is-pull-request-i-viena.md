@@ -31,13 +31,13 @@ git merge --squash our-feature-branch
 
 Šiuo atveju turime tvarkingą pagrindinę šaką, tačiau mūsų pull-request beveik praranda savo esmę. Dabar patikrinę šios šakos pull-request nematysime jokių pokyčių ir nebebus ką prijungti (merge). Tokiu atveju belieka uždaryti (close) šį pull-request.
 
-#### B. Suspaudžiame mūsų pull-request šakoj commits į vieną
+#### B. Suspaudžiame commits mūsų pull-request šakoj į vieną
 
 Tai yra aprašyta ankstesniame straipsnyje ["Suspausk savo git commits į vieną"](https://www.aziogas.lt/suspausk-savo-git-commits-i-viena). Tuomet galime prijungti pull-request paprastuoju būdu (merge).
 
 Šis būdas yra geras, tačiau jam reikia atsiminti, pasirinkti, suskaičiuoti commits, kuriuos mes norime suspausti į vieną. Žemiau aprašytas būdas turi privalumą, kad mums beveik nereikia galvoti. Jis automatiškai visus šakos pokyčius suspaudžia į vieną commit.
 
-#### C. Suspaudžiame mūsų pull-request šakoj commits į vieną pasinaudojant pagalbine šaka
+#### C. Suspaudžiame commits mūsų pull-request šakoj į vieną pasinaudojant pagalbine šaka
 
 Pavadiname savo kodo pakeitimų šaką "our-feature-branch". Taip jau nutiko, kad buvau pavargęs, pridariau klaidų, perskubėjau taisyti nepatikrinęs, todėl galiausiai prireikė 4 git commits tam, kad turėčiau be priekaištų veikiančius pageidaujamus pakeitimus. Tos klaidų taisymo žinutės man tikrai nebus reikšmingos iš ateities perspektyvos, tik trukdys pamatyti kitas svarbias žinutes. Natūralu, kad jų matyti nenoriu. Čia ir suspausiu savo git commits į vieną.
 
