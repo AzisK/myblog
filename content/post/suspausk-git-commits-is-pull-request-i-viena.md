@@ -7,23 +7,31 @@ author = "Ąžuolas Krušna"
 
 Angliškas terminas suspausti kelis git commits iš pull-request į vieną vadinamas "squash (and) merge" ir labai plačiai naudojamas.
 
+Taip jau nutiko, kad buvau pavargęs, pridariau klaidų, perskubėjau taisyti nepatikrinęs, todėl galiausiai prireikė 4 git commits tam, kad turėčiau be priekaištų veikiančius pageidaujamus pakeitimus. Tos klaidų taisymo žinutės man tikrai nebus reikšmingos iš ateities perspektyvos, tik trukdys pamatyti kitas svarbias žinutes. Natūralu, kad jų matyti nenoriu. Čia ir suspausiu savo git commits į vieną.
+
 Github ir Bitbucket platformos turi šią galimybę pagal nutylėjimą. Žemiau galime matyti kaip atrodo pull-request suspaudimo ir prijungimo (squash and merge) galimybė Github platformoje.
 
 ![Squash merge demonstration](../squash_merge_demonstration.png)
 
-Jeigu mums tiek ir tereikėjo, tuomet užverčiame šį puslapį ir einam pasimėgauti likusia diena.
+Jeigu mums tiek ir tereikėjo, tuomet užverčiame šį puslapį ir einam pasimėgauti likusia diena!
 
 ### Kaip tai padaryti naudojantis terminalu?
 
-Tačiau gali nutikti taip, kaip nutiko man, kad kodo versijavimo platforma prarado šią galimybę. Taigi "squash merge" gali būti neįjungtas arba platforma gali tokios galimybės neturėti.
+Gali nutikti taip, kaip nutiko man, kad kodo versijavimo platforma prarado šią galimybę. Taigi "squash (and) merge" gali būti neįjungtas arba platforma gali tokios galimybės neturėti.
 
-Tuomet mes naudosime git CLI commits suspaudimui į vieną ir galėsim visa tai padaryti net ir be jokios platformos pagalbos! Tapsime nepriklausomi nuo git kodo versijavimo sistemų. Kartu tai yra proga giliau susipažinti su įvairiomis git komandomis.
+Tuomet mes pasinaudosime git komandomis commits suspaudimui į vieną ir galėsim visa tai padaryti net ir be jokios platformos pagalbos! Tapsime nepriklausomi nuo git kodo versijavimo sistemų. Kartu tai yra proga labiau susipažinti su įvairiomis git komandomis.
 
-Žemiau galime rasti 3 būdus tai atlikti.
+Taigi, mūsų pull-request šaka vadinasi "our-feature-branch". Žemiau aprašyti 3 (A, B ir C) būdai jos pokyčius prijungti su 1 commit.
 
-#### A. Suspaudžiame ir prijungiame pasirinktos šakos pokyčius
+#### A. Suspaudžiame ir prijungiame pull-request šakos pokyčius
 
-Esam ant pagrindinės `main` šakos. Tuomet visus skirtumus nuo mūsų pasirinktos (`our-feature-branch`) šakos sujungiame į vieną commit ir prijungiame.
+Esame ant pagrindinės "main" šakos.
+
+```zsh
+git checkout main
+```
+
+Tuomet visus skirtumus nuo mūsų pasirinktos šakos sujungiame į vieną commit ir prijungiame.
 
 ```zsh
 git merge --squash our-feature-branch
@@ -39,9 +47,7 @@ Tai yra aprašyta ankstesniame straipsnyje ["Suspausk savo git commits į vieną
 
 #### C. Suspaudžiame commits mūsų pull-request šakoj į vieną pasinaudojant pagalbine šaka
 
-Pavadiname savo kodo pakeitimų šaką "our-feature-branch". Taip jau nutiko, kad buvau pavargęs, pridariau klaidų, perskubėjau taisyti nepatikrinęs, todėl galiausiai prireikė 4 git commits tam, kad turėčiau be priekaištų veikiančius pageidaujamus pakeitimus. Tos klaidų taisymo žinutės man tikrai nebus reikšmingos iš ateities perspektyvos, tik trukdys pamatyti kitas svarbias žinutes. Natūralu, kad jų matyti nenoriu. Čia ir suspausiu savo git commits į vieną.
-
-Šiam veiksmui atlikti susikursime tarpinę "temp" šaką. Veiksmų seka aprašyta žemiau.
+Šiam veiksmui atlikti panaudosime tarpinę "temp" šaką. Veiksmų seka aprašyta žemiau.
 ```zsh
 git checkout -b temp main #1
 
@@ -72,10 +78,10 @@ Dabar galime daryti mūsų pull-request paprastą prijungimą (merge).
 
 ***
 
-Nieko naujo inžinerijos pasaulyje nesugalvojau, bet pačiam prisireikė šios funkcijos, taigi išbandžiau, veikia, viskas labai paprasta ir genialu. Aprašiau visa tai lietuviškai ir perkošiau savo mintimis. Išminties sėmiausi iš šio StackOverflow [posto](https://stackoverflow.com/a/69827502/7714279).
+Šiam straipsniui parašyti buvo remtasi šiuo [Stack Overflow](https://stackoverflow.com/a/69827502/7714279) įrašu bei paties atradimais. Mano nuomone, C būdas yra genialus, bet labai geras ir B.
 
 ***
 
-Vienas žmogus net parašė bash [skriptą](https://github.com/sheerun/git-squash) visam šiam mechanizmui. Jį galima įsirašyti net su _brew_. Tai nėra visiškai šis skriptas, jis turi daugiau detalių, bet esmė yra ta pati --- suspausti savo git šakoje commits į vieną panaudojant tarpinę šaką.
+Vienas žmogus net parašė bash [skriptą](https://github.com/sheerun/git-squash) visam šiam mechanizmui. Jį galima įsirašyti net su _brew_. Tai nėra visiškai šis skriptas, jis turi daugiau detalių, bet esmė yra ta pati --- suspausti savo git šakoje commits į vieną, panaudojant tarpinę šaką.
 
 _May the force be with you_
