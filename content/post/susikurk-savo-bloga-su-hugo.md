@@ -3,6 +3,7 @@ title = "Susikurk savo blogą su Hugo"
 description = "Susikurk savo blogą su Hugo ir patalpink Netlify nemokamai"
 date = 2021-01-20T03:00:00Z
 author = "Ąžuolas Krušna"
+tags = ["Programų inžinerija", "Susikurk savo blogą"]
 +++
 
 Čia dalinsiuosi procesu kaip susikurti blogą su Hugo. Perskaitę ir atlikę veiksmus turėsime blogą su internetiniu adresu nemokamai. Jeigu įdomu, skaityk toliau.

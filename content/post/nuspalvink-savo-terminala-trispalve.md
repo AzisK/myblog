@@ -3,6 +3,7 @@ title = "Nuspalvink savo terminalą trispalve"
 description = "Nuspalvink savo terminalą trispalve artėjant Vasario 16"
 date = 2021-02-12T02:13:50Z
 author = "Ąžuolas Krušna"
+tags = ["Programų inžinerija", "Lietuva", "Vasario 16-oji"]
 +++
 
 Programuotojau, kviečiu Tave artėjant Vasario 16 - Lietuvos nepriklausomybės paskelbimo proga - nusispalvinti terminalą trispalve. Gražios spalvos, gražus terminalas - maloniau dirbti.

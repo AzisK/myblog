@@ -3,6 +3,7 @@ title = "Užsidėk domeną savo blogui ant Netlify"
 description = "Užsidėk domeną savo blogui ant Netlify"
 date = 2021-02-16T02:13:50Z
 author = "Ąžuolas Krušna"
+tags = ["Programų inžinerija", "Susikurk savo blogą"]
 +++
 
 Taigi, norint užsidėti norimą domeną savo blogui reikią tą domeną įsigyti. Tik jeigu jau neturi, žinoma!
