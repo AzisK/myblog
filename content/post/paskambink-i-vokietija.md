@@ -40,6 +40,10 @@ Berlyne gyvendamas galėčiau į vietinį numerį paskambinti nevesdamas nei vie
 
 Beliko tik pasakyti, kad norėčiau atšaukti savo vizitą.
 
+### Kaip paskambinti policijai Vokietijoje?
+
+Randu, kad jeigu ne skubu, tai galima paskambinti policijai šiuo numeriu +49 30 9018 22010. Nelaimės atveju geriau skambinti 110 iš Vokietijos.
+
 ### Kaip paskambinti į nemokamą numerį Vokietijoje?
 
 Nemokami numeriai Voietijoje prasideda su 0800. Pavyzdžiui, 0800 285 85 85. Pagal anksčiau pateiktą pavyzdį vedame +49 800 285 85 85 arba 0049 800 285 85 85 ir kalbame.
@@ -48,6 +52,6 @@ Nemokami numeriai Voietijoje prasideda su 0800. Pavyzdžiui, 0800 285 85 85. Pag
 
 Dar nežinau, ar įmanoma paskambinti į trumpąjį Vokietijos numerį iš Lietuvos. Atnaujinsiu, kai išsiaišinsiu.
 
-Viską gražiai aprašyti labai padėjo šis Berlyno gyvenimo [gidas](https://allaboutberlin.com/guides/dial-phone-numbers-germany)
+Viską gražiai aprašyti labai padėjo šis Berlyno gyvenimo [gidas](https://allaboutberlin.com/guides/dial-phone-numbers-germany).
 
 _May the force be with you_
