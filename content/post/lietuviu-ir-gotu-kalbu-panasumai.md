@@ -44,4 +44,10 @@ Gerai. O kur jie gyveno? Su kuo prekiavo?
 
 Tiesą pasakius, visai netoli lietuviškų žemių.
 
+Iš kur mes tai žinom?
+
+Daug apie tai žinom iš galimai gotų istoriko Jordano darbo "Getica". Jordanas grindžia "Getica" ankstesniu prarastu Cassiodorus darbu, bet kartu cituoja ir 15 kitų klasikinių šaltinių, kartu ir antraip nežinomą rašytoją Ablabius. Daugelis mokslininkų pripažįsta, kad Jordanes pasakojimas apie gotų kilmę bent iš dalies yra kilęs iš genties tradicijų ir yra tikslus dėl tam tikrų detalių.
+
+_Bus pratęsta..._
+
 _May the force be with you_
