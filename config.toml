@@ -2,6 +2,7 @@ baseurl = "https://www.aziogas.lt/"
 title = "Ąžiogas"
 theme = "PaperMod"
 canonifyURLs = true
+enableRobotsTXT = true
 
 [Params]
     mainSections = ["post"]
