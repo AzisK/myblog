@@ -1,6 +1,7 @@
-baseurl = "/"
+baseurl = "https://www.aziogas.lt/"
 title = "Ąžiogas"
 theme = "PaperMod"
+canonifyURLs = true
 
 [Params]
     mainSections = ["post"]
