@@ -5,13 +5,14 @@ canonifyURLs = true
 enableRobotsTXT = true
 
 [Params]
+    author = "Ąžuolas Krušna"
     mainSections = ["post"]
     intro = true
     headline = "My headline"
-    description = "My description"
-    github = "https://github.com/XXX"
+    description = "Mintys ir tekstai apie kalbas ir programų inžineriją, \"pasidaryk pats\" techniniai gidai"
+    github = "https://github.com/AzisK"
     twitter = "https://twitter.com/XXX"
-    email = "XXX@example.com"
+    email = "azuolas.krusna@yahoo.com"
     opengraph = true
     shareTwitter = true
     dateFormat = "Mon, Jan 2, 2006"
