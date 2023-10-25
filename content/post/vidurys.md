@@ -1,7 +1,7 @@
 +++
 title = "Vidurys"
 description = ""
-date = 2023-10-15T12:00:00Z
+date = 2023-11-15T04:00:00Z
 author = "Ąžuolas Krušna"
 tags = ["Filosofija", "Philosophy"]
 +++

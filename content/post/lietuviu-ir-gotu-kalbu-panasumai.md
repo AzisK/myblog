@@ -1,7 +1,7 @@
 +++
 title = "Lietuvių ir gotų kalbų panašumai"
 description = "Panašumai tarp lietuvių ir gotų kalbų"
-date = 2023-08-19T02:13:50Z
+date = 2023-11-19T04:00:00Z
 author = "Ąžuolas Krušna"
 tags = ["Lietuvių kalba", "Gotų kalba"]
 +++
