@@ -134,7 +134,7 @@ IntelliJ programa taip pat turi interaktyvaus rebase funkciją.
 
 ***
 
-Ar nori paskaityti kaip atlikti "pull-request squash ir merge" terminale? Tuomet sugrįžk už savaitės!
+Ar nori paskaityti kaip atlikti "pull-request squash ir merge" terminale? Skaityki tai [čia](https://www.aziogas.lt/suspausk-git-commits-is-pull-request-i-viena/)!
 
 ***
 
