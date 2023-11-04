@@ -90,4 +90,8 @@ Mums nereikia, kad programa išsijungtų bei kartu reikia priimti daugiau raidž
 
 ***
 
+_Bus pratęsta_
+
+***
+
 _May the force be with you_
