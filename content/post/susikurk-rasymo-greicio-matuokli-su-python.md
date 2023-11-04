@@ -1,7 +1,7 @@
 +++
 title = "Susikurk rašymo greičio matuoklį su Python"
 description = "Susikurk rašymo greičio matuoklį per komandinę eilutę su Python"
-date = 2023-10-27T04:00:00Z
+date = 2023-11-27T04:00:00Z
 author = "Ąžuolas Krušna"
 tags = ["Programų inžinerija", "Susikurk savo", "Rašymo greitis", "Matuoklis", "Gidas", "Python", "Software", "Create your own", "Writing speed", "Speedometer", "Tutorial"]
 +++
