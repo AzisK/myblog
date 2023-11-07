@@ -4,6 +4,7 @@ description: "Pasitikrink, ar tavo Python servery viskas įsirašo be klaidų na
 date: 2023-11-13T02:13:50Z
 author: "Ąžuolas Krušna"
 tags: ["Programų inžinerija", "Gidas", "Python", "Docker", "Software", "Tutorial"]
+ShowCodeCopyButtons: true
 draft: true
 ---
 

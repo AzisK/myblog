@@ -4,6 +4,7 @@ description: "Suspausk git commits iš pull-request į vieną panaudojant tarpin
 date: 2023-06-13T03:00:00Z
 author: "Ąžuolas Krušna"
 tags: ["Programų inžinerija", "Git"]
+ShowCodeCopyButtons: true
 ---
 
 Angliškas terminas suspausti kelis git commits iš pull-request į vieną vadinamas "squash (and) merge" ir labai plačiai naudojamas.
