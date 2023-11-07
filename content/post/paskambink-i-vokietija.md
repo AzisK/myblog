@@ -1,10 +1,10 @@
-+++
-title = "Paskambink į Vokietiją"
-description = "Paskambink į Vokietiją iš Lietuvos be vargo"
-date = 2023-06-26T00:00:00Z
-author = "Ąžuolas Krušna"
-tags = ["Vokietija", "Skambučiai"]
-+++
+---
+title: "Paskambink į Vokietiją"
+description: "Paskambink į Vokietiją iš Lietuvos be vargo"
+date: 2023-06-26T00:00:00Z
+author: "Ąžuolas Krušna"
+tags: ["Vokietija", "Skambučiai"]
+---
 
 03085400296 
 

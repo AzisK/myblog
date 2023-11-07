@@ -1,10 +1,11 @@
-+++
-title = "Susikurk rašymo greičio matuoklį su Python"
-description = "Susikurk rašymo greičio matuoklį per komandinę eilutę su Python"
-date = 2023-11-27T04:00:00Z
-author = "Ąžuolas Krušna"
-tags = ["Programų inžinerija", "Susikurk savo", "Rašymo greitis", "Matuoklis", "Gidas", "Python", "Software", "Create your own", "Writing speed", "Speedometer", "Tutorial"]
-+++
+---
+title: "Susikurk rašymo greičio matuoklį su Python"
+description: "Susikurk rašymo greičio matuoklį per komandinę eilutę su Python"
+date: 2023-11-27T04:00:00Z
+author: "Ąžuolas Krušna"
+tags: ["Programų inžinerija", "Susikurk savo", "Rašymo greitis", "Matuoklis", "Gidas", "Python", "Software", "Create your own", "Writing speed", "Speedometer", "Tutorial"]
+draft: true
+---
 
 Labas! Dalinuosi smagiu pavyzdžiu kaip pačiam pasirašyti rašymo greičio matuoklį su Python. Šios dirbtuvės skirtos visiems, norintiems praplėsti savo Python žinias prie įdomaus projekto. Manau, kad jos bus įdomios tiek pradedantiems, tiek pažengusiems programuotojams, nes gilinsimės į neįprastus funkcionalumus.
 

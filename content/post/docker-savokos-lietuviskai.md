@@ -1,10 +1,10 @@
-+++
-title = "Docker sąvokos lietuviškai"
-description = "Docker sąvokų apsibrėžimas lietuviškai bei jų tarpusavio ryšys"
-date = 2023-10-25T04:00:00Z
-author = "Ąžuolas Krušna"
-tags = ["Programų inžinerija", "Lietuvių kalba", "Konteineris", "Docker", "Software", "Lithuanian language", "Container"]
-+++
+---
+title: "Docker sąvokos lietuviškai"
+description: "Docker sąvokų apsibrėžimas lietuviškai bei jų tarpusavio ryšys"
+date: 2023-10-25T04:00:00Z
+author: "Ąžuolas Krušna"
+tags: ["Programų inžinerija", "Lietuvių kalba", "Konteineris", "Docker", "Software", "Lithuanian language", "Container"]
+---
 
 Labas! Šiame straipsnyje lietuviškai apsibrėšime bei įsivardinsime pagrindines Docker platformos sąvokos. Šis straipsnis nėra skirtas supažindinti su Docker platforma lietuviškai, nors ir gali suteikti minimalų suvokimą.
 

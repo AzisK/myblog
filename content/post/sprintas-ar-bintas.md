@@ -1,10 +1,10 @@
-+++
-title = "Sprintas ar bintas?"
-description = "Sprintas ar bintas?"
-date = 2021-02-20T02:13:50Z
-author = "Ąžuolas Krušna"
-tags = ["Programų inžinerija", "Filosofija", "Agile", "Software", "Philosophy"]
-+++
+---
+title: "Sprintas ar bintas?"
+description: "Sprintas ar bintas?"
+date: 2021-02-20T02:13:50Z
+author: "Ąžuolas Krušna"
+tags: ["Programų inžinerija", "Filosofija", "Agile", "Software", "Philosophy"]
+---
 
 Programų kūrime labai įprastas reiškinys yra sprintas. _Agile_ metodologijos dalis. _Agile_ yra judru. _Agile_ neturi sunkvežimio inercijos, o veikiau straksi su savo per ilgomis galinėmis kojytėmis kaip kiškis. _Agile_ labai nesunku pakeisti kryptį kita linkme, jeigu tik pastebi, kad tai reikia padaryti. Puiku - _Agile_ metodas man patinka.
 

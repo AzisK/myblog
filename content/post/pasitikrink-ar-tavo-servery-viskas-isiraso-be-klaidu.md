@@ -1,10 +1,11 @@
-+++
-title = "Pasitikrink, ar tavo servery viskas įsirašo be klaidų"
-description = "Pasitikrink, ar tavo Python servery viskas įsirašo be klaidų naudojantis Docker"
-date = 2023-11-13T02:13:50Z
-author = "Ąžuolas Krušna"
-tags = ["Programų inžinerija", "Gidas", "Python", "Docker", "Software", "Tutorial"]
-+++
+---
+title: "Pasitikrink, ar tavo servery viskas įsirašo be klaidų"
+description: "Pasitikrink, ar tavo Python servery viskas įsirašo be klaidų naudojantis Docker"
+date: 2023-11-13T02:13:50Z
+author: "Ąžuolas Krušna"
+tags: ["Programų inžinerija", "Gidas", "Python", "Docker", "Software", "Tutorial"]
+draft: true
+---
 
 Labas! Šiame straipsnyje dalinuosi kaip be didelio vargo pasitikrinti ar servery viskas įsirašo be klaidų. Tai nėra ypatingai sudėtinga teoriškai, bent jau žinant, kokius žingsnius reikia atlikti nuo šviežio operacinės sistemos įdiegimo. Visgi mes taip nedarysime, nes šiuos veiksmus pakartoti reikalauja daug veiksmų, nepatogu, nes reikia prisijungti prie serverio, o automatizuoti sudėtinga. Taigi tikrinsime Docker konteineriuose. Čia galime tai greitai ištestuoti net ir keičiantis pageidaujamų programų ir jų bibliotekų kiekiui bei versijoms.
 
