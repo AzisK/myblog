@@ -144,7 +144,7 @@ Oskaras iš "Mane vadina Kalendorium"
 
 ***
 
-Šaltiniai: 
+### Šaltiniai
 
 - docker build https://docs.docker.com/engine/reference/commandline/build/
 - docker run https://docs.docker.com/engine/reference/commandline/run/
