@@ -1,5 +1,5 @@
 ---
-title: "Įsidėk kodo kopijavimo mygtuką savo bloge"
+title: "Įsidėk kodo kopijavimo mygtuką savo Hugo bloge"
 date: 2023-11-07T22:41:24+01:00
 ShowCodeCopyButtons: true
 draft: true
@@ -12,12 +12,10 @@ Kadangi rašau blogą su daug techninių detalių ir kodo pavyzdžių, tai neabe
 Šią inžinerinę kelionę pradedu Google paieška, nes manau, kad kažkas tikrai tai jau yra daręs. Akurat. Pasirodo, mano blogo naudojama tema Papermod net jau turi savy šį funkcionalumą! Man tereikia perduoti blogo įrašui `ShowCodeCopyButtons` kintamąjį kaip teisingą būlį `true`.
 
 ```yaml
----
 ShowCodeCopyButtons: true
----
 ```
 
-Paskutiniam rašytam straipsniui visi parametrai atrodytų taip
+Paskutiniam rašytam straipsniui visi parametrai atrodytų taip:
 
 ```yaml
 ---
@@ -32,7 +30,8 @@ ShowCodeCopyButtons: true
 
 Dabar pelyte nuriedėjus ant kodo bloko matysime "copy" mygtuką, kurį paspaudus bus nukopijuotas visas kodo blokas! 
 
-![Docker](../code_copy_button.png)
+![Code copy button view](../code_copy_button.png)
+1 pav. Kodo kopijavimo mygtukas
 
 Kitas būdas prisidėti šį kopijavimo mygtuką yra įsirašyti šį parametrą į blogo konfigūraciją `config.toml`. Pliusas, kad tai bus automatiškai sugeneruojama visiems blogo straipsniams! Kartą įrašėm ir galime užmiršti, ir manau, kad tai yra labai geras sprendimas blogui.
 
@@ -132,8 +131,69 @@ pre:hover .copy-code {
 
  ### Keičiam kopijavimo mygtuką
 
- _Bus pratęsta_
+Tačiau jeigu šių kopijavimo mygtukų išvaizda mūsų netenkina --- tai visuomet galime pasikeisti pagal save! Ypač jeigu juos susikūremė nuo nulio. Pavyzdžiui, man nepatinka, kad šis mygtukas yra matomas tik su pelyte nuriedėjus ant kodo bloko. Norėčiau, kad vartotojai žinotų, jog yra galimybė kopijuoti kodą, todėl noriu, kad jis būtų matomas visuomet, tačiau pelyte nenuriedėjus iki kodo bloko, jis būtų labai neryškus. Kartu tai bus daug aiškiau skaitytojams telefonuose bei planšetiniuose kompiuteriuose.
 
-Šaltiniai: 
+Šiai išvaizdai pasiekti man reikės pakeisti labai nedaug --- tik kelias eilutes kaskadiniuose stiliaus lapuose. Taigi, noriu, kad blokas būtų visuomet matomas. Pakeičiu `copy-code` klasės `display` parametrą iš `none`, į `block`. Kadangi dabar mūsų blokas bus visuomet `display: block`, tai šį aprašą pašalinu iš stiliaus aprašymo nuriedėjus iki kodo bloko (hover). Taip pat noriu, kad nenuriedėjus iki kodo bloko, jis būtų šiek tiek blankesnis. Taigi, pakeičiu `color` ir `background` parametrų reikšmių "alpha" kintamajį, kuris leidžia aprašyti spalvos permatomumą. Spalvų mišinio "rgb" reikšmių nekeičiu, "alpha" dalį sumažinu iš 0,8 iki 0,2, kartu padidinu "alpha" reikšmę nuriedėjus iki kodo bloko iki 0,8, kad būtų ryškesnis.
+
+Galiausiai mūsų kaskadinio stiliaus kodas atrodo taip:
+
+```CSS
+.copy-code {
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgba(255, 255, 255, 0.2);
+    background: rgba(78, 78, 78, 0.2);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font-size: 14px;
+    user-select: none;
+}
+
+div.highlight:hover .copy-code,
+pre:hover .copy-code {
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(78, 78, 78, 0.8);
+}
+```
+
+O mygtukas nenuriedėjus iki kodo bloko atrodo štai taip:
+
+![Custom code copy button view](../code_copy_button_custom.png)
+2 pav. Pakeistas kodo kopijavimo mygtukas
+
+### Apibendrinimas
+
+Peržiūrėjome galimybę įjungti Hugo kodo blokuose kopijavimo mygtukus. Tuo pačiu ir juos pasikeisti pagal save. O jeigu mūsų blogas nepalaiko šios funkcijos arba yra net ne Hugo blogas, tuomet pasidalinome Javascript ir CSS kodo pavyzdžiais kaip tai galima būtų prisitaikyti savoj aplinkoj.
+
+---
+
+"""\
+Jis vėl paėmė plunksną ir po žodžiais "Draudžiama spausdinti" brūkštelėjo antrą liniją, storesnę ir juodesnę nei pirmoji; tada atsiduso: "Kaip būtų gera, --- pamanė jis, --- jei nereikėtų rūpintis dėl laimės!
+
+Užmerkęs akis, iš džiaugsmo spindinčiu veidu Džonas tyliai deklamavo tuštumai:
+
+_Deglų liepsna pavydi jai šviesos!..\
+Nakties glėby man spindi veidas jos,\
+Kaip spindi mauro ausyje briliantai;\
+Visi privalo lenktis jai lyg šventai._ {{< super 1 >}}
+
+Ant Linainos krūtinės spindėjo auksinis užtrauktukas. Arkigiesmininkas žaismingai sugriebė jį ir žaismingai ėmė traukioti - džir džir.
+
+--- Aš turbūt... --- pertraukė ilgą tylą Linaina, --- aš gal išgersiu porą gramų somos.\
+"""
+
+Ištrauka iš Aldous Huxley "Puikus naujas pasaulis"
+
+---
+
+#### Išnašos
+
+{{< super 1 >}} "Romeo ir Džuljeta" (I veiksmas, 5 scena). Vertė A. Churginas.
+
+___
+
+### Šaltiniai
 
 - PaperMod | Features | Code Copy Button  https://github.com/adityatelange/hugo-PaperMod/wiki/Features#code-copy-button
