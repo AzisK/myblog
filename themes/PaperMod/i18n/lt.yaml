@@ -1,0 +1,33 @@
+- id: prev_page
+  translation: "Ankstesnis"
+
+- id: next_page
+  translation: "Tolesnis"
+
+- id: read_time
+  translation:
+    one : "1 min."
+    other: "{{ .Count }} min."
+
+- id: words
+  translation:
+    one : "word"
+    other: "{{ .Count }} words"
+
+- id: toc
+  translation: "Turinys"
+
+- id: translations
+  translation: "Vertimai"
+
+- id: home
+  translation: "Pradinis"
+
+- id: edit_post
+  translation: "Tobulinti"
+
+- id: code_copy
+  translation: "kopijuoti"
+
+- id: code_copied
+  translation: "nukopijuota!"

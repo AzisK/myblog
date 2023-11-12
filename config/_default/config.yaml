@@ -3,6 +3,7 @@ title: Ąžiogas
 theme: PaperMod
 canonifyURLs: true
 enableRobotsTXT: true
+defaultContentLanguage: lt
 
 Params:
     title: Ąžiogas
@@ -12,6 +13,76 @@ Params:
     opengraph: true
     dateFormat: Mon, Jan 2, 2006
     ShowReadingTime: true
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
+
+    label:
+        text: Ąžiogas
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+
+    homeInfoParams:
+        Title: Labas, keliautojau. Atsipūsk, paskaityk, pamąstyk
+        Content: Mintys ir tekstai apie kalbas, kasdienę filosofiją, programų inžineriją, \"pasidaryk pats\" techniniai gidai
+
+    # socialIcons:
+    #     -   name: github
+    #         url: https://github.com/AzisK
+
+    editPost:
+        URL: "https://github.com/AzisK/myblog/tree/main/content/"
+        appendFilePath: true # to append file path to Edit link
+
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
 
 Permalinks:
     post: /:filename/
+
+menu:
+    main:
+        # -   identifier: posts
+        #     name: Įrašai
+        #     pageRef: /post/
+        #     weight: 1
+        # -   identifier: categories
+        #     name: Kategorijos
+        #     pageRef: /categories/
+        #     weight: 10
+        -   identifier: archive
+            name: Archyvas
+            url: /archive/
+            weight: 20
+        -   identifier: search
+            name: Paieška
+            url: /search/
+            weight: 20
+        -   identifier: tags
+            name: Tagai
+            pageRef: /tags/
+            weight: 30
+        -   identifier: about
+            name: Apie
+            pageRef: /page/about
+            weight: 40
+        -   identifier: contact
+            name: Kontaktai
+            pageRef: /page/contact
+            weight: 40
+
+Languages:
+  lt:
+    languageCode: lt
+    LanguageDirection: ltr
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary for search
