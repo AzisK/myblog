@@ -1,0 +1,17 @@
+baseurl: https://www.aziogas.lt/
+title: Ąžiogas
+theme: PaperMod
+canonifyURLs: true
+enableRobotsTXT: true
+
+Params:
+    title: Ąžiogas
+    author: Ąžuolas Krušna
+    description: Mintys ir tekstai apie kalbas, kasdienę filosofiją, programų inžineriją, \"pasidaryk pats\" techniniai gidai
+    email: azuolas.krusna@yahoo.com
+    opengraph: true
+    dateFormat: Mon, Jan 2, 2006
+    ShowReadingTime: true
+
+Permalinks:
+    post: /:filename/
