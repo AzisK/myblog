@@ -3,7 +3,7 @@ title: "Paskambink į Vokietiją"
 description: "Paskambink į Vokietiją iš Lietuvos be vargo"
 date: 2023-06-26T00:00:00Z
 author: "Ąžuolas Krušna"
-tags: ["Vokietija", "Skambučiai"]
+tags: ["Vokietija", "Skambučiai", "Germany", "Calls"]
 ---
 
 03085400296 
