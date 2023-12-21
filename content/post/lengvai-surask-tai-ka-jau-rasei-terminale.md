@@ -3,7 +3,7 @@ title: Lengvai surask tai, ką jau rašei terminale
 description: Lengvai surask tai, ką jau rašei terminale, naudojantis komandų istorija
 date: 2023-12-20T04:00:00Z
 author: Ąžuolas Krušna
-tags: ["Programų inžinerija", "Linux", "Software"]
+tags: ["Programų inžinerija", "Terminalas", "Komandinė eilutė", "Istorija", "Atmintis", "Linux", "Software", "Terminal", "Command line", "History", "Memory"]
 ShowCodeCopyButtons: true
 ---
 
