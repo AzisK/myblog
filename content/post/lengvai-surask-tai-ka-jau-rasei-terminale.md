@@ -41,6 +41,27 @@ Jė! Dabar galėsiu nesunkiai rasti ką jau rašiau. Kartais pagaunu save situac
 
 Jeigu nori sužinoti daugiau --- skaityki toliau. Jeigu tiek ir reikėjo, tuomet meski tolesnį skaitymą be sąžinės graužaties.
 
+### Alias!
+
+Parašyti ir "history", ir "vamzdį", ir "grep" ir užtrunka, ir iš pradžių gali pasirodyti daug atsiminti, todėl visuomet galime susikurti alias! Atsidarom savo terminalo aplinkos failą ir ten apsirašom alias, taigi trumpinį. Mano tai atveju tai failai `~/.zprofile` arba `~/.zshrc`:
+
+```zsh
+alias hs="history | grep"
+```
+
+Gerai, dabar man reikės atsiminti tik "hs"! Ieškau jau rašytų terminale komandų su raktažodžiu "redis":
+
+```zsh
+hs redis -m 2
+```
+
+Atsakymas:
+
+```zsh
+65  redis-server /usr/local/etc/redis.conf
+66  brew install redis
+```
+
 ### Kokiais atvejais tai gali praversti?
 
 Tai vieną dieną gali labai palengvinti darbus --- kai jie bus intensyvūs komandinėje eilutėje arba grįžę iš atostogų pamiršime kaip ten tiksliai naudotis "ta" komandinės eilutės aplikacija ir kokius ten jai argumentus perdavėm ir dar kokia tvarka.
@@ -74,7 +95,7 @@ rm ~/.zshrc_history && history -c
 
 ### Apribendrinimas
 
-Išmokome lengvai surasti tai, ką jau rašėme terminale anksčiau! Taip pat sužinojom kaip tai veikia, išmokome pakeisti istorijos dydį bei ją išvalyti. Kartu apžvelgėme atvejus, kada tai gali būti naudinga.
+Išmokome lengvai surasti tai, ką jau rašėme terminale anksčiau! Tam pasinaudojome 2 programomis --- "history" ir "grep". Apsirašėm toms komandoms trumpinį (alias). Taip pat sužinojom kaip tai veikia, išmokome pakeisti istorijos dydį bei ją išvalyti. Kartu apžvelgėme atvejus, kada tai gali būti naudinga.
 
 ***
 
@@ -120,7 +141,7 @@ Kada, mėnulį nužiūrėjęs,\
 \
 Kažko beprasmiai dūsavai.*
 
-Iš Marijos Olkinaitės dienoraščio
+Iš Matildos Olkinaitės dienoraščio
 ***
 
 ### Šaltiniai
