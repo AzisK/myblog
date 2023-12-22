@@ -39,7 +39,7 @@ Rezultatas:
 
 Jė! Dabar galėsiu nesunkiai rasti ką jau rašiau. Kartais pagaunu save situacijoje, kai man šis funkcionalumas labai praverstų, bet man trūksta žinių kaip jį pasiekti. Taigi dabar šios bėdos nebeturėsiu! 
 
-Jeigu nori sužinoti daugiau --- skaityki toliau. Jeigu tiek ir reikėjo, tuomet meski tolesnį skaitymą be sąžinės graužaties.
+Jeigu nori sužinoti daugiau --- skaityki toliau. Jeigu tiek ir reikėjo, tuomet meski tolesnį skaitymą be sąžinės graužaties. Tačiau žemiau pariedėjus dar yra ilgesingai dailus Matildos Olkinaitės eilėraštis, tai kviečiu paskaityti jį.
 
 ### Alias!
 
