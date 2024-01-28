@@ -33,7 +33,7 @@ Või --- arba. Tariasi įdomiai. "õi" skamba kaip raidelė per vidurį "u" ir "
 
 Värv --- spalva. Turi panašumo su spalva vokiškai --- "Farbe". "V" kalbose kaitaliojasi su "f" ir su "b".
 
-Sinine --- mėlyna. Panašu su mėlyna spalva slaviškai. Ukrainietiškai "синій" (tariasi synij) reiškia tamsiai mėlyna. Rusiškai, rodos, šis žodis irgi egzistuoja, tik rašomas truputį kitaip --- "синий". Lenkiškai irgi --- "siny", tik "si" junginys paverčia s garsą į š ir galiausiai viskas skamba kaip "šyni". Nors panašiausia į suomių --- "sininen".
+Sinine --- mėlyna. Panašu su mėlyna spalva slaviškai. Ukrainietiškai "синій" (tariasi synij) reiškia tamsiai mėlyna. Rusiškai, rodos, šis žodis irgi egzistuoja, tik rašomas truputį kitaip --- "синий". Lenkiškai irgi --- "siny", tik "si" junginys paverčia s garsą į š ir galiausiai viskas skamba kaip "šyni". Nors panašiausia į suomių mėlyną --- "sininen".
 
 Pruun --- ruda. Dviguba "uu" tariasi kaip "ū". Visai kaip latviškas "brūns", tik "b" šiek tiek prasislenka su "p", tačiau tai nestebina, nes ir "bankas" estiškai --- "pank". Turi panašumo su lietuviška "ruda" spalva, tačiau daugiau link latviško, o šis link vokiško "braun".
 
