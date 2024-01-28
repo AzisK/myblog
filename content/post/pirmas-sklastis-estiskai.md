@@ -45,13 +45,13 @@ Pelmeen --- koldūnai. Dviguba "ee" tariasi kaip "ė". Iš Sibiro Komi tautos ap
 
 Aasta --- metai. Semantinė reikšmė labai prasilenkia, tačiau primena lotynišką "asta" --- žvaigždę. Sanskrite "asta", berods, reiškia saulėlydį. Lietuvoje turime vardą "Asta". Gilinuosi į galimą kilmę. Trumpinys gali būti iš graikų "Anastasia", reiškiančią atgimimą, arba iš skandinavų "Astrida", reiškiančią grožio deivę.
 
-Mannavaht --- lyg ir manų košė! Gilinuosi toliau. Manų košė verčiama kaip "mannapuder". Kaip ir latviškai --- "mannā putra". Kartą viena latvė mane pavaišino --- buvo pasakiškai skanu! Nors ši košė nebuvo tiesiog išvirta --- dar ji buvo ir išplakta! Ir su spanguolių uogiene. Tokia minkšta.  Internete randu, kad šis receptas latviškai yra būtent "debesmanna" --- manų košės lyg debesų. Vienos estės (spėju iš turinio) tinklarašty randu, kad tai ir yra būtent "mannavaht". Ji rašo, kad jos močiutė ją vadino "vėjo koše" --- nes pripildo pilvą, tačiau nepavalgydina. Taip vadinama ši košė balta, be jokios uogienės. Su spanguolėmis ji paružavuoja ir vadinama jau "roosamanna". Su mėlynėmis ji vadinama "mustika mannavaht". Įdomu, ir kartu gaila, kodėl iš Lietuvos ši praktika, išplakti manų košę, išėjo arba niekada neatėjo?
+Mannavaht --- lyg ir manų košė! Gilinuosi toliau. Manų košė verčiama kaip "mannapuder". Kaip ir latviškai --- "mannā putra". Kartą viena latvė mane pavaišino --- buvo pasakiškai skanu! Nors ši košė nebuvo tiesiog išvirta --- dar ji buvo ir išplakta! Ir su spanguolių uogiene. Tokia minkšta.  Internete randu, kad šis receptas latviškai yra būtent "debesmanna" --- manų košės lyg debesų. Vienos estės (spėju iš turinio) tinklarašty randu, kad tai ir yra būtent "mannavaht". Ji rašo, kad jos močiutė ją vadino "vėjo koše" --- nes pripildo pilvą, tačiau nepavalgydina. Taip vadinama ši košė balta, be jokios uogienės. Su spanguolėmis ji paružavuoja ir vadinama jau "roosamanna". Su mėlynėmis ji vadinama "mustika mannavaht". "Mustikas" reiškia mėlynę, o "must" juodą spalvą. Įdomu, ir kartu gaila, kodėl iš Lietuvos ši praktika, išplakti manų košę, išėjo arba niekada neatėjo?
 
 ---
 
 Tokia mano kelionė kol kas su estų kalba, moku tik truputį virš penkiadešimt terminų. Galėjau dar tris kartus tiek išmokti kol rašiau šį tekstą, tačiau nusprendžiau jį parašyti. Rašydamas daugiau pasigilinau į pačius žodžius bei daugiau palyginau su kitomis kalbomis, tai tuo džiaugiuosi.
 
-Pats tekstas gimė iš liūdnos istorijos. Nespėjome į skrydį į Taliną. Jau praėjo dvi dienos, bet vis dar skaudu. Iš kitos pusės, tai jei būtume išskridę, tai ir šis tekstas tikriausiai nebūtų gimęs. O estų žemės sostinę --- Taliną --- dar aplankysim! Nägemist!
+Pats tekstas gimė iš liūdnos istorijos. Nespėjome į skrydį į Taliną. Jau praėjo dvi dienos, bet vis dar skaudu. Iš kitos pusės, tai jei būtume išskridę, tai ir šis tekstas tikriausiai nebūtų gimęs. O estų žemės sostinę --- Taliną --- dar, tikiu, aplankysim! Nägemist!
 
 ---
 Mėlynas paukštis
