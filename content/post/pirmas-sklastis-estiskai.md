@@ -13,7 +13,7 @@ Prisimenu. Jau kartą buvau susipažinęs, bet... viską pamiršau. Dabar žinau
 
 Pamenu, skaičiau, kad tikriausiai visos rytinės Baltijos jūros pakrantės gentys buvo vadinamos aisčiais. Nors pirmasis tai 98 m. užrašęs Tacitas "Germania" veikale lotyniškai užraitė "Aestiorum gentes".
 
-Aitäh --- ä garsas sklinda per vidurį a ir e garsų. Tai ačiū! Kaip panašu! Ačiū man visuomet atrodė toks išskirtinis, toks vienišas žodis. T ir č raidės kalbose viena kitą keičia, nes žinom, kad didelė yra antis, o mažytis yra ančiukas. "Äh" galėtų būti laiko ir kelių nuzulinto "iū" garso pusbrolis. Tuomet "aičiū" ir "ačiū" yra pusbroliai! Ar taip yra iš tiesų, nežinau, ir nežinau kaip vyksta žodžių giminystės įrodymas ir ar jis iš viso yra įmanomas, tačiau mano turimom žiniom, nes per daug panašumų ir jokia papildoma informacija to neneigia, mūsų ačiū yra kraujo broliai. Maloniai stebina, nes ne latvių "paldies", o būtent estų "aitäh" turi kraujo ryšį su mūsų "ačiū"! Maloniai, nes reiškias, kad ne taip jau ir toli esame nuo estų! Visuomet maniau, kad mūsų kalbos labai skirtingos. Ne, pats antras žodis jau dėkoja ir siunčia užkoduotą užuominą, kad mes esame sesės ir broliai!
+Aitäh --- ä garsas sklinda per vidurį a ir e garsų. Tai --- ačiū! Kaip panašu! Ačiū man visuomet atrodė toks išskirtinis, toks vienišas žodis. T ir č raidės kalbose viena kitą keičia, nes žinom, kad didelė yra antis, o mažytis yra ančiukas. "Äh" galėtų būti laiko ir kelių nuzulinto "iū" garso pusbrolis. Tuomet "aičiū" ir "ačiū" yra pusbroliai! Ar taip yra iš tiesų, nežinau, ir nežinau kaip vyksta žodžių giminystės įrodymas ir ar jis iš viso yra įmanomas, tačiau mano turimom žiniom, nes per daug panašumų ir jokia papildoma informacija to neneigia, mūsų ačiū yra kraujo broliai. Maloniai stebina, nes ne latvių "paldies", o būtent estų "aitäh" turi kraujo ryšį su mūsų "ačiū"! Maloniai, nes reiškias, kad ne taip jau ir toli esame nuo estų! Visuomet maniau, kad mūsų kalbos labai skirtingos. Ne, pats antras žodis jau dėkoja ir siunčia užkoduotą užuominą, kad mes esame sesės ir broliai!
 
 Ar tikrai? Taip smalsu pasidaro. Noriu sužinoti daugiau. Kokių dar jie žodžių turi?
 
@@ -27,7 +27,7 @@ Maja --- namas, kaip ir latviškai, visgi kaimynės.
 
 Raamat --- knyga. Dvi "a" tariasi ilgiau, kaip ą su nosine. Veik kaip latviškai --- grāmata, tik pamestos pirma ir paskutinė raidės --- g bei a. Žinoma, netoli nuo gramatikos.
 
-Särk - marškiniai. Lyg ir toli, bet man primena sermėgą. Iš kitos pusės, tai ir nelabai toli nuo angliško "shirt".
+Särk --- marškiniai. Lyg ir toli, bet man primena sermėgą. Iš kitos pusės, tai ir nelabai toli nuo angliško "shirt".
 
 Terviseks --- į sveikatą! Tariasi lengviau nei mūsiškis ir įsivaizduoju, jog juo dažniau pajuokaujama dėl savo pabaigos. Tervis reiškia sveikatą.
 
