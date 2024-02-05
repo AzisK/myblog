@@ -1,15 +1,15 @@
 ---
-title: "Suspausk savo git commits į vieną"
-description: "Suspausk savo git commits į vieną įvairiais būdais"
+title: Suspausk savo git commits į vieną
+description: Suspausk savo git commits į vieną įvairiais būdais
 date: 2023-06-03T03:00:00Z
-author: "Ąžuolas Krušna"
-tags: ["Programų inžinerija", "Git"]
+author: Ąžuolas Krušna
+tags: ["Programų inžinerija", "Git", "Kodo versijavimas"]
 ShowCodeCopyButtons: true
 ---
 
 Angliškai veiksmas, suspaudžiant kelis git commits į vieną, vadinamas "squash". Jis naudojamas palaikyti tvarką bei pokyčių aiškumą git istorijoje sutraukiant to paties koncepto commits į vieną. Tai kartu sumažina nereikšmingų commits žinučių kiekį, kuris maišytų perprasti: kodo raidą ir priimtų sprendimų priežastis.
 
-Tai galima paprastai padaryti naudojantis įvairioms kodo versijavimo programomis: Github Desktop, Pycharm CE, IntelliJ CE (CE yra community edition trumpinys, t.y. sukurta bendruomenėms, nemokama versija) etc. 
+Tai galima paprastai padaryti naudojantis įvairioms kodo versijavimo programomis: Github Desktop, Pycharm CE, IntelliJ CE (CE yra community edition trumpinys, t.y. sukurta bendruomenėms, nemokama versija) etc.
 
 Žemiau galime matyti kaip patogiai galima suspausti 2 git commits į vieną Github Desktop bei 3 IntelliJ programose. Jei mums tiek ir tereikia, tai galime paieškoti šios funkcijos mūsų programoje, ja pasinaudoti ir eiti pasidžiaugti likusia diena.
 
@@ -59,7 +59,7 @@ Yay! Dabar niekas nebematys mano žioplų klaidų!
 
 ### Kaip suspausti ne iš eilės einančius commits?
 
-Tai atlikti galime naudojantis 
+Tai atlikti galime naudojantis
 
 ```zsh
 git rebase --interactive HEAD~<KIEKIS>

@@ -1,9 +1,9 @@
 ---
-title: "Suspausk git commits iš pull-request į vieną"
-description: "Suspausk git commits iš pull-request į vieną panaudojant tarpinę šaką"
+title: Suspausk git commits iš pull-request į vieną
+description: Suspausk git commits iš pull-request į vieną panaudojant tarpinę šaką
 date: 2023-06-13T03:00:00Z
-author: "Ąžuolas Krušna"
-tags: ["Programų inžinerija", "Git"]
+author: Ąžuolas Krušna
+tags: ["Programų inžinerija", "Git", "Kodo versijavimas"]
 ShowCodeCopyButtons: true
 ---
 

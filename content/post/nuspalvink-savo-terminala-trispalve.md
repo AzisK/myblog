@@ -1,9 +1,9 @@
 ---
-title: "Nuspalvink savo terminalą trispalve"
-description: "Nuspalvink savo terminalą trispalve artėjant Vasario 16"
-date: 2021-02-12T02:13:50Z
-author: "Ąžuolas Krušna"
-tags: ["Programų inžinerija", "Lietuva", "Vasario 16-oji"]
+title: Nuspalvink savo terminalą trispalve
+description: Nuspalvink savo terminalą trispalve artėjant Vasario 16
+date: 2021-02-12T04:00:00Z
+author: Ąžuolas Krušna
+tags: ["Programų inžinerija", "Lietuva", "Vasario 16-oji", "Terminalas"]
 ShowCodeCopyButtons: true
 ---
 
@@ -28,7 +28,7 @@ Atsidarau terminalą per naują ir matau trispalvę
 
 Šį terminalą naudoju darbo kompiuteryje jau kelerius metus - daug smagiau dirbti negu su įprastu.
 
-### Naudoju zsh 
+### Naudoju zsh
 
 1. Tuomet, jeigu neturiu, įsirašau "Oh My Zsh" https://ohmyz.sh/
 2. Einu į `~/.oh-my-zsh/themes` ir ten susikuriu temos failą (pasikūriau `lithuania.zsh-theme`)

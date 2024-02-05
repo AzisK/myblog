@@ -1,9 +1,9 @@
 ---
-title: "Pasitikrink, ar tavo servery viskas įsirašo be klaidų"
-description: "Pasitikrink, ar tavo Python servery viskas įsirašo be klaidų naudojantis Docker"
-date: 2023-11-13T02:13:50Z
-author: "Ąžuolas Krušna"
-tags: ["Programų inžinerija", "Gidas", "Python", "Docker", "Software", "Tutorial"]
+title: Pasitikrink, ar tavo servery viskas įsirašo be klaidų
+description: Pasitikrink, ar tavo Python servery viskas įsirašo be klaidų naudojantis Docker
+date: 2023-11-13T4:00:00Z
+author: Ąžuolas Krušna
+tags: ["Programų inžinerija", "Gidas", "Python", "Docker"]
 ShowCodeCopyButtons: true
 draft: true
 ---
@@ -44,9 +44,9 @@ FROM python:${PYTHON_VERSION} as base
 FROM python:3.11.5 as base
 ```
 
-Tuomet apsirašom 2 aplinkos kintamuosius, kurie yra naudingi Python aplikacijoms Docker konteineriuose leisti. 
+Tuomet apsirašom 2 aplinkos kintamuosius, kurie yra naudingi Python aplikacijoms Docker konteineriuose leisti.
 
-`PYTHONDONTWRITEBYTECODE=1` nustatymas nurodo Python nerašyti baitinės programos į failus, t.y. į `.pyc` failus. Tai yra naudinga tik tuomet, kai Python programa paleidžiama daugiau nei 1 kartą, o konteineriuose tai mums nesuteiks jokių privalumų, tik apsunkins viską. 
+`PYTHONDONTWRITEBYTECODE=1` nustatymas nurodo Python nerašyti baitinės programos į failus, t.y. į `.pyc` failus. Tai yra naudinga tik tuomet, kai Python programa paleidžiama daugiau nei 1 kartą, o konteineriuose tai mums nesuteiks jokių privalumų, tik apsunkins viską.
 
 `PYTHONUNBUFFERED=1` nustatymas nurodo Python nesaugoti informacijos buferyje, tai padeda išvengti logų vėlavimo.
 
@@ -314,7 +314,7 @@ Tada paleidę Docker paveikslo "tapymą" `docer-compose build` ties 4-u žingsni
       copying psutil/tests/test_testutils.py -> build/lib.linux-aarch64-cpython-311/psutil/tests
       copying psutil/tests/__init__.py -> build/lib.linux-aarch64-cpython-311/psutil/tests
       warning: build_py: byte-compiling is disabled, skipping.
-    
+
       running build_ext
       building 'psutil._psutil_linux' extension
       creating build/temp.linux-aarch64-cpython-311

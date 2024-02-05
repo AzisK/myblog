@@ -3,7 +3,7 @@ title: "Susikurk savo blogą su Hugo"
 description: "Susikurk savo blogą su Hugo ir patalpink Netlify nemokamai"
 date: 2021-01-20T03:00:00Z
 author: "Ąžuolas Krušna"
-tags: ["Programų inžinerija", "Susikurk savo", "Blogas", "Hugo"]
+tags: ["Programų inžinerija", "Susikurk savo", "Blogas", "Tinklaraštis", "Hugo", "Netlify"]
 ShowCodeCopyButtons: true
 ---
 
@@ -43,7 +43,7 @@ Rašyti blogą su Hugo reikia naudoti kodo versijavimą. Mes šiam reikalui naud
 
 ### Puslapio talpinimas
 
-Kadangi Hugo blogas yra visiškai statinis, mes galime pasinaudoti platformomis, kurios suteikia nemokamą tokių puslapių talpinimą: Github, Netlify, Vercel ir t.t. 
+Kadangi Hugo blogas yra visiškai statinis, mes galime pasinaudoti platformomis, kurios suteikia nemokamą tokių puslapių talpinimą: Github, Netlify, Vercel ir t.t.
 
 Vienintelis mokamas dalykas yra domenas, tačiau neužimtas domenas kainuoja apie 10 eurų per metus, tai manau, kad tikrai nebrangiai. Jeigu jau turite domeną, galite panaudoti jį. Tačiau jį nėra būtina turėti, paminėtos platformos suteiks jums domeną, tačiau veikiausiai ne tokį, kokio norite. Maniškė gavo toki adresą https://practical-goldwasser-df318e.netlify.app/
 
@@ -179,7 +179,7 @@ Tuomet iš _File_ meniu pasirenku "New Repository":
 
 ![Repozitorija](../repository.png)
 
-Tokį patį vaizdą galime gauti tiesiog nutempdami `myblog` direktoriją į Github aplikaciją. Suteikiu savo repozitorijai `myblog` pavadinimą (Name) ir nurodau iki jos atitinkamą kelią (Local Path). Spaudžiu "Create Repository". Tai automatiškai padaro patį pirmąjį commit. 
+Tokį patį vaizdą galime gauti tiesiog nutempdami `myblog` direktoriją į Github aplikaciją. Suteikiu savo repozitorijai `myblog` pavadinimą (Name) ir nurodau iki jos atitinkamą kelią (Local Path). Spaudžiu "Create Repository". Tai automatiškai padaro patį pirmąjį commit.
 
 ![Pirmasis commit](../initial_commit.png)
 
@@ -211,7 +211,7 @@ Nieko! Man irgi nepavyko iš pirmo karto.
 
 ![Deploy fail](../deploy_fail.png)
 
-Sėkmingai patalpinti Netlify pavyko tik iš trečio karto. Antrą kartą bandžiau talpinti tikėdamasis, kad susitvarkys. _Nope_. Tuomet ėjau skaityti logus, kad suprasčiau kas negerai. 
+Sėkmingai patalpinti Netlify pavyko tik iš trečio karto. Antrą kartą bandžiau talpinti tikėdamasis, kad susitvarkys. _Nope_. Tuomet ėjau skaityti logus, kad suprasčiau kas negerai.
 
 ![Deploy fail logai](../deploy_fail_logs.png)
 
@@ -219,7 +219,7 @@ Pasirodo, Netlify naudoja netinkamą Hugo versiją mano kodui. Pažiūrėjau kok
 
 ![Hugo lokali versija](../hugo_version_local.png)
 
- 
+
 Nurodau Netlify, kad ją naudotų. Spaudžiu "Site settings" -> "Build & Deploy" -> "Environment" -> "Environment variables". Tuomet ten įvedu `HUGO_VERSION` kintamąjį ir suteikiu jam reikšmę `0.79.0`.
 
 ![Hugo versija](../hugo_version.png)

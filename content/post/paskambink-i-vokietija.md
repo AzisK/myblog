@@ -1,12 +1,12 @@
 ---
-title: "Paskambink į Vokietiją"
-description: "Paskambink į Vokietiją iš Lietuvos be vargo"
+title: Paskambink į Vokietiją
+description: Paskambink į Vokietiją iš Lietuvos be vargo
 date: 2023-06-26T00:00:00Z
-author: "Ąžuolas Krušna"
-tags: ["Vokietija", "Skambučiai", "Germany", "Calls"]
+author: Ąžuolas Krušna
+tags: ["Vokietija", "Skambučiai"]
 ---
 
-03085400296 
+03085400296
 
 Štai toks numeris yra pasiskambinti tikrai neblogam dantistui Berlyne, jis ir angliškai šneka. Straipsnis, žinoma, ne apie tai, tačiau tebūnie tai tikras atvejis ir reklama šiam odotologui Tri Tai Huynh. Šis numeris prieinamas Google Maps, taigi yra viešas internete, tuomet leidžiu sau jį ir čia palikti.
 
@@ -28,15 +28,15 @@ Vokietijoj skirtingos žemės turi skirtingus kodus skambučiams. 30 yra Berlyno
 
 Taigi kaip į jį paskambinti iš Lietuvos?
 
-Išsiaiškinom, kad 30 yra Berlyno kodas, o po jo esantis numeris yra kabineto numeris. Skambinant iš užsienio reikia nuimti priekinį 0 ir prirašyti tartautinį Vokietijos kodą +49 arba 0049. Taigi galutinis mano numeris skambinant iš Lietuvos yra 
+Išsiaiškinom, kad 30 yra Berlyno kodas, o po jo esantis numeris yra kabineto numeris. Skambinant iš užsienio reikia nuimti priekinį 0 ir prirašyti tartautinį Vokietijos kodą +49 arba 0049. Taigi galutinis mano numeris skambinant iš Lietuvos yra
 
-- 00 49 30 85400296 
+- 00 49 30 85400296
 
-arba 
+arba
 
 - +49 30 85400296
 
-Berlyne gyvendamas galėčiau į vietinį numerį paskambinti nevesdamas nei vieno kodo --- vietinio ir tarptautinio --- 85400296. 
+Berlyne gyvendamas galėčiau į vietinį numerį paskambinti nevesdamas nei vieno kodo --- vietinio ir tarptautinio --- 85400296.
 
 Beliko tik pasakyti, kad norėčiau atšaukti savo vizitą.
 

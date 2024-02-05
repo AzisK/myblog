@@ -1,9 +1,9 @@
 ---
-title: "Docker sąvokos lietuviškai"
-description: "Docker sąvokų apsibrėžimas lietuviškai bei jų tarpusavio ryšys"
+title: Docker sąvokos lietuviškai
+description: Docker sąvokų apsibrėžimas lietuviškai bei jų tarpusavio ryšys
 date: 2023-10-25T04:00:00Z
 author: "Ąžuolas Krušna"
-tags: ["Programų inžinerija", "Lietuvių kalba", "Konteineris", "Docker", "Software", "Lithuanian language", "Container"]
+tags: ["Programų inžinerija", "Lietuvių kalba", "Konteineris", "Atvaizdas", "Docker"]
 ShowCodeCopyButtons: true
 ---
 
@@ -35,7 +35,7 @@ CMD python3 app.py
 
 Nurodžius Docker įvykdyti instrukcijas, esančias Docker faile, kuriamas sistemos atvaizdas. Sėkmingai atlikus visas instrukcijas, ši izoliuota failų sistema yra išsaugojama. Tai ir yra Docker atvaizdas --- specifiškai paruošta failų sistema. Šį atvaizdą dabar bet kuriuo metu galime panaudoti pakeliant konteinerius --- paleidžiant šias paruoštas failų sistemas.
 
-Docker atvaizdo kūrimo komanda: 
+Docker atvaizdo kūrimo komanda:
 ```bash
 docker build [OPTIONS] PATH | URL | -
 ```
@@ -60,7 +60,7 @@ docker build github.com/creack/docker-firefox
 
 Galime paleisti šį atvaizdą suktis suteikiant šiai sistemai resursų. Taip turėsime konteinerį, kuris įvykdys komandas ir išsijungs (pavyzdžiui, ištestuos, suskaičiuos duomenis ir padės į duomenų bazę ir pnš.) arba suksis tol, iki kol nebus sustadytas (duomenų bazės, internetinių puslapių serveriai ir pnš.). Iš vieno Docker sistemos atvaizdo galime sukurti daugelį Docker konteinerių.
 
-Docker konteinerio paleidimo komanda: 
+Docker konteinerio paleidimo komanda:
 ```bash
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
@@ -82,11 +82,11 @@ docker run dackeri-dackerisimple python3 src/app.simple.py
 Docker kompozitorius yra įrankis, skirtas automatizuoti Docker konteinerius. Jis naudoja jau aprašytą Docker kompozicijos konfigūraciją paleidžiant konteinerius iš atvaizdų bei perduodant papildomus parametrus.
 
 Pagrindinės Docker kompozitoriaus komandos:
-- `docker-compose build` skirta perkurti kompozicijos konfigūracijoje aprašytus atvaizdus. 
+- `docker-compose build` skirta perkurti kompozicijos konfigūracijoje aprašytus atvaizdus.
 
 Ši komanda automatizuoja visų konfigūracijoje esančių Docker atvaizdų perrašymą vietoj `docker build ...` komandų.
 
-- `docker-compose up` skirta pakelti konteinerius pagal konfigūraciją. 
+- `docker-compose up` skirta pakelti konteinerius pagal konfigūraciją.
 
 Ši komanda automatizuoja visų konfigūracijoje aprašytų konteinerių pakėlimą vietoj `docker run ...` komandų.
 
@@ -126,7 +126,7 @@ services:
 
 ### Apibendrinimas
 
-Apžvelgėme pagrindines Docker sąvokas ir jas apsibrėžėme lietuviškai. Tai padės mums suprasti bei rašyti Docker platformą naudojančius straipsnius! Kartu susipažinome su jų naudojimo pavyzdžiais. Tai padės vėliau naudojantis Docker platforma.  
+Apžvelgėme pagrindines Docker sąvokas ir jas apsibrėžėme lietuviškai. Tai padės mums suprasti bei rašyti Docker platformą naudojančius straipsnius! Kartu susipažinome su jų naudojimo pavyzdžiais. Tai padės vėliau naudojantis Docker platforma.
 
 ***
 
@@ -148,5 +148,5 @@ Oskaras iš "Mane vadina Kalendorium"
 
 - docker build https://docs.docker.com/engine/reference/commandline/build/
 - docker run https://docs.docker.com/engine/reference/commandline/run/
-- Docker Compose overview https://docs.docker.com/compose/ 
+- Docker Compose overview https://docs.docker.com/compose/
 - Overview of the get started guide https://docs.docker.com/get-started/
