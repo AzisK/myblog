@@ -51,7 +51,7 @@ docker-compose up
 
 ir jam sėkmingai pakilus galime jungtis į mūsų lokalią Vertica duomenų bazę savo kompiuteryje!
 
-Jeigu tiek ir reikėjo, sveikinu! Tu jau turi Vertica duomenų bazę savo kompiuteryje. Jeigu tiek ir reikėjo, gali uždaryti šį puslapį. Jeigu įdomu sužinoti daugiau automatizavimo galimybių, siūlau skaityti toliau.
+Jeigu tiek ir reikėjo, sveikinu! Tu jau turi Vertica duomenų bazę savo kompiuteryje ir gali uždaryti šį puslapį. Jeigu įdomu sužinoti daugiau automatizavimo galimybių, siūlau skaityti toliau.
 
 ### Kaip galiu turėti pradinę duomenų bazę pakilus konteineriui?
 
