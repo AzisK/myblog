@@ -13,7 +13,7 @@ Nors tai nėra labai populiarus sprendimas ir jo reikia paieškoti internete, be
 
 ### Kam man reikalinga Vertica duomenų bazė lokaliai?
 
-Pamenu, kad radau šią galimybę prieš daugiau nei 3 metus, gal jau ir 4 artėja? Tuomet ir daug mažiau informacijos apie tai buvo. Kodėl man tai prireikė? Dirbau su dideliais duomenų kiekiais ir turėjau labai prastą internetą namuose. Galimai tai buvo per COVID-19 pandemiją, nes iki jos darbas vyko iš ofiso. Dirbti su kodo pakeitimais ir juos testuoti tapo labai sudėtinga dirbant su daug duomenų bei lėtu internetu. Taip ir kilo ši idėja --- pasileisti Vertica lokaliai.
+Pamenu, kad radau šią galimybę prieš daugiau nei 3 metus, o gal jau ir 4? Tuomet ir daug mažiau informacijos apie tai buvo. Kodėl man tai prireikė? Dirbau su dideliais duomenų kiekiais ir turėjau labai prastą internetą namuose. Tai turėjo būti COVID-19 pandemijos metu, nes iki jos darbas vyko iš ofiso. Dirbti su kodo pakeitimais ir juos testuoti tapo labai sudėtinga dirbant su daug duomenų bei lėtu internetu. Taip ir kilo ši idėja --- pasileisti Vertica lokaliai.
 
 Sprendimas buvo neįtikėtinai geras --- viršijo mano lūkesčius. Ne tik kad duomenys nebekeliavo elektromagnetinėmis bangomis iki modemo bei interneto laidais per serverius taip negaišindami manęs --- visas bendravimas vyko mano kompiuteryje, bet kartu tai buvo papildoma platforma išsitestuoti kaip atrodo duomenys pakeitus kodą prieš paleidžiant jį į produkciją. Čia norėčiau paminėti, kad Vertica dokumentacija, o kartu ir aš nerekomenduoju šio sprendimo taikyti produkcijai.
 
