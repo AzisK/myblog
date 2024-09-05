@@ -30,7 +30,7 @@ version: '3.8'
 services:
   vertica_ce:
     container_name: vertica_ce
-    image: vertica/vertica-ce:11.1.1-0
+    image: vertica/vertica-ce:10.1.1-0
     environment:
       - APP_DB_USER=vertica
       - APP_DB_PASSWORD=vertica
@@ -72,7 +72,7 @@ version: '3.8'
 services:
   vertica_ce:
     container_name: vertica_ce
-    image: vertica/vertica-ce:11.1.1-0
+    image: vertica/vertica-ce:10.1.1-0
     environment:
       - APP_DB_USER=vertica
       - APP_DB_PASSWORD=vertica
