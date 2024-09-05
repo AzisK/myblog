@@ -218,7 +218,7 @@ INSERT INTO InitiateDatabase (initialized) VALUES (TRUE);
 COMMIT;
 ```
 
-Matome, kad VSQL rašmeną įsukau tarp BEGIN ir COMMIT SQL komandų. Taip padariau, nes kitu atveju man neįvykdydavo paskutinių komandų. Tik įsukus tarp BEGIN ir COMMIT tapau užtikrintas, kad visos rašmenos atsiras duomenų bazėje.
+Matome, kad VSQL rašmeną įsukau tarp BEGIN ir COMMIT SQL komandų. Taip padariau, nes kitu atveju man neįvykdydavo paskutinių komandų. Tik įsukus tarp BEGIN ir COMMIT tapau užtikrintas, kad visos komandos atsispindės duomenų bazėje.
 
 #### Ką mes sukūrėm pradinėj duomenų bazėj?
 
