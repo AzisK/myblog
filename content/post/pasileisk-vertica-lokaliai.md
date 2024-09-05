@@ -1,7 +1,7 @@
 ---
 title: Pasileisk Vertica duomenų bazę lokaliai
 description: Pasileisk Vertica duomenų bazę lokaliai ant Docker
-date: 2024-09-05T20:00:00Z
+date: 2024-09-05T18:00:00Z
 ShowCodeCopyButtons: true
 ---
 
