@@ -293,7 +293,7 @@ Rezultatas
 
 ### Ką dar galima padaryti su lokalia Vertica?
 
-Be tai, kad nepriklausytume nuo centrinės duomenų bazės ir turėtume viską lokaliai, nes galime parsisiųsti duomenų kopiją pas save, ir kad nenaudotume interneto kelių norėdami patestuoti ar mūsų duomenų sukėlimas veikia sėkmingai, taip pat galime išsibandyti skirtingų Vertica versijų veikimą bei savo apsirašytų funkcijų (angl. _User Defined Function_) veikimą. Žinai kam dar galima panaudoti lokalę Vertica duomenų bazę? Parašyk man!
+Be tai, kad nepriklausytume nuo centrinės duomenų bazės ir turėtume viską lokaliai, nes galime parsisiųsti duomenų kopiją pas save, ir kad nenaudotume interneto kelių norėdami patestuoti ar mūsų duomenų sukėlimas veikia sėkmingai, taip pat galime išsibandyti skirtingų Vertica versijų veikimą bei savo apsirašytų funkcijų (angl. _User Defined Function_) veikimą. Žinai kam dar galima panaudoti lokalią Vertica duomenų bazę? Parašyk man!
 
 ### Kaip suprasti pradinės duomenų bazės veikimo mechanizmą?
 
