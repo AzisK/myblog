@@ -295,7 +295,7 @@ Rezultatas
 
 Be tai, kad nepriklausytume nuo centrinės duomenų bazės ir turėtume viską lokaliai, nes galime parsisiųsti duomenų kopiją pas save, ir kad nenaudotume interneto kelių norėdami patestuoti ar mūsų duomenų sukėlimas veikia sėkmingai, taip pat galime išsibandyti skirtingų Vertica versijų veikimą bei savo apsirašytų funkcijų (angl. _User Defined Function_) veikimą. Žinai kam dar galima panaudoti lokalią Vertica duomenų bazę? Parašyk man!
 
-### Kaip suprasti pradinės duomenų bazės veikimo mechanizmą?
+### Kaip suprasti pradinės duomenų bazės sukūrimo mechanizmą?
 
 Vertica CE (Community Edition) Docker atvaizdą (Dockerfile) galima rasti Github [platformoje](https://github.com/vertica/vertica-containers/blob/main/one-node-ce/Dockerfile_Ubuntu). Ten galime rasti šio Docker atvaizdo pirminę [komandą](https://github.com/vertica/vertica-containers/blob/f5ee09d6f25cc89f092db05fa319649e1531d658/one-node-ce/Dockerfile_Ubuntu#L230) (ENTRYPOINT) bei prieš tai einančias eilutes, aprašančias jos kintamuosius.
 
@@ -473,8 +473,8 @@ Tai ir viskas! Dabar žinome kaip
 - Automatizuoti pradinės duomenų bazės sukūrimą
 - Sukūrėme pavyzdinę normalizuotą duomenų bazę ir apžvelgėme SQL užklausas, su kuriomis galime susirinkti aktualią informaciją iš jos
 - Apžvelgėme galimus lokalios Vertica duomenų bazės panaudojimo būdus
-- Išsiaiškinome pradinės duomenų bazės veikimo mechanizmą
-- Išsiaiškinome pradinės duomenų bazės VMart veikimo mechanizmą
+- Išsiaiškinome pradinės duomenų bazės sukūrimo mechanizmą
+- Išsiaiškinome pradinės duomenų bazės VMart sukūrimo mechanizmą
 
 ---
 
