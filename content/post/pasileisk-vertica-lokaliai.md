@@ -2,6 +2,7 @@
 title: Pasileisk Vertica duomenų bazę lokaliai
 description: Pasileisk Vertica duomenų bazę lokaliai ant Docker
 date: 2024-09-05T18:00:00Z
+tags: ["Vertica", "Duomenų bazės", "Programų inžinerija", "Duomenų inžinerija"]
 ShowCodeCopyButtons: true
 ---
 
@@ -19,7 +20,7 @@ Sprendimas buvo neįtikėtinai geras --- viršijo mano lūkesčius. Ne tik kad d
 
 ### Kaip tai padaryti?
 
-Taigi, viskas ką reikia, tai pasiimti šį "docker-compose.yml" [failą](https://github.com/AzisK/Vertica/blob/main/docker-compose.yml) arba jį taip apsirašyti.
+Taigi, viskas ką reikia, tai pasiimti šį "docker-compose.yml" [failą](https://github.com/AzisK/Vertica/blob/1-run-vertica-locally-simple-setup/docker-compose.yml) arba jį taip apsirašyti.
 
 ```zsh
 docker-compose.yml
