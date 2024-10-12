@@ -8,6 +8,8 @@ ShowCodeCopyButtons: true
 
 Labas! Šiandien sužinosime kaip pasileisti savo Vertica duomenų bazę! Šiam techniniam gidui sekti pravers minimalios žinios apie Docker, tačiau jos nėra būtinos. Pasiskaityti apie Docker galima mano anksčiau rašytame įraše "[Docker sąvokos lietuviškai](https://www.aziogas.lt/docker-savokos-lietuviskai/)".
 
+[*pi;ns (per ilgai; neskaičiau)*](https://aziogas.lt/pasileisk-vertica-lokaliai/#kaip-tai-padaryti) 
+
 Vertica pasileisti lokaliai galime labai nesunkiai! Kaip Docker konteinerį! Mums reikia tik 1 Docker kompozitoriaus failo "docker-compose.yml" ir vienos komandos "docker-compose up". 
 
 Nors tai nėra labai populiarus sprendimas ir jo reikia paieškoti internete, bet jis aprašytas net oficialioje Vertica dokumentacijoje! Reikėtų paminėti, kad nemokama Vertica licenzija leidžia iki 1 terabaito duomenų (TB) bei iki 3 mazgų (nodes). Visgi Docker aplinkoje pasileisime tik 1 mazgo Vertica, nes oficialiai Vertica palaiko tik tokį sprendimą. Kelių mazgų sprendimą palaiko tik Kubernetes aplinkoje. Šis sprendimas kiek sudėtingesnis, todėl jo dabar neapžvelgsime.
