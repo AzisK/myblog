@@ -59,11 +59,11 @@ Rezultatas:
 
 ||tm|
 |-|-|
-|1|2024-01-01 00:00:00.000|
-|2|2024-01-02 00:00:00.000|
+|1|2024-01-01|
+|2|2024-01-02|
 |...|...|
-|365|2024-12-30 00:00:00.000|
-|366|2024-12-31 00:00:00.000|
+|365|2024-12-30|
+|366|2024-12-31|
 
 Tuomet mums belieka mus dominančios lentelės datas atimti iš šios laiko eilutės panaudojant MINUS arba EXCEPT operatorių:
 
