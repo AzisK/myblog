@@ -292,7 +292,7 @@ Rezultatas:
 |4|2024-01-20|
 |5|2024-01-27|
 
-Matome, kad rezultatas prasideda ne nuo 2024-01-01, kas yra pirmadienis, o nuo 2023-12-30. Taip yra todėl, kad Vertica 7 dienas iteruoja kaip kas savaitę ir pradeda nuo šeštadienio, o jeigu pradžia yra ne šeštadienis, tai pradeda nuo praeito šeštadienio. Šiuo atveju 2023-12-30. Visuomet pravartu patikrinti kaip vertica interpretuoja intervalą ir per jį iteruoja.
+Matome, kad rezultatas prasideda ne nuo 2024-01-01, kas yra pirmadienis, o nuo 2023-12-30. Taip yra todėl, kad Vertica 7 dienas iteruoja kaip kas savaitę ir pradeda nuo šeštadienio, o jeigu pradžia yra ne šeštadienis, tai pradeda nuo praeito šeštadienio. Šiuo atveju 2023-12-30. Visuomet pravartu patikrinti kaip Vertica interpretuoja intervalą ir per jį iteruoja.
 
 ---
 
