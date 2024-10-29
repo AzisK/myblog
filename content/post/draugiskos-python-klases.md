@@ -1,8 +1,7 @@
 ---
 title: Draugiškos Python klasės
-date: 2024-10-17T12:00:00Z
+date: 2024-10-29T07:00:00Z
 ShowCodeCopyButtons: true
-# draft: true
 ---
 
 Labas, šiandien noriu pasidalinti draugiškomis Python klasėmis. Tai tokios klasės, su kuriomis per savo darbo metus man dirbti smagiausia.
