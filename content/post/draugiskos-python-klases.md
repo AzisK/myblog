@@ -471,6 +471,12 @@ MetricRpm = MetricRevenue / MetricSearches * 1000
 MetricRpm
 ```
 
+Grąžina
+
+```python
+MetricV10(alias='Revenue_/_Searches_x_1000', field='((SUM(revenue)) / (SUM(searches)) * 1000)')
+```
+
 Apsirašome atšokusių sesijų procentą
 
 ```python
@@ -555,7 +561,7 @@ Iš dimensijų kubui pridedame tik mėnesio dimensiją, kitos dimensijos mūsų 
 
 ```python
 metrics = [MetricRevenue, MetricSessions, MetricSearches, MetricRevenuePerSessions, MetricRpm, MetricSessionsBounced, MetricSessionsBouncedPercent]
-dimensions = [DimensionMonth, DimensionDomain]
+dimensions = [DimensionMonth]
 CubeMinerva = Cube(metrics=metrics, dimensions=dimensions, table='Minerva')
 print(CubeMinerva)
 ```
