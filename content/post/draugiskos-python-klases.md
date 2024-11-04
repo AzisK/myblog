@@ -4,16 +4,24 @@ date: 2024-10-29T07:00:00Z
 ShowCodeCopyButtons: true
 ---
 
-Labas, šiandien noriu pasidalinti draugiškomis Python klasėmis. Tai tokios klasės, su kuriomis per savo darbo metus man dirbti smagiausia.
+Labas, šiandien noriu pasidalinti draugiškomis Python klasėmis. Tai tokios klasės, su kuriomis man dirbti smagiausia.
 
-Taigi, kokios tos draugiškos Python klasės? 
+## Instrumentai, sukurti draugiškai klasei
+
+Nulipdyti draugišką klasę naudosimės 
+- Duomenų klasėmis (dataclasses), 
+- Operatorių aprašymu (operator overloading)
+- Kompozicijos vietoj paveldėjimo principu (composition over inheritance)
+
+## Taigi, kokios tos draugiškos Python klasės? 
 
 A. Jas lengva suprasti ir su jomis susikalbėti (lengva skaityti ir rašyti)\
-B. Jų nesunku paprašyti paslaugos (aprašyti logiką)\
-C. Vienas kitą galime suprantame iš gestų (operatorių)\
-D. Jos yra atviros (kompozicija vietoj paveldimumo)
+B. Suprantame vienas kitą be žodžių (operatoriais)\
+C. Jos yra lengvai prieinamos (kompozicija vietoj paveldimumo)
 
-## A. Lengva suprasti ir susikalbėti (skaityti ir rašyti)
+Pažvelkime kaip praktiškai galėtų arodyti šios savybės.
+
+### A. Lengva suprasti ir susikalbėti (skaityti ir rašyti)
 
 Pažvelkime į tradicinį būdą perduoti kintamuosius klasei inicijavimo metu naudojant `__init__` metodą:
 ```python
@@ -137,8 +145,6 @@ turėsime anksčiau apsirašytą reikšmę:
 'Duomenų Analizė'
 ```
 
-## B. Nesunku paprašyti paslaugos (aprašyti logiką)
-
 O kas, jeigu mums vis dėlto inicijavimo metu reikia papildomos logikos, kuriai galimybę suteikia `__init__` metodas?
 
 Viskas gerai, tokios galimybės mes neprarandame su duomenų klasėmis. Tam galime pasinaudoti `__post_init__` metodu, kuriuo galime apsirašyti visą norimą logiką jau perdavus klasės objektui parametrus.
@@ -172,7 +178,7 @@ Atspaudina
 datetime.datetime(2024, 10, 17, 12, 10, 52, 123456)
 ```
 
-## C. Suprasti vienas kitą iš gestų (operatorių)
+### B. Suprantame vienas kitą be žodžių (operatoriais)
 
 Nepaprastai džiugu, kai draugas supranta ką galvoju iš kūno kalbos. Tik truputį mažiau smagu, kai klasės gali bendrauti operatoriais. 
 
@@ -227,7 +233,7 @@ Grąžins
 MetricV7(alias='Revenue_/_Searches', field='(SUM(revenue)) / (SUM(searches))')
 ```
 
-## D. Atviros (kompozicija vietoj paveldimumo)
+### C. Lengvai prieinamos (kompozicija vietoj paveldimumo)
 
 Šios klasės atviros, nes jos nėra painios. Įvairių klasių ir jų subklasių sistema nesunkiai gali labai sunkiai suprantamai išsišakoti ne tik giliai, bet ir plačiai. Ši problema vadinama subklasių sprogimu (angl. *subclass explosion*). Šiai problemai išvengti galima pasinaudoti kompozicijos vietoj paveldimumo principu. Šis principas teikia pirmumą objektų kompozicijai vietoj klasių paveldimumo.
 
@@ -534,9 +540,11 @@ Taigi, mūsų kubo klasė atrodys taip:
 from datetime import datetime
 from dataclasses import dataclass
 
+NL = '\n'
+
 @dataclass
 class Cube:
-  metrics: list[MetricV7]
+  metrics: list[MetricV10]
   dimensions: list[Dimension]
   table: str
 
@@ -546,12 +554,12 @@ class Cube:
   @property
   def sql(self):
     return f"""
-SELECT 
-  {', '.join(f'{d.field} AS {d.alias}' for d in self.dimensions)}, 
-  {', '.join(f'{m.field} AS {m.alias}' for m in self.metrics)}
+SELECT
+  {f',{NL}  '.join(f"{d.field} AS '{d.alias}'" for d in self.dimensions)},
+  {f',{NL}  '.join(f"{m.field} AS '{m.alias}'" for m in self.metrics)}
 FROM {self.table}
-GROUP BY {', '.join(d.alias for d in self.dimensions)}
--- Cube created: {self.create_time:%Y-%m-%d %H:%M:%S}
+GROUP BY {', '.join(d.field for d in self.dimensions)}
+-- Query created: {self.create_time:%Y-%m-%d %H:%M:%S}
     """.strip()
 ```
 
@@ -577,133 +585,33 @@ Atspaudina mums tokį SQL kodą
 ```sql
 SELECT
   MONTH(ts) AS 'Month',
-  SUM(revenue) AS 'Revenue', SUM(sessions) AS 'Sessions', SUM(searches) AS 'Searches', (SUM(revenue)) / (SUM(sessions)) AS 'Revenue_/_Sessions', ((SUM(revenue)) / (SUM(searches)) * 1000) AS 'Revenue_/_Searches_x_1000', SUM(CASE WHEN views=1 THEN sessions ELSE 0 END) AS 'SessionsBounced', ((SUM(CASE WHEN views=1 THEN sessions ELSE 0 END)) / (SUM(sessions)) * 100) AS 'SessionsBounced_/_Sessions_x_100'
+  SUM(revenue) AS 'Revenue',
+  SUM(sessions) AS 'Sessions',
+  SUM(searches) AS 'Searches',
+  (SUM(revenue)) / (SUM(sessions)) AS 'Revenue_/_Sessions',
+  ((SUM(revenue)) / (SUM(searches)) * 1000) AS 'Revenue_/_Searches_x_1000',
+  SUM(CASE WHEN views=1 THEN sessions ELSE 0 END) AS 'SessionsBounced',
+  ((SUM(CASE WHEN views=1 THEN sessions ELSE 0 END)) / (SUM(sessions)) * 100) AS 'SessionsBounced_/_Sessions_x_100'
 FROM Minerva
 GROUP BY MONTH(ts)
--- Query created: 2024-10-28 17:19:47
+-- Query created: 2024-10-28 07:47:16
 ```
-### E. 4. Analitika
-
-#### E. 4. 1. Duombazės lentelė
-
-Susikuriame pavyzdinę duombazės lentelę, iš kurios galėtume pasigrąžinti duomenis pagal šią užklausą. Žinoma, realus pasaulis veikia atvirkščiai --- viskas prasideda nuo duomenų ir duomenų bazių lentelių ir tik paskui yra lipdomi analitiniai kubai, tačiau kadangi mano tikslas yra pasidalinti draugiškomis Python klasėmis, tai nuo jų ir pradėjom, o duomenų lentelę sugeneruojam tik tada, kai prireikia. Taigi, štai mūsų lentelė:
-
-```sql
-CREATE TABLE Minerva (
-    ts TIMESTAMP,
-    domain VARCHAR(255),
-    path VARCHAR(255),
-    referrer VARCHAR(255),
-    revenue DECIMAL(10, 2),
-    sessions INT,
-    searches INT,
-    views INT
-);
-```
-
-#### E. 4. 2. Įkeliame duomenis į lentelę
-
-Įkeliame į ją pavyzdinius duomenis pagal mūsų apsirašytus stulpelius.
-
-{{< collapse "Pavyzdiniai duomenys">}}
-```sql
-INSERT INTO Minerva (ts, domain, path, referrer, revenue, sessions, searches, views) VALUES
-('2023-01-01', 'aziogas.lt', '/home', 'google.com', 100.00, 50, 200, 60),
-('2023-01-01', 'aziogas.lt', '/about', 'bing.com', 120.00, 55, 220, 70),
-('2023-01-01', 'aziogas.lt', '/contact', 'yahoo.com', 150.00, 60, 250, 80),
-('2023-01-01', 'aziogas.lt', '/home', 'facebook.com', 0.00, 1, 10, 1),
-('2023-01-01', 'aziogas.lt', '/about', 'twitter.com', 0.00, 1, 15, 1),
-('2023-02-01', 'aziogas.lt', '/home', 'facebook.com', 180.00, 65, 270, 90),
-('2023-02-01', 'aziogas.lt', '/about', 'twitter.com', 200.00, 70, 300, 100),
-('2023-02-01', 'aziogas.lt', '/contact', 'linkedin.com', 220.00, 75, 320, 110),
-('2023-02-01', 'aziogas.lt', '/home', 'direct', 0.00, 1, 20, 1),
-('2023-02-01', 'aziogas.lt', '/about', 'instagram.com', 0.00, 1, 25, 1),
-('2023-03-01', 'aziogas.lt', '/home', 'direct', 250.00, 80, 350, 120),
-('2023-03-01', 'aziogas.lt', '/about', 'instagram.com', 280.00, 85, 370, 130),
-('2023-03-01', 'aziogas.lt', '/contact', 'pinterest.com', 300.00, 90, 400, 140),
-('2023-03-01', 'aziogas.lt', '/home', 'google.com', 0.00, 1, 30, 1),
-('2023-03-01', 'aziogas.lt', '/about', 'bing.com', 0.00, 1, 35, 1),
-('2023-04-01', 'aziogas.lt', '/home', 'google.com', 320.00, 95, 420, 150),
-('2023-04-01', 'aziogas.lt', '/about', 'bing.com', 350.00, 100, 450, 160),
-('2023-04-01', 'aziogas.lt', '/contact', 'yahoo.com', 380.00, 105, 470, 170),
-('2023-04-01', 'aziogas.lt', '/home', 'facebook.com', 0.00, 1, 40, 1),
-('2023-04-01', 'aziogas.lt', '/about', 'twitter.com', 0.00, 1, 45, 1),
-('2023-05-01', 'aziogas.lt', '/home', 'facebook.com', 400.00, 110, 500, 180),
-('2023-05-01', 'aziogas.lt', '/about', 'twitter.com', 420.00, 115, 520, 190),
-('2023-05-01', 'aziogas.lt', '/contact', 'linkedin.com', 450.00, 120, 550, 200),
-('2023-05-01', 'aziogas.lt', '/home', 'direct', 0.00, 1, 50, 1),
-('2023-05-01', 'aziogas.lt', '/about', 'instagram.com', 0.00, 1, 55, 1),
-('2023-06-01', 'aziogas.lt', '/home', 'direct', 480.00, 125, 570, 210),
-('2023-06-01', 'aziogas.lt', '/about', 'instagram.com', 500.00, 130, 600, 220),
-('2023-06-01', 'aziogas.lt', '/contact', 'pinterest.com', 520.00, 135, 620, 230),
-('2023-06-01', 'aziogas.lt', '/home', 'google.com', 0.00, 1, 60, 1),
-('2023-06-01', 'aziogas.lt', '/about', 'bing.com', 0.00, 1, 65, 1),
-('2023-07-01', 'aziogas.lt', '/home', 'google.com', 550.00, 140, 650, 240),
-('2023-07-01', 'aziogas.lt', '/about', 'bing.com', 580.00, 145, 670, 250),
-('2023-07-01', 'aziogas.lt', '/contact', 'yahoo.com', 600.00, 150, 700, 260),
-('2023-07-01', 'aziogas.lt', '/home', 'facebook.com', 0.00, 1, 70, 1),
-('2023-07-01', 'aziogas.lt', '/about', 'twitter.com', 0.00, 1, 75, 1),
-('2023-08-01', 'aziogas.lt', '/home', 'facebook.com', 620.00, 155, 720, 270),
-('2023-08-01', 'aziogas.lt', '/about', 'twitter.com', 650.00, 160, 750, 280),
-('2023-08-01', 'aziogas.lt', '/contact', 'linkedin.com', 680.00, 165, 770, 290),
-('2023-08-01', 'aziogas.lt', '/home', 'direct', 0.00, 1, 80, 1),
-('2023-08-01', 'aziogas.lt', '/about', 'instagram.com', 0.00, 1, 85, 1),
-('2023-09-01', 'aziogas.lt', '/home', 'direct', 700.00, 170, 800, 300),
-('2023-09-01', 'aziogas.lt', '/about', 'instagram.com', 720.00, 175, 820, 310),
-('2023-09-01', 'aziogas.lt', '/contact', 'pinterest.com', 740.00, 180, 840, 320),
-('2023-09-01', 'aziogas.lt', '/home', 'google.com', 0.00, 1, 90, 1),
-('2023-09-01', 'aziogas.lt', '/about', 'bing.com', 0.00, 1, 95, 1),
-('2023-10-01', 'aziogas.lt', '/home', 'google.com', 760.00, 185, 860, 330),
-('2023-10-01', 'aziogas.lt', '/about', 'bing.com', 780.00, 190, 880, 340),
-('2023-10-01', 'aziogas.lt', '/contact', 'yahoo.com', 800.00, 195, 900, 350),
-('2023-10-01', 'aziogas.lt', '/home', 'facebook.com', 0.00, 1, 100, 1),
-('2023-10-01', 'aziogas.lt', '/about', 'twitter.com', 0.00, 1, 105, 1),
-('2023-11-01', 'aziogas.lt', '/home', 'facebook.com', 820.00, 200, 920, 360),
-('2023-11-01', 'aziogas.lt', '/about', 'twitter.com', 840.00, 205, 940, 370),
-('2023-11-01', 'aziogas.lt', '/contact', 'linkedin.com', 860.00, 210, 960, 380),
-('2023-11-01', 'aziogas.lt', '/home', 'direct', 0.00, 1, 110, 1),
-('2023-11-01', 'aziogas.lt', '/about', 'instagram.com', 0.00, 1, 115, 1),
-('2023-12-01', 'aziogas.lt', '/home', 'direct', 880.00, 215, 980, 390),
-('2023-12-01', 'aziogas.lt', '/about', 'instagram.com', 900.00, 220, 1000, 400),
-('2023-12-01', 'aziogas.lt', '/contact', 'pinterest.com', 920.00, 225, 1020, 410),
-('2023-12-01', 'aziogas.lt', '/home', 'google.com', 0.00, 1, 120, 1),
-('2023-12-01', 'aziogas.lt', '/about', 'bing.com', 0.00, 1, 125, 1);
-```
-{{< /collapse >}}
-
-#### E. 4. 3. Analitinė užklausa
-
-Mūsų anksčiau suformuota analitinio kubo SQL užklausa grąžina tokius analitinius duomenis (jie nėra tikri, vartotojai nėra sekami ir puslapis negeneruoja jokių pajamų).
-
-| Month | Revenue | Sessions | Searches | Revenue_/_Sessions | Revenue_/_Searches_x_1000 | SessionsBounced | SessionsBounced_/_Sessions_x_100 |
-|-------|---------|----------|----------|--------------------|---------------------------|-----------------|----------------------------------|
-| 1     | 370.00  | 167      | 695      | 2.215569           | 532.374100                | 2               | 1.1976                           |
-| 2     | 600.00  | 212      | 935      | 2.830189           | 641.711229                | 2               | 0.9434                           |
-| 3     | 830.00  | 257      | 1185     | 3.229572           | 700.421940                | 2               | 0.7782                           |
-| 4     | 1050.00 | 302      | 1425     | 3.476821           | 736.842105                | 2               | 0.6623                           |
-| 5     | 1270.00 | 347      | 1675     | 3.659942           | 758.208955                | 2               | 0.5764                           |
-| 6     | 1500.00 | 392      | 1915     | 3.826531           | 783.289817                | 2               | 0.5102                           |
-| 7     | 1730.00 | 437      | 2165     | 3.958810           | 799.076212                | 2               | 0.4577                           |
-| 8     | 1950.00 | 482      | 2405     | 4.045643           | 810.810810                | 2               | 0.4149                           |
-| 9     | 2160.00 | 527      | 2645     | 4.098672           | 816.635160                | 2               | 0.3795                           |
-| 10    | 2340.00 | 572      | 2845     | 4.090909           | 822.495606                | 2               | 0.3497                           |
-| 11    | 2520.00 | 617      | 3045     | 4.084279           | 827.586206                | 2               | 0.3241                           |
-| 12    | 2700.00 | 662      | 3245     | 4.078550           | 832.049306                | 2               | 0.3021                           |
 
 ## Apibendrinimas
 
-Štai ir viskas. Apsibrėžėme draugiškas Python klases. Prisimename kaip jas apsirašėm:
+Štai ir viskas. Apžvelgėme instrumentus, kuriuos panaudojome lipdydami draugiškas Python klases --- duomenų klasės, operatoriai ir kompozicija.
+
+Tuomet apsibrėžėme draugiškas Python klases. Prisimename:
 
 A. Jas lengva suprasti ir su jomis susikalbėti (lengva skaityti ir rašyti)\
-B. Jų nesunku paprašyti paslaugos (aprašyti logiką)\
-C. Vienas kitą galime suprantame iš gestų (operatorių)\
-D. Jos yra atviros (kompozicija vietoj paveldimumo)
+B. Suprantame vienas kitą be žodžių (operatoriais)\
+C. Jos yra lengvai prieinamos (kompozicija vietoj paveldimumo)
 
-Apsirašėme šias savybes daugiausia (A, B, dalinai D) naudodamiesi duomenų klasėmis, bet taip pat ir apsirašydami jų tarpusavio bendravimą operatoriais (B). Kartu apsirašėme ketvirtą savybę (D) pritaikydami kompozicijos vietoj paveldimumo principą.
+Draugiškų Python klasių pagalba sukūrėme metrikų klases bei objektus. 
 
-Draugiškų Python klasių pagalba sukūrėme metrikų klases bei objektus. Praktikos daly papildėme mūsų kodą dimensijos klase bei objektais, analitinio kubo klase ir objektu, grąžinančiu analitinį SQL kodą.
+Praktikos daly išplėtėme metrikos galimybes papildydami dalybos operatorių bei aprašydami daugybos operatorių.
 
-Tuomet susikūrėme pavyzdinę duombazės lentelę su duomenimis ir pritaikėme mūsų analitinio kubo SQL kodą, grąžinantį analitinius duomenis
+Papildėme mūsų kodą dimensijos klase bei objektais, analitinio kubo klase ir objektu, grąžinančiu analitinį SQL kodą.
 
 ---
 
