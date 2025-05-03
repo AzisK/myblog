@@ -17,7 +17,7 @@ Nulipdyti draugišką klasę naudosimės
 
 A. Jas lengva suprasti ir su jomis susikalbėti (lengva skaityti ir rašyti)\
 B. Suprantame vienas kitą be žodžių (operatoriais)\
-C. Jos yra lengvai prieinamos (kompozicija vietoj paveldimumo)
+C. Jos yra lengvai pasiekiamos (kompozicija vietoj paveldimumo)
 
 Pažvelkime kaip praktiškai galėtų arodyti šios savybės.
 
@@ -233,7 +233,7 @@ Grąžins
 MetricV7(alias='Revenue_/_Searches', field='(SUM(revenue)) / (SUM(searches))')
 ```
 
-### C. Lengvai prieinamos (kompozicija vietoj paveldimumo)
+### C. Lengvai pasiekiamos (kompozicija vietoj paveldimumo)
 
 Šios klasės atviros, nes jos nėra painios. Įvairių klasių ir jų subklasių sistema nesunkiai gali labai sunkiai suprantamai išsišakoti ne tik giliai, bet ir plačiai. Ši problema vadinama subklasių sprogimu (angl. *subclass explosion*). Šiai problemai išvengti galima pasinaudoti kompozicijos vietoj paveldimumo principu. Šis principas teikia pirmumą objektų kompozicijai vietoj klasių paveldimumo.
 
@@ -605,7 +605,7 @@ Tuomet apsibrėžėme draugiškas Python klases. Prisimename:
 
 A. Jas lengva suprasti ir su jomis susikalbėti (lengva skaityti ir rašyti)\
 B. Suprantame vienas kitą be žodžių (operatoriais)\
-C. Jos yra lengvai prieinamos (kompozicija vietoj paveldimumo)
+C. Jos yra lengvai pasiekiamos (kompozicija vietoj paveldimumo)
 
 Draugiškų Python klasių pagalba sukūrėme metrikų klases bei objektus. 
 
