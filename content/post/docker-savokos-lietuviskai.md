@@ -140,7 +140,7 @@ Apžvelgėme pagrindines Docker sąvokas ir jas apsibrėžėme lietuviškai. Tai
 
 *Perskaičiau viską kelis kartus. Man tie tekstai vis tiek patinka. Aš neketinu ką nors keisti. Gal jie nesupranta? Šiaip ar taip, kad aktoriams nepatinka, yra mano kaltė, bet ne teksto kaltė. Nesu su jais pakankamai apie tai kalbėjęs. Bet čia nėra ko stebėtis. Aš labai mažai kalbu. Čia šuo ir pakastas. Tai rytoj aš jiems ir pasakysiu, kodėl mažai kalbu.  Dabar man tai aišku.*
 
-Oskaras iš "Mane vadina Kalendorium"
+Oskaras iš "Mane vadina Kalendorium".
 
 ***
 
