@@ -39,6 +39,7 @@ P.S. Kai kurie svarbesni procesai gali reikalauti juridinio įgaliojimo patvirti
 der Vorname – vardas\
 der Name – pavardė\
 das Datum – data\
+das Geburtsdatum -- gimimo data\
 die Anschrift – adresas\
 die Vollmacht – įgaliojimas\
 die Anmeldung – registracija (kartu sutrumpintai reiškia ir gyvenamosios vietos registraciją “Bürgeramt”)\
