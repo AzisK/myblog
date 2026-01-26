@@ -10,23 +10,25 @@ Install Hugo with
 brew install hugo
 ```
 
-### B. Serve
+### B. Develop
 
-This command serves all the blog locally
 ```zsh
+# Build static site to /public/
+hugo
+
+# Serve all the blog locally
 hugo serve
-```
 
-### C. Additional info
+# Include draft posts
+hugo serve -D
 
-Check Hugo version with
-```zsh
+# Check Hugo version
 hugo version
 ```
 
-### D. Issues
+### C. Issues
 
-DA. It says that port 1313 is already in use and hangs
+CA. It says that port 1313 is already in use and hangs
 
 - Check for running `hugo`s `ps aux | grep hugo`
 - Check if something else is using 1313 port `lsof -i :1313`
