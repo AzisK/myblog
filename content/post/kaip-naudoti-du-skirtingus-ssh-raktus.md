@@ -148,3 +148,4 @@ Kaip tai padaryti esu aprašęs šiame straipsnyje straipsnyje [Kaip naudoti du 
 ### Šaltiniai
 
 - GitHub Docs: Generating a new SSH key https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+- How do I change the URI (URL) for a remote Git repository? https://stackoverflow.com/questions/2432764/how-do-i-change-the-uri-url-for-a-remote-git-repository 
