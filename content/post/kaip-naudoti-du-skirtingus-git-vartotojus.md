@@ -3,7 +3,7 @@ title: Kaip naudoti du skirtingus git vartotojus
 description: Kaip naudoti du skirtingus git vartotojus skirtingose direktorijose
 date: 2026-01-26T03:00:00Z
 author: Ąžuolas Krušna
-tags: ["Programų inžinerija", "Git"]
+tags: ["Programų inžinerija", "Git", "Github", "GitLab", "SSH"]
 ShowCodeCopyButtons: true
 ---
 
