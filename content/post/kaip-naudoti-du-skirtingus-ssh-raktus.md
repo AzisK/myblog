@@ -3,7 +3,7 @@ title: Kaip naudoti du skirtingus SSH raktus
 description: Kaip naudoti du skirtingus SSH raktus dirbant su asmenine ir darbo repozitorijomis
 date: 2026-01-26T04:00:00Z
 author: Ąžuolas Krušna
-tags: ["Programų inžinerija", "Git", "GitHub", "SSH"]
+tags: ["Programų inžinerija", "Git", "GitHub", "GitLab", "SSH"]
 ShowCodeCopyButtons: true
 ---
 
@@ -113,7 +113,8 @@ Patikriname esamą nuotolinį adresą (URL).
 git remote -v
 ```
 
-Pakeičiame _alias_ į asmeninį.
+Pakeičiame _alias_ į asmeninį. Daugiau apie nuotolinio adreso keitimą galima rasti straipsnyje [Pakeisk git repozitorijos nuotolinį adresą](/pakeisk-git-repozitorijos-nuotolini-adresa/).
+
 ```zsh
 git remote set-url origin git@personal.github.com:personal-user/personal-project.git
 ```
