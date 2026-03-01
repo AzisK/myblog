@@ -127,10 +127,33 @@ Gali būti, kad mūsų `zsh` nesupras tam tikrų simbolių, pavyzdžiui, rodykly
 export LANG=en_US.UTF-8
 ```
 
-***
-
-Terminalą spalvinau pagal šį gidą https://blog.carbonfive.com/writing-zsh-themes-a-quickref/
+---
 
 Gražios ir laisvos šventės!
 
-_May the force be with you_
+---
+
+_Širdžiai_
+
+_Žiūrėk -- koksai pavasaris,\
+Kiek saulės, kiek gėlių,\
+Žibutės kuklios stiepiasi,\
+Laukai pilni aidų!_
+
+_Bet tu sakai: -- nuvys žiedai,\
+Ir dainos nuaidės. --\
+O, ne! Gyvent pavasariu,\
+Kolgalim, turim mes!_
+
+_O kai ateis ruduo žiaurus --\
+Be saulės, be gėlių,\
+Gyvenime dar būsime\
+Pavasario džiaugsmu!_
+
+1937 m. laisvoje Lietuvoje parašytas Matildos Olkinaitės eilėraštis
+
+---
+
+### Šaltiniai
+
+- Writing ZSH Themes: A Quickref https://blog.carbonfive.com/writing-zsh-themes-a-quickref/
