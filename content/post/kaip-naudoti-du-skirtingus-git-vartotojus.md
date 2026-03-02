@@ -82,7 +82,7 @@ O brangios Kalėdos!_
 
 1938 m. parašytas Matildos Olkinaitės eilėraštis apie ateinančią sniego ir ledo žiemą, apie grožį ir džiaugsmą, kurį ji atneša, apie Liuncę, galimai jos geriausią draugę. 
 
-Ši žiema Lietuvoje buvo šalta ir graži kaip jau seniai bebūta, rekordai minėjo apie 14 metų. Gaila, kad šią žiemą nebuvau Lietuvoje, iš tiesų, buvau šiek tiek, Kūčių naktį parvažiavau, per Kalėdas, iki Naujų Metų, bet buvo labai per mažai (refleksiją rašau kovo 1-ąją, pirmą pvasario dieną).
+Ši žiema Lietuvoje buvo šalta ir graži kaip jau seniai bebūta, rekordai minėjo apie 14 metų. Gaila, kad šią žiemą nebuvau Lietuvoje, iš tiesų, buvau šiek tiek, Kūčių naktį parvažiavau, per Kalėdas, iki Naujų Metų, bet buvo labai per mažai (refleksiją rašau kovo 1-ąją, pirmą pavasario dieną).
 
 ---
 
