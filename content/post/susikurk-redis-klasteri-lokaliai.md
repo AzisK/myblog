@@ -8,11 +8,11 @@ draft: true
 ShowCodeCopyButtons: true
 ---
 
-Programuotojau, kviečiu Tave susikurti Redis klasterį savo kompiuteryje! Kam to reikia? Na, galbūt nori išbandyti, kaip Tavo aplikacija elgsis su tikru Redis klasteriu, o galbūt tiesiog nori geriau suprasti, kaip ši technologija veikia. Bet kuriuo atveju --- einam!
+Labas! Šiandien kviečiu Tave susikurti Redis klasterį savo kompiuteryje. Kam to reikia? Na, galbūt nori išbandyti, kaip Tavo aplikacija elgsis su tikru Redis klasteriu, o galbūt tiesiog nori geriau suprasti, kaip ši technologija veikia. Važiuojam!
 
 ### Kas yra Redis klasteris?
 
-Redis klasteris yra Redis duomenų bazės paskirstyta versija, kuri leidžia duomenis padalinti tarp kelių mazgų (nodes). Tai suteikia didesnį patikimumą ir galimybę apdoroti daugiau užklausų vienu metu.
+Redis klasteris yra Redis duomenų bazės paskirstyta versija, kuri leidžia duomenis padalinti tarp kelių mazgų (angl. *nodes*). Tai suteikia didesnį patikimumą ir galimybę apdoroti daugiau užklausų vienu metu.
 
 **Kaip veikia duomenų paskirstymas?**
 
@@ -322,8 +322,13 @@ Esmė --- `--cluster-announce-ip` nurodo, kokį IP adresą mazgas skelbia kitiem
 | C# | StackExchange.Redis | [github.com/StackExchange/StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) |
 | Ruby | redis-rb | [github.com/redis/redis-rb](https://github.com/redis/redis-rb) |
 
-***
+Štai ir viskas! Redis klasteris lokaliai yra puikus būdas išmokti kaip veikia paskirstytos sistemos. Dabar gali eksperimentuoti su savo aplikacijomis ir stebėti, kaip klasteris elgiasi skirtingose situacijose.
 
-Redis klasteris lokaliai yra puikus būdas išmokti, kaip veikia paskirstytos sistemos. Daugiau informacijos rasite oficialioje [Redis Cluster dokumentacijoje](https://redis.io/docs/latest/operate/oss_and_stack/management/scaling/).
+### Šaltiniai
+
+- [Redis Cluster dokumentacija](https://redis.io/docs/latest/operate/oss_and_stack/management/scaling/)
+- [Redis Cluster specification](https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec/)
+
+---
 
 _May the force be with you_
