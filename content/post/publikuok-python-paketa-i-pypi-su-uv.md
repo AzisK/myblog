@@ -210,7 +210,7 @@ uv version --bump minor
 uv version --bump patch
 ```
 
-Po versijos pakeitimo vėl rašome `uv build` ir `uv publish`.
+Pakėlus paketo versiją, ją išleisti galime ir vėl šiomis komandomis: `uv build` ir `uv publish`.
 
 ### Jei nepavyko
 
