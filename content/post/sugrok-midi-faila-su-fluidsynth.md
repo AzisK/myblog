@@ -19,7 +19,7 @@ FluidSynth yra programinis sintezatorius (angl. *software synthesizer*), kuris s
 
 ### Kaip įsidiegti FluidSynth?
 
-Kadangi aš naudoju macOS operacinę sistemą, tad įsidiegiu FluidSynth naudojant Homebrew programą. Kaip įsidiegti kitose operacinėse sistemose, žiūrėkite [FluidSynth čia](https://github.com/FluidSynth/fluidsynth/wiki/Download).
+Kadangi aš naudoju macOS operacinę sistemą, tad įsidiegiu FluidSynth naudojant Homebrew programą. Kaip įsidiegti kitose operacinėse sistemose, žiūrėkite [čia](https://github.com/FluidSynth/fluidsynth/wiki/Download).
 
 ```bash
 brew install fluid-synth
