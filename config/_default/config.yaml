@@ -12,6 +12,7 @@ Params:
     email: azuolas.krusna@yahoo.com
     opengraph: true
     dateFormat: Mon, Jan 2, 2006
+    displayFullLangName: true
     ShowReadingTime: true
     ShowBreadCrumbs: true
     ShowPostNavLinks: true
@@ -41,9 +42,6 @@ Params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
-
-Permalinks:
-    post: /:filename/
 
 menu:
     main:
@@ -80,6 +78,17 @@ Languages:
   lt:
     languageCode: lt
     LanguageDirection: ltr
+    languageName: LT
+    weight: 1
+    permalinks:
+      post: /:filename/
+  en:
+    languageCode: en
+    LanguageDirection: ltr
+    languageName: EN
+    weight: 2
+    permalinks:
+      post: /:slug
 
 outputs:
     home:
