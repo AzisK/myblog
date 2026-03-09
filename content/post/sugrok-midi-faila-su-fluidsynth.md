@@ -57,7 +57,7 @@ Tikrinam ar failas teisingas
 file ~/soundfonts/FluidR3_GM.sf2
 ```
 
-Matone, kad failas yra SoundFont/Bank formatas, todėl viskas gerai
+Matome, kad failas yra SoundFont/Bank formatas, todėl viskas gerai
 
 ```bash
 FluidR3_GM.sf2: RIFF (little-endian) data, SoundFont/Bank
