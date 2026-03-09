@@ -56,14 +56,14 @@ Tokia mano kelionė kol kas su estų kalba, moku tik truputį virš penkiadešim
 Pats tekstas gimė iš liūdnos istorijos. Nespėjome į skrydį į Taliną. Jau praėjo dvi dienos, bet vis dar skaudu. Iš kitos pusės, tai jei būtume išskridę, tai ir šis tekstas tikriausiai nebūtų gimęs. O estų žemės sostinę --- Taliną --- dar, tikiu, aplankysim! Nägemist!
 
 ---
-Mėlynas paukštis
+_Mėlynas paukštis_
 
-*Per padangę tolimą\
+_Per padangę tolimą\
 Skrido paukštis mėlynas.\
 Ir įsmigo strėlės\
 Juodą mirtį nešdamos,\
 Ir krūtinę pervėrė\
-Paukščio skaisčiai mėlyno.*
+Paukščio skaisčiai mėlyno._
 
 1940 m. pavasarį Vilniuje rašytas Matildos eilėraštis, kurį pavyko atrasti jau rengiant spaudai knygą "Matilda Olkinaitė. Atrakintas dienoraštis", poetine kalba tartum pranašauja tragediją, kuri netrukus nutiko Lietuvos gyvenimo istorijoje.
 
