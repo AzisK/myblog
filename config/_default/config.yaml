@@ -43,16 +43,16 @@ Params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
 
-menu:
-    main:
-        # -   identifier: posts
-        #     name: Įrašai
-        #     pageRef: /post/
-        #     weight: 1
-        # -   identifier: categories
-        #     name: Kategorijos
-        #     pageRef: /categories/
-        #     weight: 10
+Languages:
+  lt:
+    languageCode: lt
+    LanguageDirection: ltr
+    languageName: LT
+    weight: 1
+    permalinks:
+      post: /:contentbasename/
+    menu:
+      main:
         -   identifier: archive
             name: Archyvas
             url: /archive/
@@ -73,15 +73,6 @@ menu:
             name: Kontaktai
             pageRef: /page/contact
             weight: 40
-
-Languages:
-  lt:
-    languageCode: lt
-    LanguageDirection: ltr
-    languageName: LT
-    weight: 1
-    permalinks:
-      post: /:contentbasename/
   en:
     languageCode: en
     LanguageDirection: ltr
@@ -89,6 +80,28 @@ Languages:
     weight: 2
     permalinks:
       post: /:slug
+    menu:
+      main:
+        -   identifier: archive
+            name: Archive
+            url: /archive/
+            weight: 20
+        -   identifier: search
+            name: Search
+            url: /search/
+            weight: 20
+        -   identifier: tags
+            name: Tags
+            pageRef: /tags/
+            weight: 30
+        -   identifier: about
+            name: About
+            pageRef: /page/about
+            weight: 40
+        -   identifier: contact
+            name: Contact
+            pageRef: /page/contact
+            weight: 40
 
 outputs:
     home:
