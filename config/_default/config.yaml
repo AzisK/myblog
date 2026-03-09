@@ -81,7 +81,7 @@ Languages:
     languageName: LT
     weight: 1
     permalinks:
-      post: /:filename/
+      post: /:contentbasename/
   en:
     languageCode: en
     LanguageDirection: ltr

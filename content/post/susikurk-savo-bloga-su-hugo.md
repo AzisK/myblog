@@ -129,7 +129,7 @@ theme = "ghostwriter"
     dateFormat = "Mon, Jan 2, 2006"
 
 [Permalinks]
-    post = "/:filename/"
+    post = "/:contentbasename/"
 ```
 
 Vėliau galime ją pasikeisti kaip tik norėsime.

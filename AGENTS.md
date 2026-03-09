@@ -44,7 +44,7 @@ themes/PaperMod/   # Theme (external, do not modify directly)
 
 - Base URL: https://www.aziogas.lt/
 - Default language: Lithuanian (`lt`)
-- Permalinks: `/:filename/` (clean URLs from filename)
+- Permalinks: `/:contentbasename/` (clean URLs from filename)
 
 ## Content Workflow
 
