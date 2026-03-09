@@ -260,5 +260,3 @@ Viską, viską jau žinau:_
 - uv dokumentacija: Creating projects https://docs.astral.sh/uv/concepts/projects/init/
 - PyPI: Python Package Index https://pypi.org/
 - uv GitHub repozitorija https://github.com/astral-sh/uv
-
----
