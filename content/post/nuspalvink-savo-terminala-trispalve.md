@@ -120,12 +120,14 @@ RPROMPT='$(git_prompt_status) $(current_time)'
 
 ### Jei nepavyko
 
-Gali būti, kad mūsų `zsh` nesupras tam tikrų simbolių, pavyzdžiui, rodyklyčių. Tuomet reikėtų nueiti į failą `~/.zshrc` (arba `~/.zprofile`) ir ten atkomentuoti šią eilutę (82)
+1. Gali būti, kad mūsų `zsh` nesupras tam tikrų simbolių, pavyzdžiui, rodyklyčių. Tuomet reikėtų nueiti į failą `~/.zshrc` ir ten atkomentuoti šią eilutę (82)
 
 ```zsh
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 ```
+
+2. Įsitikink, kad `ZSH_THEME=lithuania` yra nustatomas prieš `source $ZSH/oh-my-zsh.sh` komandą `~/.zshrc` faile
 
 ---
 
