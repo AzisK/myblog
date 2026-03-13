@@ -7,9 +7,10 @@ defaultContentLanguage: lt
 
 Params:
     title: Ąžiogas
-    author: Ąžuolas Krušna
+    author:
+        name: Ąžuolas Krušna
+        email: azuolas.krusna@yahoo.com
     description: Mintys ir tekstai apie kalbas, kasdienę filosofiją, programų inžineriją, "pasidaryk pats" techniniai gidai bei gyvenimo Vokietijoje gidai
-    email: azuolas.krusna@yahoo.com
     opengraph: true
     dateFormat: Mon, Jan 2, 2006
     displayFullLangName: true
