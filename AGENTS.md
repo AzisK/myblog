@@ -2,6 +2,10 @@
 
 This is a personal blog built with Hugo (static site generator) using the PaperMod theme. The site is published at https://www.aziogas.lt/ and content is in Lithuanian.
 
+## Important Reminders
+
+- **PaperMod provides i18n translations** — The theme includes `i18n/en.yaml` and `i18n/lt.yaml` with all standard UI translations (prev_page, next_page, read_time, toc, translations, home, edit_post, code_copy, etc.). Our custom `i18n/` files should only override specific translations or add custom ones (like "Posts"/"Pages"). Do NOT duplicate PaperMod's standard translations.
+
 ## Commands
 
 ```zsh

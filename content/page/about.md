@@ -1,6 +1,6 @@
 ---
 title: Apie
-date:  2023-11-12T21:20:00Z
+date: 2023-11-12T21:20:00Z
 author: Ąžuolas Krušna
 description: Truputis apie mane
 ---
@@ -14,7 +14,7 @@ Labas! Mano vardas Ąžuolas. Čia dalinuosi mintimis ir tekstais apie kalbas, p
 _Bralei seseris imkiet mani ir skaitikiet\
 Ir tatai skaitydami permanikiet_
 
-Rašė tuometine kalba bei rašyba Martynas Mažvydas pirmojoj spausdintoj Lietuviškoj knygoj "Katekizmas"
+Rašė tuometine kalba bei rašyba Martynas Mažvydas pirmojoj spausdintoj Lietuviškoj knygoj "Katekizmas".
 
 ---
 

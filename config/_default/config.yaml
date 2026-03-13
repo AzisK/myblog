@@ -27,6 +27,9 @@ Params:
     Title: Labas, keliautojau. Atsipūsk, paskaityk, pamąstyk
     Content: Mintys ir tekstai apie kalbas, kasdienę filosofiją, programų inžineriją, \"pasidaryk pats\" techniniai gidai bei gyvenimo Vokietijoje gidai
 
+  mainSections:
+    - post
+
   # socialIcons:
   #     -   name: github
   #         url: https://github.com/AzisK
