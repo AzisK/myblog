@@ -7,7 +7,7 @@ description: A little bit about me
 
 Labas (hello in Lithuanian)! My name is Ąžuolas. Here I share thoughts and writings on languages, software engineering, and everyday philosophy, alongside DIY technical guides with detailed examples.
 
-At the end of each post, I included a literatury excerpt that I fancy.
+At the end of each post, I included a literary excerpt that I fancy.
 
 ---
 
