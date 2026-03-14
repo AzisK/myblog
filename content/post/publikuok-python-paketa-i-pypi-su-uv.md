@@ -247,7 +247,7 @@ Jei kažkas neveikia:
 > Su naujienomis, su naujienomis\
 > Aš namo jau sugrįžau:\
 > Aš -- moksleivė, gimnazistė --\
-> Viską, viską jau žinau:
+> Viską, viską jau žinau!
 
 1933 m. parašytas Matildos Olkinaitės eilėraštis.
 
