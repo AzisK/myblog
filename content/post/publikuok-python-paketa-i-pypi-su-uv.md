@@ -227,27 +227,27 @@ Jei kažkas neveikia:
 
 ---
 
-_Moksleivė_
-
-_Su naujienomis, su naujienomis\
-Aš namo jau sugrįžau:\
-Aš -- moksleivė, gimnazistė --\
-Viską, viską jau žinau:_
-
-_Kad ta žemė ne kaip blynas,\
-Kad nesveika gerti vynas,\
-Kad dukart po du ne trys,\
-Kad diena -- tai ne naktis..._
-
-_Kad aukštai kitokis oras,\
-Kad lakštingala ne voras,\
-Kad šalelė prigimta\
-Tai yr mūsų Lietuva..._
-
-_Su naujienomis, su naujienomis\
-Aš namo jau sugrįžau:\
-Aš -- moksleivė, gimnazistė --\
-Viską, viską jau žinau:_
+> Moksleivė
+>
+> Su naujienomis, su naujienomis\
+> Aš namo jau sugrįžau:\
+> Aš -- moksleivė, gimnazistė --\
+> Viską, viską jau žinau:
+>
+> Kad ta žemė ne kaip blynas,\
+> Kad nesveika gerti vynas,\
+> Kad dukart po du ne trys,\
+> Kad diena -- tai ne naktis...
+>
+> Kad aukštai kitokis oras,\
+> Kad lakštingala ne voras,\
+> Kad šalelė prigimta\
+> Tai yr mūsų Lietuva...
+>
+> Su naujienomis, su naujienomis\
+> Aš namo jau sugrįžau:\
+> Aš -- moksleivė, gimnazistė --\
+> Viską, viską jau žinau:
 
 1933 m. parašytas Matildos Olkinaitės eilėraštis.
 
