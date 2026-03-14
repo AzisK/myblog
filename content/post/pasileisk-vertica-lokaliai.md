@@ -2,6 +2,7 @@
 title: Pasileisk Vertica duomenų bazę lokaliai
 description: Pasileisk Vertica duomenų bazę lokaliai ant Docker
 date: 2024-09-05T18:00:00Z
+author: Ąžuolas Krušna
 tags: ["Vertica", "Duomenų bazės", "Programų inžinerija", "Duomenų inžinerija"]
 ShowCodeCopyButtons: true
 ---
