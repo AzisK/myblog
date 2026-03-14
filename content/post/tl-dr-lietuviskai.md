@@ -14,14 +14,14 @@ _tl; dr_ trumpinys (_angl_. too long; didn't read) yra gana dažnai sutinkamas t
 
 Dar jis būna užrašomas didžiosiomis raidėmis: _TL; DR_, _TLDR_. Interneto žargonu angliškai jis dar pagal fonetinį skambesį vadinamas _Teal Deer_, taigi šviesiai smaragdinis elnias ar šviesiai smaragdinė stirnaitė.
 
-Pagal anglišką atitikmenį -- _per ilgai, neskaičiau_ -- lietuviškai galime sutrumpinti kaip p, i ir n. Tuomet sujungti raideles prieš ir po kablelio, o kablelį paversti kabliataškiu ir gauname _pi; n_. Kaip ir anglų kalboje, tarpą po kabliataškio galime dėti arba ne -- _pi;n_. Kartu galime naudoti didžiąsias raides ir gauti _PI; N_ arba _PI;N_. Žemiau galime matyti visus galimus variantus.
+Pagal anglišką atitikmenį -- _per ilgai, neskaičiau_ -- lietuviškai galime sutrumpinti kaip p, i ir n. Tuomet sujungti raideles prieš ir po kablelio, o kablelį paversti kabliataškiu. Gauname _pi; n_. Kaip ir anglų kalboje, tarpą po kabliataškio galime dėti arba nedėti. Pastaruoju atveju gausime _pi;n_. Galime naudoti didžiąsias raides ir gauti _PI; N_ arba _PI;N_. Žemiau matome visus galimus variantus.
 
 - _pi; n_
 - _pi;n_
 - _PI; N_
 - _PI;N_
 
-Nerekomenduoju praleisti kabliataškio, nors anglų kalboje jis retais atvejais yra praleidžiamas, nes tuomet trumpinys _pin_ ar _PIN_ taps lengvai sumaišomis su kitu gerai žinomu trumpiniu, reiškiančiu "privatų identifikacijos numerį".
+Nerekomenduoju praleisti kabliataškio, nors anglų kalboje jis retais atvejais yra praleidžiamas, nes tuomet trumpinys _pin_ ar _PIN_ taps lengvai sumaišomas su kitu gerai žinomu trumpiniu, reiškiančiu "privatų identifikacijos numerį".
 
 Įdomus sutapimas, kad pats šis straipsnis puikiai iliustruoja _pi;n_ savoką. Mes leidžiamės į detales, ir jos man tikrai labai įdomios, bet detalėmis nesusidomėjusiam žmogui jos gali kelti stresą, taigi šis žmogus gali pasiimti jam reikalingą informaciją pačiame viršuje ir nestresuoti. Net ir detalėms smalsiam žmogui apibendrinimo pastebėjimas viršuje gali būti puiki tema, iškart suteikianti naudingos informacijos bei paruošianti detalėms.
 
