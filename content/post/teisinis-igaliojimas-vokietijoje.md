@@ -2,7 +2,7 @@
 title: Teisinis įgaliojimas Vokietijoje
 description: Kaip suteikti teisinį įgaliojimą kitam asmeniui Vokietijoje?
 date: 2025-07-17T04:00:00Z
-author: "Ąžuolas Krušna"
+author: Ąžuolas Krušna
 tags: ["Vokietija", "Teisė", "Teisinis įgaliojimas", "Vairuotojo teisės"]
 ---
 
