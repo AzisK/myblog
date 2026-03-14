@@ -1,6 +1,8 @@
 ---
 title: Draugiškos Python klasės
 date: 2024-10-29T07:00:00Z
+author: Ąžuolas Krušna
+tags: ["Programų inžinerija", "Python"]
 ShowCodeCopyButtons: true
 ---
 
