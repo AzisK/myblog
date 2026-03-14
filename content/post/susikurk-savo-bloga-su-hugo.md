@@ -27,7 +27,7 @@ Kodėl tai darau? Manau, kad Lietuvoje blogų kūrimas su Hugo yra dar labai nep
 
 Iš kart pasakau, kad nesu dorai išbandęs kitų platformų, bet kaip programuotojas nenorėjau jokių platformų, kuriose galima susidėlioti blogą be kodo, ir nenorėjau turėti nieko bendro su duomenų baze.
 
-Platformos, kuriose galima susidėlioti blogą be kodo nėra blogai ir galbūt ne programuotojui tai yra daugeliu atvejų daug geresnis kelias. Šis atvejis neprogramuojančiam žmogui gali būti tik sudėtingas ir visai be reikalo. Tačiau manau, kad pamankštinti smegenis ne savoj sferoj yra labai sveika, todėl jei pritari - *let's go for this ride*. Galiu pasakyti, kad Hugo yra parašytas ant visai naujos ir perspektyvios programavimo kalbos Go, kurios aš pats nemoku, todėl jeigu reikės kažką ten keisti - pasimokysiu ir aš. O dėl kodo dar norėjau pasakyti, kad būtinai noriu turėti visas laisves su kodu daryti ką tik užsimanęs ir nebūti priklausomas nuo platformos suteikiamų galimybių.
+Platformos, kuriose galima susidėlioti blogą be kodo nėra blogai ir galbūt ne programuotojui tai yra daugeliu atvejų daug geresnis kelias. Šis atvejis neprogramuojančiam žmogui gali būti tik sudėtingas ir visai be reikalo. Tačiau manau, kad pamankštinti smegenis ne savoj sferoj yra labai sveika, todėl jei pritari - _let's go for this ride_. Galiu pasakyti, kad Hugo yra parašytas ant visai naujos ir perspektyvios programavimo kalbos Go, kurios aš pats nemoku, todėl jeigu reikės kažką ten keisti - pasimokysiu ir aš. O dėl kodo dar norėjau pasakyti, kad būtinai noriu turėti visas laisves su kodu daryti ką tik užsimanęs ir nebūti priklausomas nuo platformos suteikiamų galimybių.
 
 Nenorėjau naudoti pačios populiariausios tinklapių kūrimo sistemos - Wordpress. Iškart pasakau, kad tikrai neturiu nieko asmeniško prieš šią sistemą, jos vartotojus bei atstovus. Priešingai - labai smagu, kad yra tokia sistema, kuria pastatyta beveik pusė (39.5 %) visų internetinių puslapių [[3]](https://kinsta.com/blog/wordpress-statistics/). Internetas yra globali biblioteka, todėl Wordpress pagalba turime daug didesnę biblioteką, o kokia technologija pastatyta biblioteka (medinė ar betono blokas, iškilęs sovietmečiu) yra visiškai nesvarbu lyginant su jos turiniu. Tai labiau iš praktinės pusės - nenoriu sukti galvos kur patalpinti papildomai duomenų bazę ir dar galimai už ją mokėti. Iš tiesų manau, kad duomenų bazė gali papildomai pasitarnauti kuriant “gudresnį” blogą, nes su ja patogu transformuoti bei agreguoti duomenis, bet kartu atsiranda dar vienas lygis sistemų bendravime, o šitai noriu išvengti, jeigu galima. Duomenų bazė šiam blogui man nėra reikalinga - bent jau tai nematau dabar ar tolimoj ateityje, todėl per daug ir nesuku galvos.
 
@@ -37,7 +37,7 @@ Platformų, veikiančių panašiai kaip Hugo, yra ir daugiau [[4]](https://jamst
 
 Remiantis šaltiniu [[1]](https://flaviocopes.com/start-blog-with-hugo/), Hugo yra nuobodus. O tai yra labai gerai, nes susikoncentruosim į turinį, o ne pikselių stumdymą - nepakliūsim į programuotojų spąstus. Jis nenaudoja jokios _fancy_ technologijos, kurių šiais laikais apstu. Tačiau kartu Hugo yra ir labai lankstus - galima susikurti įvairius paprastam blogui neįprastus dalykus. Galiausiai, Hugo yra greitas. Jo branduolys yra parašytas su Go, kuri yra žinoma kaip labai greita kalba.
 
-Hugo viskas užsirašo *Markdown* [[5]](https://www.markdownguide.org/basic-syntax/). Man šis formatas labai patinka, nes yra labai paprastas ir funkcionalus, bet esu tikras, kad ne visiems jis gali patikti.
+Hugo viskas užsirašo _Markdown_ [[5]](https://www.markdownguide.org/basic-syntax/). Man šis formatas labai patinka, nes yra labai paprastas ir funkcionalus, bet esu tikras, kad ne visiems jis gali patikti.
 
 Rašyti blogą su Hugo reikia naudoti kodo versijavimą. Mes šiam reikalui naudosime Github. Vėliau yra naudojama tam tikra technologija, kuri sukelia šį kodą į serverį, jame sugeneruoja puslapius iš to kodo ir suteikia prie jų prieigą (per internetinį adresą).
 
@@ -69,7 +69,7 @@ Neturim brew? Įsirašom su šia komanda terminale
 
 #### Windows
 
-*Command Prompt* programą ir rašom
+_Command Prompt_ programą ir rašom
 
 ```zsh
 choco install hugo -confirm
