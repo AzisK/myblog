@@ -6,7 +6,7 @@ author: Ąžuolas Krušna
 tags: ["Vokietija", "Teisė", "Teisinis įgaliojimas", "Vairuotojo teisės"]
 ---
 
-Teisinis įgaliojimas Vokietijoje vadinamas “Vollmacht” (*liet*. pilna teise).
+Teisinis įgaliojimas Vokietijoje vadinamas “Vollmacht” (_liet_. pilna teise).
 
 Šis dokumentas suteikia teisę kitam žmogui atstovauti tavo vardu tam tikroje srityje. Pavyzdžiui, prisiregistruoti savo adresą Vokietijoje, atsiimti pasą, asmens tapatybės kortelę ar vairuotojo pažymėjimą.
 
@@ -16,9 +16,9 @@ Aš užsisakiau vairuotojo pažymėjimą Vokietijoje, kurį gamina nuo 4 iki 6 s
 
 Įgaliojimas neturi nustatytos formos, taigi yra laisvos formos, tačiau remiantis Berlyno savitarnos svetainėje esančiu pavyzdžiu, rekomenduoju įrašyti šias dalis:
 
-1. Teisę suteikiančio (įgalinančio) asmens (*vok*. vollmachtgebende Person) vardą, pavardę, gimimo datą, adresą
+1. Teisę suteikiančio (įgalinančio) asmens (_vok_. vollmachtgebende Person) vardą, pavardę, gimimo datą, adresą
 2. Suteikiamas šiuo įgaliojimu teises
-3. Teisę veikti gaunančio (įgaliojamo) asmens (*vok*. bevollmächtigte Person) vardą, pavardę, gimimo datą, adresą
+3. Teisę veikti gaunančio (įgaliojamo) asmens (_vok_. bevollmächtigte Person) vardą, pavardę, gimimo datą, adresą
 
 Dar paprasčiau būtų atsisiųsti savitarnos svetainėje esantį įgaliojimo šabloną ir jį užpildyti. Žemiau galime jį matyti, o parsisiuntimo nuorodą rasime prie šaltinių.
 
@@ -64,6 +64,6 @@ die Angabe – pasirinkimas
 
 ***
 
-*...Aš norėjau, kad mano filmai gintų žmoniškumą, įrodinėjau, kad žmogus -- ne varžtelis kažkokiom statybom. Gal dėl to filmuose kalbu apie tai, kad mūsų šeima matė tiek bėdų, nešvaros, tėvo gyvenimas Sibire sulaužytas. Kai pradėjau dirbti, aš norėjau išsivalyti iš to, ką patyriau. Priešinausi žmogaus niekinimui, supranti?*
+_...Aš norėjau, kad mano filmai gintų žmoniškumą, įrodinėjau, kad žmogus -- ne varžtelis kažkokiom statybom. Gal dėl to filmuose kalbu apie tai, kad mūsų šeima matė tiek bėdų, nešvaros, tėvo gyvenimas Sibire sulaužytas. Kai pradėjau dirbti, aš norėjau išsivalyti iš to, ką patyriau. Priešinausi žmogaus niekinimui, supranti?_
 
 Iš pokalbio su Arūnu Žebriūnu 2010 m. liepos 4 d. ligoninės palatoje Nr. 253 iš Rūtos Oginskaitės knygos "Žebriūnas. Nutylėjimai ir Paradoksai".
