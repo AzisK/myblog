@@ -7,7 +7,7 @@ tags: ["Lietuvių kalba"]
 ---
 
 > #### pi; n
-> _tl; dr_ lietuviškai galima būtų išversti į _pi; n_, 
+> _tl; dr_ lietuviškai galima būtų išversti į _pi; n_
 
 
 _tl; dr_ trumpinys (_angl_. too long; didn't read) yra gana dažnai sutinkamas techniniuose giduose internete. Verčiant pažodžiui jis reiškia, kad "per ilgai, neskaičiau". Naudojamas kaip teksto apibendrinimas, ištraukiant į išorę svarbiausią informaciją ir nesigilinant į detales.
