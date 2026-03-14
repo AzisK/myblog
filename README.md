@@ -4,13 +4,21 @@
 
 ### A. Install
 
-Install Hugo with 
+Install Hugo with
 
 ```zsh
 brew install hugo
 ```
 
 ### B. Develop
+
+```zsh
+# Create a new post (uses archetype template)
+hugo new post/your-post-title.md
+
+# Edit the post in your editor of choice
+# Then continue with build/serve commands below
+```
 
 ```zsh
 # Build static site to /public/

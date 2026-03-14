@@ -52,16 +52,19 @@ themes/PaperMod/   # Theme (external, do not modify directly)
 
 ## Content Workflow
 
-New posts go in `content/post/` as Markdown files with Hugo frontmatter:
+### Creating New Posts
 
-```yaml
----
-title: "Post Title"
-date: 2024-01-01
-draft: false
-tags: ["tag1", "tag2"]
----
+Always use the Hugo CLI to create new posts — it automatically applies the archetype template:
+
+```zsh
+# Create a new post (automatically sets date, title, draft: true)
+hugo new post/your-post-title.md
+
+# For English posts, add language suffix:
+hugo new post/your-post-title.en.md
 ```
+
+The file will be created in `content/post/` with proper frontmatter:
 
 ## Custom Shortcodes
 
@@ -121,13 +124,16 @@ End technical articles with a quote — from a book, film, interview, whatever f
 
 ### Frontmatter
 
+Then update the frontmatter to match the Writing Style Guide (see Frontmatter section below):
+
 ```yaml
 ---
-title: Short descriptive Lithuanian title
-description: One-line summary in Lithuanian
-date: 2026-01-01T04:00:00Z
+title: Short descriptive title
+description: One-line summary if appropriate
+date: YYYY-MM-DDTHH:MM:SSZ
 author: Ąžuolas Krušna
 tags: ["Tag1", "Tag2"]
 ShowCodeCopyButtons: true  # For posts with code
+draft: true
 ---
 ```
