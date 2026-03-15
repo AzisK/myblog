@@ -2,7 +2,7 @@
 title: "Kaip kurti naujus įrašus su Hugo"
 date: 2026-03-14T21:30:47+01:00
 author: Ąžuolas Krušna
-tags: ["Hugo"]
+tags: ["Hugo", "Blogas", "Tinklaraštis"]
 ---
 
 > #### pi; n
@@ -90,12 +90,35 @@ Paveikslėlius galime pridėti nurodant kelią iki jų nuo įrašo. Kadangi mano
 Tuomet paveikslėlio užrašymas atrodys taip:
 
 ```bash
-![alternatyvus tekstas](../image.jpg)
+![alternatyvus tekstas](../netlify-domain.png)
 ```
 
 Prieš publikuojant nepamirštame nuimti `draft: true` eilutės, kitaip įrašas nebus matomas.
 
 Smagaus rašymo!
+
+---
+
+> Nuliai
+>
+> Jei prirašysim nulių,\
+> Tai nuliai ir tebus:\
+> Nors jų bus milijonai --\
+> Turėsim tik nulius.
+>
+> Bet vienetą pridėję\
+> Prie nulių iš pradžių,\
+> Mes gausim milijonus\
+> Tada iš nulių tų.
+>
+> Ir tarp žmonių mes matom\
+> Tų nulių daug labai,\
+> Bet vienetų pasauly\
+> Užtinkame retai.
+
+1936 m. rašė Matildė Olkinatė
+
+---
 
 ## Šaltiniai
 
