@@ -27,6 +27,12 @@ Nerekomenduoju praleisti kabliataškio, nors anglų kalboje jis retais atvejais 
 
 Dar neteko sutikti vertimo šiam trumpiniui, o mano lietuviškam tinklaraščiui jis labai praverstų, tad siūlau _pi;n_! Ką manai?
 
+___
+
+Labai įdomus sutapimas, kad surašęs šį pasiūlymą suvokiau, kad šiandien yra pi diena! Taip ir galvojau, kodėl taip įdomiai atrodo ši diena, kovo 14-oji? Atrodo, lyg turėtų būti kažkas ypatingo, bet šventė buvo kovo 11-ąją, taigi praėjo, praeitą mėnesį buvo vasario 16, 14, 11 (mano gimtadienis), taigi šiandien lyg ir nėra šventė, bet tie skaičiukai vis tiek atrodo ypatingai. Tuomet prisiminiau, kad šiandien yra pi diena! Taigi mini šventė, nes visuomet mėgau matematiką, o dar prisiminiau, kad per pi dieną, kovo 14-ąją, išlaikiau vairavimo teises!
+
+Taigi trumpint būtų galima ir _π; n_ ar _π;n_, ar _πn_.
+
 ---
 
 > Visą paauglystę ir ilgiau norėjau būti ta mergaite, kuri filmavosi "Paskutinėje atostogų dienoje". Iš kur galėjau žinoti, jog mokykloje pertraukų metu man tektų slėptis tulike, nes iš manęs šaiposi dėl to, kad filme aš nuoga. O kaip jaustis kiekvienoje scenoje, kurią tenka vaidinti? Kokiais netyčių būdais atsiranda ryžtingas, o iš tiesų beviltiškas kumščio krestelėjimas, kai ji supranta, kad niekas neišgelbės? Kodėl byra ašaros telefono budelėje -- negi kaip rašo žurnalas, tik todėl, kad režisierius pasakė, neva ji nemoka tap piešti, kaip jis? O ką reiškia kartoti ir kartoti tą pačią sceną, kol pavyks, ypač kai režisuoja "piktas ir beviltiškai senas" dėdė, kurio paskui ilgėsiuos visą gyvenimą?
