@@ -98,7 +98,7 @@ Below we can find recommendations
 - Be clear for every user and don't miss necessary steps for technical articles
 - Explain the theory but also show practical examples
 - Be concise, practical and close to the reader
-- Use `###` headers for main sections
+- Use `##` headers for main sections since h1 is used for the post title
 - Longer posts get an "Apibendrinimas" (summary) section near the end, before the literary quote
 - For technical posts, include a "Šaltiniai" (Sources) section at the end — use bare links: `- Title URL`, not markdown `[Title](URL)`
 - For German-related posts, include "Aktualus vokiškas žodynas" vocabulary section
