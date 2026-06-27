@@ -1,7 +1,7 @@
 ---
 title: "Kintamieji YAML faile"
 description: Kaip panaudoti kintamuosius YAML faile ir nekopijuoti tų pačių eilučių
-date: 2026-06-23T15:00:00Z
+date: 2026-06-27T15:00:00Z
 author: Ąžuolas Krušna
 tags: [Programų inžinerija, YAML, DevOps, Docker, GitLab, Kubernetes, CI/CD]
 ShowCodeCopyButtons: true
