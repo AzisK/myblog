@@ -13,6 +13,16 @@ ShowCodeCopyButtons: true
 > - `*vardas` įklijuoja kintamajį
 > - `<<: *vardas` sujungia kintamojo bloko raktus su lokaliais (lokalūs nugali)
 
+```yaml
+x-bendra: &bendra
+  restart: always
+
+services:
+  web:
+    <<: *bendra
+    image: nginx
+```
+
 Labas! Šiandien sužinosime kaip apsirašyti ir panaudoti kintamuosius YAML failuose! Viskas labai paprasta, mums tereikia sužinoti kaip panaudoti 3 ar 4 simbolius! Ar mums prireiks 4-o, priklauso nuo aplinkos, tačiau bet kuriuo atveju susipažinsime.
 
 ## Kokiais simboliais yra aprašomi kintamieji?
