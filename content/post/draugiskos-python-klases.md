@@ -6,18 +6,18 @@ tags: ["Programų inžinerija", "Python"]
 ShowCodeCopyButtons: true
 ---
 
-Labas, šiandien noriu pasidalinti draugiškomis Python klasėmis. Tai tokios klasės, su kuriomis man dirbti smagiausia.
+Labas! Šiandien noriu pasidalinti draugiškomis Python klasėmis. Tai tokios klasės, su kuriomis man dirbti smagiausia.
 
 ## Instrumentai, sukurti draugiškai klasei
 
-Nulipdyti draugišką klasę naudosimės 
-- Duomenų klasėmis (dataclasses), 
+Nulipdyti draugišką klasę naudosimės
+- Duomenų klasėmis (dataclasses)
 - Operatorių aprašymu (operator overloading)
 - Kompozicijos vietoj paveldėjimo principu (composition over inheritance)
 
 ## Taigi, kokios tos draugiškos Python klasės? 
 
-A. Jas lengva suprasti ir su jomis susikalbėti (lengva skaityti ir rašyti)\
+A. Jas lengva suprasti ir susikalbėti (lengva skaityti ir rašyti)\
 B. Suprantame vienas kitą be žodžių (operatoriais)\
 C. Jos yra lengvai pasiekiamos (kompozicija vietoj paveldimumo)
 
@@ -25,7 +25,8 @@ Pažvelkime kaip praktiškai galėtų arodyti šios savybės.
 
 ### A. Lengva suprasti ir susikalbėti (skaityti ir rašyti)
 
-Pažvelkime į tradicinį būdą perduoti kintamuosius klasei inicijavimo metu naudojant `__init__` metodą:
+Ttradiciiu būdu perduodame kintamuosius klasei inicijavimo metu naudojant `__init__` metodą:
+
 ```python
 class MetricV1:
   def __init__(self, alias, field):
@@ -34,26 +35,24 @@ class MetricV1:
 ```
 
 Toks objektas atspausdins savo modulio pavadinimą, klasės pavadinimą ir adresą atminty. Visai nieko informacija tiriant kompiuterinę programą, tačiau iš dalies perteklinė, paini ir mažai ką pasakanti informacija apie patį objektą.
+
 ```python
 MetricV1(alias='Revenue', field='SUM(revenue)')
 ```
 
 Grąžina
+
 ```python
 <__main__.MetricV1 at 0x7eba60ae8fd0>
 ```
 
-Manau, kad daug draugiškesnė klasės objekto reprezentacija programų inžinieriui yra tokia:
+Manau, kad daug draugiškesnė klasės objekto reprezentacija programų inžinieriui yra štai tokia!
+
 ```python
 MetricV2(alias='Revenue', field='SUM(revenue)')
 ```
 
-Grąžina
-```python
-MetricV2(alias='Revenue', field='SUM(revenue)')
-```
-
-Taip mes matome visus argumentus, kurie buvo paduoti klasei, pagal kurią buvo sukurtas objektas. Ši objekto reprezentacija yra tokia pat kaip ir aprašymas kuriant šį objektą.
+Taip mes matome visus argumentus, kurie buvo paduoti klasei, pagal kurią buvo sukurtas objektas. Ši objekto reprezentacija yra lygiai tokia pat kaip ir aprašymas kuriant šį objektą.
 
 Tai mes galime pasiekti apsirašę klasės *dunder* metodą `__repr__`:
 
@@ -71,7 +70,7 @@ Taip mano klasės objektai tampa daug draugiškesni skaityti ir suprasti, tačia
 
 Viskas, ko mums prireiks, tai importuoti duomenų klasių modulį bei panaudoti duomenų klasės dekoratorių virš klasės! Tuomet mums tereikia aprašyti galimus klasės kintamuosius sufleruojant (angl. *type-hint*) jų duomenų tipą (angl. *data-type*). Tik tiek, ir turime visą anksčiau turėtą funkcionalumą ir net daugiau.
 
-Duomenų klasės yra Python standartinės bibliotekos nuo 3.7 Python versijos.
+Duomenų klasės yra Python standartinės bibliotekos dalis nuo 3.7 Python versijos.
 
 ```python
 from dataclasses import dataclass
@@ -188,9 +187,9 @@ Kadangi mes kaip pavyzdį pasirinkome metrikos klases, kurios turi savo "alias" 
 
 Tam, kad aprašytume dalybos operatorių, naudojame *dunder* metodą `__truediv__`. 
 
-Santykinės metrikos "alias" lauką aprašome kaip vienos metrikos "alias" iš kitos metrikos "alias" tarpus atskirdami "_", o vidury įterpdami dalybos simbolį "/". Pavyzdžiui, "alias1\_/_alias2". 
+Santykinės metrikos "alias" lauką aprašome kaip vienos metrikos "alias" dalybą iš kitos metrikos "alias", tarpus atskirdami "_", o vidury įterpdami dalybos simbolį "/". Pavyzdžiui, "alias1\_/_alias2". 
 
-Santykinės metrikos "field" lauką aprašome kaip vieno santykį iš kito ir dar apskliaudžiame. Apskliaudžiame todėl, kad jeigu darytume dar ilgesnę išvestinę metriką, tai kad išliktų ši veiksmų seka, nepaisant kokia aritmetika vyktų po ar prieš šį dalybos veiksmą.
+Santykinės metrikos "field" lauką aprašome kaip vieno dalybą iš kito ir dar apskliaudžiame. Apskliaudžiame todėl, kad jeigu darytume dar ilgesnę išvestinę metriką, tai kad išliktų ši veiksmų seka, nepaisant kokia aritmetika vyktų po ar prieš šį dalybos veiksmą.
 
 ```python
 from dataclasses import dataclass
@@ -237,9 +236,9 @@ MetricV7(alias='Revenue_/_Searches', field='(SUM(revenue)) / (SUM(searches))')
 
 ### C. Lengvai pasiekiamos (kompozicija vietoj paveldimumo)
 
-Šios klasės atviros, nes jos nėra painios. Įvairių klasių ir jų subklasių sistema nesunkiai gali labai sunkiai suprantamai išsišakoti ne tik giliai, bet ir plačiai. Ši problema vadinama subklasių sprogimu (angl. *subclass explosion*). Šiai problemai išvengti galima pasinaudoti kompozicijos vietoj paveldimumo principu. Šis principas teikia pirmumą objektų kompozicijai vietoj klasių paveldimumo.
+Šios klasės atviros, nes jos nėra painios. Įvairių klasių ir jų subklasių sistema staigiai gali labai išsišakoti ne tik giliai, bet ir plačiai, taigi sunkiai suprantamai. Ši problema vadinama subklasių sprogimu (angl. *subclass explosion*). Šiai problemai išvengti galima pasinaudoti kompozicijos vietoj paveldimumo principu. Šis principas teikia pirmumą objektų kompozicijai vietoj klasių paveldimumo.
 
-Šiuo mūsų paprastu atveju šį principą galima pateikti taip. Jeigu eitume paveldimumo keliu, tuomet turėtume bazinę metrikos klasę, kuri turėtų reikiamą logiką, o visas kitas metrikas aprašytume kaip klases, paveldinčias šią bazinę mmetriką.
+Šiuo mūsų paprastu atveju šį principą galima pateikti taip. Jeigu eitume paveldimumo keliu, tuomet turėtume bazinę metrikos klasę, kuri turėtų bazinę logiką, o visas kitas metrikas aprašytume kaip klases, paveldinčias šią bazinę metriką.
 
 Tuomet turėtume
 
@@ -404,7 +403,7 @@ class MetricV9:
       return NotImplemented
 ```
 
-Dabar mes skaičius galime dalinti iš metrikų. Pavyzdžiui, jeigu mūsų tikslas yra per mėnesį perduoti prekių už 3 tūkstančius, tuomet galime paskaičiuoti kokią dalį to tikslo pasiekėme:
+Dabar mes skaičius galime dalinti iš metrikų. Pavyzdžiui, jeigu mūsų tikslas yra per mėnesį parduoti prekių už 3 tūkstančius, tuomet galime paskaičiuoti kokią dalį to tikslo pasiekėme:
 
 ```python
 3000 / MetricV9(alias='Revenue', field='SUM(revenue)')
@@ -455,7 +454,7 @@ class MetricV10:
 
 #### E. 1. 4. Mums įdomios metrikos
 
-Dabar apsirašome visas mums įdomias metrikas. Tebūnie šiam pavyzdžiui tai: pajamos, sesijos, paieškos, pajamų kiekis per sesiją ir RPM (revenue per mille), reiškiančią pajamas per tūkstantį paieškų, ir atšokusių (angl. *bounced*) sesijų kiekį bei procentą. Atšokusius sesijos, tai tokios, kuomet vartotojas atsidarė puslapį, bet nedarė nieko daugiau, paprastumo dėlei apsirašysime tokias sesijas kaip turinčias tik 1 puslapio peržiūrą.
+Dabar apsirašome visas mums įdomias metrikas. Tebūnie šiam pavyzdžiui tai: pajamos, sesijos, paieškos, pajamų kiekis per sesiją ir RPM (revenue per mille), reiškiančią pajamas per tūkstantį paieškų, ir atšokusių (angl. *bounced*) sesijų kiekį bei procentą. Atšokusius sesijos, tai tokios sesijos, kuriose vartotojas atsidarė puslapį, bet nedarė nieko daugiau, paprastumo dėlei apsirašysime tokias sesijas kaip turinčias tik 1 puslapio peržiūrą.
 
 ```python
 MetricRevenue = MetricV10(alias='Revenue', field='SUM(revenue)')
@@ -605,7 +604,7 @@ GROUP BY MONTH(ts)
 
 Tuomet apsibrėžėme draugiškas Python klases. Prisimename:
 
-A. Jas lengva suprasti ir su jomis susikalbėti (lengva skaityti ir rašyti)\
+A. Jas lengva suprasti ir susikalbėti (lengva skaityti ir rašyti)\
 B. Suprantame vienas kitą be žodžių (operatoriais)\
 C. Jos yra lengvai pasiekiamos (kompozicija vietoj paveldimumo)
 
@@ -613,7 +612,11 @@ Draugiškų Python klasių pagalba sukūrėme metrikų klases bei objektus.
 
 Praktikos daly išplėtėme metrikos galimybes papildydami dalybos operatorių bei aprašydami daugybos operatorių.
 
-Papildėme mūsų kodą dimensijos klase bei objektais, analitinio kubo klase ir objektu, grąžinančiu analitinį SQL kodą.
+Papildėme mūsų kodą dimensijos klase bei objektais, metrikos klase ir objektais, analitinio kubo klase ir objektu, grąžinančiu analitinį SQL kodą.
+
+---
+
+Visus aprašytus pavyzdžius galima rasti Google Colab Notebook https://colab.research.google.com/drive/1SlyMfzrsyf1sVwk6pf7cZEx0MIkOieIK?usp=sharing ir GitHub repo https://github.com/AzisK/Friendly-Python-Classes
 
 ---
 
