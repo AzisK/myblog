@@ -11,7 +11,7 @@ ShowCodeCopyButtons: true
 >
 > - `&vardas` sukuria kintamąjį
 > - `*vardas` įklijuoja kintamajį
-> - `<<: *vardas` sujungia bloko raktus su lokaliais (lokalūs nugali)
+> - `<<: *vardas` sujungia kintamojo bloko raktus su lokaliais (lokalūs nugali)
 
 Labas! Šiandien sužinosime kaip apsirašyti ir panaudoti kintamuosius YAML failuose! Viskas labai paprasta, mums tereikia sužinoti kaip panaudoti 3 ar 4 simbolius! Ar mums prireiks 4-o, priklauso nuo aplinkos, tačiau bet kuriuo atveju susipažinsime.
 
