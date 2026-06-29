@@ -184,7 +184,7 @@ Pasitikrinti galime ir internete šiuose adresuose:
 
 1. `<<` sulieja tik žemėlapius (mappings), ne sąrašus (lists)
 
-Žemiau pateiktoj konfigūracijoj redis turės tik 7000 portą, 7001, 7002, 7003 portai nebus pridėti.
+Žemiau pateiktoj konfigūracijoj redis turės tik 7000 portą, o 7001, 7002, 7003 portai nebus pridėti.
 
 ```yml
 x-bendra: &bendra
