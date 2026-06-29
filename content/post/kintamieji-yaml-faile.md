@@ -13,7 +13,7 @@ ShowCodeCopyButtons: true
 > - `*vardas` įklijuoja kintamajį
 > - `<<: *vardas` sujungia kintamojo bloko raktus su lokaliais (lokalūs nugali)
 
-```yaml
+```yml
 x-bendra: &bendra
   restart: always
 
@@ -46,14 +46,14 @@ Simbolis `*` yra alias, taigi perkelia inkaro pažymėtą bloką čia, nukopijuo
 
 Apsirašome servisą ir konfigūracijai panaudojame apsirašytą `bendra` kintamąjį.
 
-```yaml
+```yml
 services:
   config: *bendra
 ```
 
 Po išskleidimo `service.config` tampa lygiai tuo, ką laikė `&bendra` kintamasis:
 
-```yaml
+```yml
 services:
   config:
     restart: always
@@ -63,7 +63,7 @@ services:
 
 Simbolis `<<`, kaip ir `*`, panaudoja mūsų aprašytąjį bloką su inkaru, tačiau tuo pačiu leidžia ir perrašyti tam tikrus laukus.
 
-```yaml
+```yml
 services:
   web:
     <<: *bendra
@@ -72,7 +72,7 @@ services:
 
 Po išskleidimo atrodys taip:
 
-```yaml
+```yml
 services:
   web:
     restart: always
@@ -81,7 +81,9 @@ services:
 
 Šalia parašytas laukas visuomet turės pirmumą, nesvarbu ar jį parašysime prieš sujungimo raktą `>>`, ar po.
 
-```yaml
+Štai taip kintamaisiais aprašyta YALM konfigūracija
+
+```yml
 services:
   web:
     <<: *bendra
@@ -92,9 +94,9 @@ services:
     image: postgres
 ```
 
-išsiskleidžia į šai tokią YAML konfigūraciją:
+išsiskleidžia į štai tokią galutinę konfigūraciją (nors ir ties `db` servisu panaudojame `bendra` bloką su `restart` lauku, mes jį perrašome `on-failure` reikšme).
 
-```yaml
+```yml
 services:
   web:
     restart: always
@@ -106,7 +108,7 @@ services:
 
 ### 4. `x-` ar `.` — plėtinio laukas (vieta šablonams laikyti)
 
-Sužinojome kaip apsirašyti kintamuosius, juos panaudoti, tačiau kur juos dėti? Jei naudojame Docker, tuomet Docker mums neleis naudoti `bendra` kaip aukščiausio lygio rakto, nes tokio nepalaiko. Docker prirašę priekyje `x-` turime plėtinio lauką, kurį galime panaudoti kitur. Docker Compose jį sąmoningai praleidžia, todėl pačioje pradžioje apsirašėme taip:
+Sužinojome kaip apsirašyti kintamuosius, juos panaudoti, tačiau kur juos dėti? Jei naudojame Docker (Compose), tuomet Docker mums neleis naudoti `bendra` kaip aukščiausio lygio rakto, nes tokio nepalaiko. Docker prirašę priekyje `x-` turime plėtinio lauką, kurį galime panaudoti kitur. Docker jį sąmoningai praleidžia, todėl pačioje pradžioje apsirašėme taip:
 
 ```yaml
 x-bendra: &bendra
@@ -120,7 +122,7 @@ services:
 
 Tuo metu GitLab galime naudoti taško `.` simbolį priekyje. Tuomet šis darbo procesas taps paslėptu, tačiau bus galima jį perpanaudoti kitose vietose.
 
-```yaml
+```yml
 .default_scripts: &default_scripts
   - ./default-script1.sh
   - ./default-script2.sh
@@ -153,7 +155,7 @@ import yaml
 with open("yaml.yml", "r") as f:
     data = yaml.safe_load(f)
 
-print(yaml.safe_dump(data, sort_keys=False, allow_unicode=True))
+print(yaml.safe_dump(data, sort_keys=False))
 ```
 
 Galime ir pasirašyti komandinės aplikacijos programėlę, kuriai galėsime perduoti norimus YAML failus:
@@ -168,7 +170,7 @@ path = sys.argv[1] if len(sys.argv) > 1 else "yaml.yml"
 with open(path, "r") as f:
     data = yaml.safe_load(f)
 
-print(yaml.safe_dump(data, sort_keys=False, allow_unicode=True))
+print(yaml.safe_dump(data, sort_keys=False))
 ```
 
 ### 3. Internete
@@ -182,7 +184,34 @@ Pasitikrinti galime ir internete šiuose adresuose:
 
 1. `<<` sulieja tik žemėlapius (mappings), ne sąrašus (lists)
 
-Štai kodėl Kafka pavyzdyje kiekvienas brokeris turi savo `ports:` — sąrašų sujungti negalima.
+Žemiau pateiktoj konfigūracijoj redis turės tik 7000 portą, 7001, 7002, 7003 portai nebus pridėti.
+
+```yml
+x-bendra: &bendra
+  restart: always
+  ports:
+    - 7001
+    - 7002
+    - 7003
+
+services:
+  web:
+    <<: *bendra
+    image: redis
+    ports:
+      - 7000
+```
+
+Galiausiai turime tokią konfigūraciją:
+
+```yml
+services:
+  web:
+    restart: always
+    ports:
+    - 7000
+    image: redis
+```
 
 2. Inkaras turi būti apibrėžtas prieš aliasą
  
