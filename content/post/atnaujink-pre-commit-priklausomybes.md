@@ -5,8 +5,8 @@ date: 2026-06-29T08:00:00Z
 author: Ąžuolas Krušna
 tags: ["Programinės įrangos inžinerija", "Python", "pre-commit", "prek"]
 ShowCodeCopyButtons: true
-draft: true
 ---
+
 > #### pi; n
 > `pre-commit autoupdate`\
 > arba\
