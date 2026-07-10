@@ -120,14 +120,13 @@ Fish naudoja `--on-variable PWD` funkciją, o ji iškviečiama, kai pasikeičia 
 
 #### Palyginimas
 
-| Kriauklė | Kablio mechanizmas | Konfigūracijos failas |
+| Kriauklė | Kablys | Konfigūracijos failas |
 |-------|-----------------|----------------------|
 | Zsh | `chpwd` hook | `~/.zshrc` |
 | Bash | `PROMPT_COMMAND` | `~/.bashrc` |
 | Fish | `--on-variable PWD` | `~/.config/fish/conf.d/venv.fish` |
 
 Ghostty veikia su visais trim, nes jis tiesiog paleidžia tavo naudojamą kriauklę.
-
 
 ### Naudojimas
 
