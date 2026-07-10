@@ -1,7 +1,7 @@
 ---
 title: Automatiškai aktyvuok Python venv terminale
 description: Kaip automatiškai aktyvuoti Python virtualią aplinką (venv) terminale įžengus į direktoriją
-date: 2026-06-10T12:00:00Z
+date: 2026-07-10T08:00:00Z
 author: Ąžuolas Krušna
 tags: ["Programų inžinerija", "Python", "venv", "Terminalas", "Ghostty", ]
 ShowCodeCopyButtons: true
