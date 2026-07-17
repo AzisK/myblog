@@ -122,7 +122,7 @@ Fish naudoja `--on-variable PWD` funkciją, o ji iškviečiama, kai pasikeičia 
 
 | Kriauklė | Kablys | Konfigūracijos failas |
 |-------|-----------------|----------------------|
-| Zsh | `chpwd` hook | `~/.zshrc` |
+| Zsh | `chpwd` | `~/.zshrc` |
 | Bash | `PROMPT_COMMAND` | `~/.bashrc` |
 | Fish | `--on-variable PWD` | `~/.config/fish/conf.d/venv.fish` |
 
