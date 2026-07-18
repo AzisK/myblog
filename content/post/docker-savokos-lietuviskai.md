@@ -112,7 +112,7 @@ services:
 
 Ši konfigūracija `dackeri` servisui naudoja Docker atvaizdą, kuriamą pagal Docker failą iš esamos direktorijos (`.`) pagal nutylėjimą (`Dockerfile`). `dackerisimple` servisui yra naudojamas atvaizdas, sukurtas pagal `Dockerfile.simple` Docker failą. Taip viena komanda (`docker-compose up`) yra pakeliami 2 Docker konteineriai, naudojantys 2 skirtingus Docker atvaizdus bei vykdantys 2 skirtingas komandas.
 
-***
+---
 
 Žemiau esantis 2 paveikslėlis vaizduoja ryšį tarp Docker failo, atvaizdo ir konteinerio.
 
@@ -128,21 +128,21 @@ services:
 
 Apžvelgėme pagrindines Docker sąvokas ir jas apsibrėžėme lietuviškai. Tai padės mums suprasti bei rašyti Docker platformą naudojančius straipsnius! Kartu susipažinome su jų naudojimo pavyzdžiais. Tai padės vėliau naudojantis Docker platforma.
 
-***
+---
 
 **P.S.** Turint galimybę automatizuoti konteinerių paleidimą bei atvaizdų įrašymą, asmeniškai naudoju beveik vien tik Docker kompozitoriaus `docker-compose` komandas ir beveik nenaudoju grynų `docker build` ir `docker run` komandų, nes visą logiką galiu aprašyti `compose.yml` faile, tad neberašyti įvairių parametrų komandinėje eilutėje ir, turbūt svarbiausia, galiu nebeatsiminti tų visų parametrų. Kartu galiu išsaugoti visą grupę naudojamų vaizdų bei prikelti visą grupę norimų konteinerių.
 
-***
+---
 
 **P.P.S.** Parašiau beveik visą gana ilgą straipsnį naudodamas terminą "Docker paveikslas", kuris yra daug vaizdingesnis, tačiau vėliau pakeičiau į "Docker atvaizdą", nes šį variantą radau literatūroje internete, kartu ir dėl to, kad paveikslo tapymas yra nepakartojamas menas, o inžinerijoje dėmesio verti tik pakartojami reiškiniai. Docker atvaizdas privalo kiekvieną kartą veikti vienodai patikimai visoms sistemoms ir jų vartotojams, kitaip negalėsime juo pasikliauti ir naudotis.
 
-***
+---
 
 _Perskaičiau viską kelis kartus. Man tie tekstai vis tiek patinka. Aš neketinu ką nors keisti. Gal jie nesupranta? Šiaip ar taip, kad aktoriams nepatinka, yra mano kaltė, bet ne teksto kaltė. Nesu su jais pakankamai apie tai kalbėjęs. Bet čia nėra ko stebėtis. Aš labai mažai kalbu. Čia šuo ir pakastas. Tai rytoj aš jiems ir pasakysiu, kodėl mažai kalbu. Dabar man tai aišku._
 
 Oskaras iš "Mane vadina Kalendorium".
 
-***
+---
 
 ### Šaltiniai
 
