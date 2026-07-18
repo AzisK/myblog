@@ -73,8 +73,16 @@ Tai atlikę, galime suformuoti commit:
 
 ```bash
 git add .pre-commit-config.yaml
-git commit -m "Atnaujinti pre-commit kablių versijas"
+git commit -m "Atnaujinti pre-commit hooks versijas"
 ```
+
+---
+
+_-- Ne, bet jis nieko nenužudė. Jis tik atskleidžia faktus, rodančius, kad žmogus gali būti pavojingas daugybei kitų būtybių, tai yra visuomenei. Jis gina daugumą, taigi maksimaliai laikosi Pirmojo principo. Jis neperžengia tos linijos. Mirties nuosprendį ar kalėjimą nusikaltėliui skiria teisėjas tada, kai prisiekusieji nusprendžia, kaltas asmuo ar ne. Nusikaltėlį įkalina kiti žmonės, o mirties bausmę vykdo budelis. Pone Kvinai, kai jūs kreipėtės į mus šiuo klausimu, aš pasidomėjau pono Bajerlio karjera. Aptikau, kad savo baigiamojoje kalboje prisiekusiems jis niekada nėra pareikalavęs mirties nusoprendžio. Maža to, pasisako prieš mirties bausmę ir finansiškai remia institucijas, tyrinėjančias nusikaltėlių neurofiziologiją. Akivaizdu, jis tiki: užuot nusikaltėlį baudus, jį galima išgydyti. Mano nuomone, tai daug pasako._
+
+iš I. Asimov romano "Aš, robotas"
+
+---
 
 ### Šaltiniai
 
