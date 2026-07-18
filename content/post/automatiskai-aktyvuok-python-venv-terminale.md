@@ -155,6 +155,14 @@ cd ~
 # (.venv) dingsta ✓
 ```
 
+---
+
+_Jie vienas kitam prisistato. Jos vadina jį  Rasimusiu. Jo pavardės visai negali ištarti, nors jo nuomone, tai pati trumpiausia pavardė, kokią galėtum sugalvoti. Jų pačių vardai Rosinė ir Amanda, geri daniški vardai, suteikti joms per krikštą. Jis žino, kad jos turi ir kažkokius kitus vardus, bet galbūt jie slapti, galbūt jos gėdijasi savo pagoniškos kilmės. Jis neklausia, ir net jei norėtų, nesugalvotų kaip tai padaryti._
+
+Kim Leine apie Bjergą iš "Amžinybės fjordo pranašų"
+
+---
+
 ### Šaltiniai
 
 - Zsh Hook Functions https://zsh.sourceforge.io/Doc/Release/Functions.html#Hook-Functions
